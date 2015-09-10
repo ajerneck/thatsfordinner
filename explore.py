@@ -59,55 +59,63 @@ def get_stop_words():
     return text.ENGLISH_STOP_WORDS.union(
         ingredient_stop_words, instructions_stop_words)
 
-
-vectorizer = CountVectorizer(stop_words='english',
-                             ngram_range=(1, 1),
-                             token_pattern='[A-Za-z]+')
-features = vectorizer.fit_transform(df.ingredient_txt)
-## features is a document x term matrix.
-
-wc = feature_counts(vectorizer, features)
-
-## plot of most common words:
-p1 = wc.sort('count').tail(20).plot('word','count', kind='bar')
-
-v2 = CountVectorizer(stop_words=get_stop_words(),
-                             ngram_range=(1, 1),
-                             token_pattern='[A-Za-z]+')
-f2 = v2.fit_transform(df.ingredient_txt)
-## features is a document x term matrix.
-
-wc2 = feature_counts(v2, f2)
-
-## plot of most common words:
-n = 50
-
-plt.figure(1)
-plt.subplot(211)
-p1 = wc.sort('count').tail(n).plot('word','count', kind='bar')
-
-plt.subplot(212)
-p2 = wc2.sort('count').tail(n).plot('word','count', kind='bar')
-
-plt.tight_layout()
-plt.savefig('fig-word-count-histograms.png')
-#plt.xlabel('Word')
-#plt.ylabel('Count')
+def make_week1_plot(df):
 
 
+    vectorizer = CountVectorizer(stop_words='english',
+                                 ngram_range=(1, 1),
+                                 token_pattern='[A-Za-z]+')
+    features = vectorizer.fit_transform(df.ingredient_txt)
+    ## features is a document x term matrix.
+
+    wc = feature_counts(vectorizer, features)
+
+    ## plot of most common words:
+    p1 = wc.sort('count').tail(20).plot('word','count', kind='bar')
+
+    v2 = CountVectorizer(stop_words=get_stop_words(),
+                         ngram_range=(1, 1),
+                         token_pattern='[A-Za-z]+')
+    f2 = v2.fit_transform(df.ingredient_txt)
+    ## features is a document x term matrix.
+
+    wc2 = feature_counts(v2, f2)
+
+    ## plot of most common words:
+    n = 50
+
+    plt.figure(1)
+    plt.subplot(211)
+    p1 = wc.sort('count').tail(n).plot('word','count', kind='bar')
+    
+    plt.subplot(212)
+    p2 = wc2.sort('count').tail(n).plot('word','count', kind='bar')
+
+    plt.tight_layout()
+    plt.savefig('fig-word-count-histograms.png')
 
 
+## extras.
+# ## plot of most common words (nr of documents).
+# p2 = wc.sort('nr_docs').tail(20).plot('word','nr_docs', kind='bar')
 
+# ## correlation between total count and number of documents:
+# np.corrcoef(wc['count'], wc['nr_docs'])
 
-## plot of most common words (nr of documents).
-p2 = wc.sort('nr_docs').tail(20).plot('word','nr_docs', kind='bar')
-
-## correlation between total count and number of documents:
-np.corrcoef(wc['count'], wc['nr_docs'])
-
-## TODO: make sub figure.
 
 ## TODO: run the topic model using the existing code.
+I AM HERE: do the topic model, show the results.
+
+THEN: do process optimization over the features and hyperparameters:
+
+    ngrams:
+    stop_words
+    hi-low feature number range
+    topics.
+
+
+
+
 
 
 ## TODO: run the topic model using stan.
