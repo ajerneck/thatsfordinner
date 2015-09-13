@@ -1,3 +1,31 @@
+* Using experimentation for process optimization to improve topic models.
+
+* Preliminary experiments.
+
+| Factor name | Factor code | -       | +               |
+|-------------+-------------+---------+-----------------|
+| stop words  | A           | english | domain-specific |
+| ngram range | B           | (1,1)   | (2,2)           |
+
+Outcome = average number of recipe titles that do not 'fit' category.
+with: the 3 most probable recipes shown for each topic.
+
+| standard order | actual order | A | B | outcome | notes |
+|----------------+--------------+---+---+---------+-------|
+|              1 |            3 | - | - |         |       |
+|              2 |            4 | + | - |         |       |
+|              3 |            1 | - | + |         |   0.4 |
+|              4 |            2 | + | + |         |       |
+#+TBLFM: @4$6=(1 + 2 + 1 + 1 + 2 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 2)/40
+
+
+
+* tasks
+- some ingredient parsing is not working so well ('teeny-weeny coxinha')
+  - it's because there is a heading in the middle of the ingredients.
+- maybe I should just switch to another recipe source?
+
+* Factors and their values.
 | factors     | value 1 | value 2 | value 3            | value 4 |   |
 |-------------+---------+---------+--------------------+---------+---|
 | ngram_range |       1 |       2 | 3                  |         |   |
@@ -6,9 +34,8 @@
 | max_df      |     1.0 |     0.9 | 0.8                |         |   |
 | min_df      |       2 |       5 | ~0.05              |         |   |
 
-I AM HERE: construct table of experiments (runs) to do based on these values,
-and using a high-interaction design to filter out unimportant factors.
 
+* 
 
 
 | fixed     |
