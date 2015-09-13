@@ -1,0 +1,22 @@
+| factors     | value 1 | value 2 | value 3            | value 4 |   |
+|-------------+---------+---------+--------------------+---------+---|
+| ngram_range |       1 |       2 | 3                  |         |   |
+| analyzer    |    word |    char | char_wb            |         |   |
+| stop_words  | english |  domain | none(max_df = 0.7) | none    |   |
+| max_df      |     1.0 |     0.9 | 0.8                |         |   |
+| min_df      |       2 |       5 | ~0.05              |         |   |
+
+I AM HERE: construct table of experiments (runs) to do based on these values,
+and using a high-interaction design to filter out unimportant factors.
+
+
+
+| fixed     |
+|-----------|
+| tokenizer |
+|           |
+
+| factor      | low | high |
+|-------------+-----+------|
+| ngram_range |   1 |    2 |
+| analyzer    | string |      |
