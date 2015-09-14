@@ -26,6 +26,8 @@ next: (probably) (no domain-specific stop words, but, both 1 and 2 grams: (1,2).
 - so: next experiment should be min and max df, they are also about stop words.
 
 * Experiments 2
+- without domain-specific stop words.
+
 | Factor name | Factor code |   - | +   |
 |-------------+-------------+-----+-----|
 | min df      | A           |   2 | ~5% |

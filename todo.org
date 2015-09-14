@@ -1,2 +1,9 @@
 * Improve raw data.
 - find a good recipe api (yummly?) and use that.
+
+* Improve feature engineering
+- use tf-idf to find important words: then, filter the word count matrix using
+  the tf-idf matrix, and feed that to lda.
+- use bigrams / unigrams, but cut out those in fewer than ~3 documents.
+- max_df should probably not be used, because it cannot distinguish between
+  common across docs and common in groups of docs.
