@@ -1,22 +1,42 @@
 * Using experimentation for process optimization to improve topic models.
 
 * Preliminary experiments.
-
+** factors
 | Factor name | Factor code | -       | +               |
 |-------------+-------------+---------+-----------------|
 | stop words  | A           | english | domain-specific |
 | ngram range | B           | (1,1)   | (2,2)           |
 
+** experiment results
 Outcome = average number of recipe titles that do not 'fit' category.
 with: the 3 most probable recipes shown for each topic.
 
 | standard order | actual order | A | B | outcome | notes |
 |----------------+--------------+---+---+---------+-------|
-|              1 |            3 | - | - |         |       |
-|              2 |            4 | + | - |         |       |
-|              3 |            1 | - | + |         |   0.4 |
-|              4 |            2 | + | + |         |       |
-#+TBLFM: @4$6=(1 + 2 + 1 + 1 + 2 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 2)/40
+|              1 |            3 | - | - |    0.65 |       |
+|              2 |            4 | + | - |   0.575 |       |
+|              3 |            1 | - | + |     0.4 |       |
+|              4 |            2 | + | + |    0.85 |       |
+#+TBLFM: @2$5=vsum(2, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 2, 1, 2, 1, 1, 1, 2, 1)/40::@3$5=vsum(2, 1, 1, 1, 2, 1, 1, 2, 2, 2, 1, 2, 2, 2, 1)/40::@4$5=(1 + 2 + 1 + 1 + 2 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 2)/40::@5$5=vsum(2,1, 1, 1, 2, 2, 1, 1, 1, 2, 2, 1, 1, 1, 2, 2, 1, 2, 1, 1, 1, 1, 1, 2, 1)/40
+
+** results
+I AM HERE: analyze the results in a square: it looks like best avenues are top
+left and lower right.
+next: (probably) (no domain-specific stop words, but, both 1 and 2 grams: (1,2).
+- so: next experiment should be min and max df, they are also about stop words.
+
+* Experiments 2
+| Factor name | Factor code |   - | +   |
+|-------------+-------------+-----+-----|
+| min df      | A           |   2 | ~5% |
+| max df      | B           | 0.7 | 0.9 |
+
+| standard order | actual order | A | B | outcome | notes |
+|----------------+--------------+---+---+---------+-------|
+|              1 |              | - | - |         |       |
+|              2 |              | + | - |         |       |
+|              3 |              | - | + |         |       |
+|              4 |              | + | + |         |       |
 
 
 

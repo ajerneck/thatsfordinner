@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+from sklearn.feature_extraction import text
 
 ##TODO: make some simple plots: word counts etc.
 def feature_counts(vectorizer, dtm):
