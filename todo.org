@@ -1,0 +1,2 @@
+* Improve raw data.
+- find a good recipe api (yummly?) and use that.
