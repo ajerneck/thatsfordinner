@@ -58,3 +58,4 @@ docs/_build/
 target/
 *.png
 /.ipynb_checkpoints/Untitled-checkpoint.ipynb
+/*.h5
