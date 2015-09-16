@@ -58,4 +58,7 @@ docs/_build/
 target/
 *.png
 /.ipynb_checkpoints/Untitled-checkpoint.ipynb
+
+# flask
 /*.h5
+frontend/app/static
