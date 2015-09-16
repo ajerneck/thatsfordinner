@@ -88,17 +88,13 @@ def make_dataframe(results):
     ## create one big data frame.
     return metadata.join(ingredients).join(ratings)
 
-def make_engine():
-    return create_engine("postgresql+psycopg2://explore:Ln2bOYAVCG6utNUSaSZaIVMH@localhost/explore")
-    
-
 def save_dataframe(df):
     "Save dataframe to postgres and hd5."
 
     ## store as csv as well.
     df.to_hdf('allrecipes.h5', 'table')
 
-    engine = make_engine()
+    engine = create_engine("postgresql+psycopg2://explore:Ln2bOYAVCG6utNUSaSZaIVMH@localhost/explore")
 
     con = engine.connect()
     con.execute('drop table allrecipes')
