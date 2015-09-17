@@ -14,32 +14,6 @@ def feature_counts(vectorizer, dtm):
     wordcounts['nr_docs'] = nr_docs
     return wordcounts
 
-def get_stop_words():
-    "Combine custom stopwords with standard english ones."
-    ingredient_stop_words = [
-        'cup', 'tablespoons', 'teaspoons', 'cups', 'tablespoon', 'large',
-        'teaspoon', 'inch', 'pound', 'pounds', 'ounces', 'ounce', 'plus',
-        'chopped', 'minced', 'cut', 'sliced', 'diced', 'ground', 'grated',
-        'peeled', 'fresh', 'lb', 'oz', 'g', 'tbsp', 'tsp', 'f', 'slices',
-        'finely', 'thinly', 'medium', 'divided', 'pieces', 'coarse', 'stick',
-        'cubes', 'assorted', 'wedges', 'small', 'water', 'white', 'crushed',
-        'coarsely', 'temperature', 'room', 'dry', 'packed', 'halved',
-        'lengthwise', 'drained', 'powder', 'pale', 'parts', 'lightly',
-        'beaten', 'fine', 'plain', 'serving', 'taste', 'removed', 'crumbled',
-        'small', 'water', 'white', 'crushed', 'coarsely', 'temperature',
-        'room', 'dry', 'packed', 'halved', 'lengthwise', 'drained', 'powder',
-        'pale', 'parts', 'lightly', 'beaten', 'fine', 'plain', 'serving',
-        'taste', 'removed', 'crumbled', 'trimmed', 'freshly', 'seeded', 'size',
-        'reserved', 'garnish', 'quartered', 'discarded', 'mixed', 'torn',
-        'bunch', 'stemmed', 'oil', 'salt', 'pepper', 'olive oil', 'garlic',
-        'garlic cloves', 'black pepper', 'leaves', 'red', 'olive', 'black',
-        'cloves', 'preferably', 'ml'
-    ]
-
-    instructions_stop_words = ['minutes']
-    return text.ENGLISH_STOP_WORDS.union(
-        ingredient_stop_words, instructions_stop_words)
-
 def most_probable_words(model, vocabulary, num_words):
     """
     Return a DataFrame of the most probable words for each topic,
@@ -104,4 +78,39 @@ def make_week1_plot(df):
 
     plt.tight_layout()
     plt.savefig('fig-word-count-histograms.png')
+
+
+def get_stop_words():
+    "Combine custom stopwords with standard english ones."
+    ingredient_stop_words = [
+        'cup', 'tablespoons', 'teaspoons', 'cups', 'tablespoon', 'large',
+        'teaspoon', 'inch', 'pound', 'pounds', 'ounces', 'ounce', 'plus',
+        'chopped', 'minced', 'cut', 'sliced', 'diced', 'ground', 'grated',
+        'peeled', 'fresh', 'lb', 'oz', 'g', 'tbsp', 'tsp', 'f', 'slices',
+        'finely', 'thinly', 'medium', 'divided', 'pieces', 'coarse', 'stick',
+        'cubes', 'assorted', 'wedges', 'small', 'water', 'white', 'crushed',
+        'coarsely', 'temperature', 'room', 'dry', 'packed', 'halved',
+        'lengthwise', 'drained', 'powder', 'pale', 'parts', 'lightly',
+        'beaten', 'fine', 'plain', 'serving', 'taste', 'removed', 'crumbled',
+        'small', 'water', 'white', 'crushed', 'coarsely', 'temperature',
+        'room', 'dry', 'packed', 'halved', 'lengthwise', 'drained', 'powder',
+        'pale', 'parts', 'lightly', 'beaten', 'fine', 'plain', 'serving',
+        'taste', 'removed', 'crumbled', 'trimmed', 'freshly', 'seeded', 'size',
+        'reserved', 'garnish', 'quartered', 'discarded', 'mixed', 'torn',
+        'bunch', 'stemmed', 'oil', 'salt', 'pepper', 'olive oil', 'garlic',
+        'garlic cloves', 'black pepper', 'leaves', 'red', 'olive', 'black',
+        'cloves', 'preferably', 'ml', 'shredded','dried', 'g', 'pieces', 'inch', 'cut', 'size','bite', 'pinch','clove','taste', 'large', 'grated', 'half' , 'minced' , 'peeled' , 'seeded' , 'shredded', 'dried','piece','for','inch', 'cubed']
+    return text.ENGLISH_STOP_WORDS.union(ingredient_stop_words)
+
+def show_topics(m, df, doc_probs, doc_ids, w):
+    print('='*70)
+    for t in range(m.n_topics):
+        print('topic: %s' % t)
+        print('documents:')
+        print pd.DataFrame([df.iloc[doc_ids[t,:]]['title'].values, doc_probs[t,:]]).T.sort(1, ascending=False).to_string(header=False, index=False)
+        #    print('\n'.join(df.iloc[doc_ids[t,:]]['title']))
+        print('-----'.join(df.iloc[doc_ids[t,:]]['ingredient_txt_no_stopwords']))
+        print('-'*70)
+        print w[w['topic']==t][['word','prob']].sort('prob', ascending=False).T.to_string(index=False, header=False, float_format=lambda x: '% 4.3f' % x)
+        print('='*70)
 
