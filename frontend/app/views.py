@@ -15,6 +15,6 @@ def index():
         query_results = cur.fetchall()
         topics = collections.defaultdict(list)
         for row in query_results:
-            topics[row[0]] += [{'topi':row[0], 'ingredient_txt':row[1].decode('ascii', 'ignore'), 'image':row[2], 'url': row[3], 'prob': row[5], 'title':row[4].decode('ascii', 'ignore') }]
+            topics[row[0]] += [{'topic':row[0], 'ingredient_txt':row[1].decode('ascii', 'ignore'), 'image':row[2], 'url': row[3], 'prob': row[5], 'title':row[4].decode('ascii', 'ignore') }]
 
     return render_template('index.html', topics=topics)
