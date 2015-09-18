@@ -54,89 +54,84 @@
     <br><br>
 
     <div class="container"
-
-         {% for topic in topics %}
-
+         <div class="row"
+         <div class="col-md-4">
+              {% for topic in topics %}
          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-           <div class="panel panel-default">
+           <div class="panel panel-success">
              <div class="panel-heading" role="tab" id="heading{{topic}}">
                <h4 class="panel-title">
-                 <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{topic}}" aria-expanded="true" aria-controls="collapse{{topic}}">
-
-
-              {{word_data[topic]}}
-
+                 <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{topic}}" aria-expanded="false" aria-controls="collapse{{topic}}">
+                   {{word_data[topic]}}
                  </a>
                </h4>
              </div>
-             <div id="collapse{{topic}}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading{{topic}}">
+             <div id="collapse{{topic}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{topic}}">
                <div class="panel-body">
-
-        <ul class="media-list">
-          <li class="media">
-            {% for doc in doc_data[topic] %}
-            <div class="media-left">
-              <a href="#">
-                <img class="media-object" src="{{doc['image']}}" alt="...">
-              </a>
-            </div>
-            <div class="media-body">
-              <h4 class="media-heading">{{doc['title']}}</h4>
-            </div>
-          </li>
-          {% endfor %}
-        </ul> 
-
-
+                 <ul class="media-list">
+                   <li class="media">
+                     {% for doc in doc_data[topic] %}
+                     <div class="media-left">
+                       <a href="#">
+                         <img class="media-object" src="{{doc['image']}}" alt="...">
+                       </a>
+                     </div>
+                     <div class="media-body">
+                       <h4 class="media-heading">{{doc['title']}}</h4>
+                     </div>
+                   </li>
+                   {% endfor %}
+                 </ul> 
              </div>
            </div>
          </div>
          {% endfor %}
+         </div>
+         </div>
+         </div>
 </div>
 
-</div>
 
 
+  <!--   <div class="container"> -->
+  <!--   <div class="container-fluid"> -->
+  <!-- <div class="row" > -->
+  <!-- {% for topic in topics %} -->
+  <!-- <div class="col-md-8 col-md-offset-2"> -->
 
-    <div class="container">
-    <div class="container-fluid">
-  <div class="row" >
-  {% for topic in topics %}
-  <div class="col-md-8 col-md-offset-2">
-
-    <div class="panel-group" id="accordion{{topic}}" role="tablist" aria-multiselectable="true">
-      <div class="panel panel-success">
-        <div class="panel-heading" role="tab" id="heading{{topic}}">
-          <h3 class="panel-title">
-            <a role="button" data-toggle="collapse"
-                                      data-parent="#accordion{{topic}}" href="#collapse{{topic}}"
-                                      aria-expanded="false" aria-controls="collapse{{topic}}">
-              {{word_data[topic]}}
-            </a>
-          </h3>
-          </div>
-        <ul class="media-list">
-          <li class="media">
-            {% for doc in doc_data[topic] %}
-            <div class="media-left">
-              <a href="#">
-                <img class="media-object" src="{{doc['image']}}" alt="...">
-              </a>
-            </div>
-            <div class="media-body">
-              <h4 class="media-heading">{{doc['title']}}</h4>
-            </div>
-          </li>
-          {% endfor %}
-        </ul> 
-    </div>
-    </div>
-  </div>
-  </div>
-      {% endfor %}
-  </div>
-  </div>
-    </div>
+  <!--   <div class="panel-group" id="accordion{{topic}}" role="tablist" aria-multiselectable="true"> -->
+  <!--     <div class="panel panel-success"> -->
+  <!--       <div class="panel-heading" role="tab" id="heading{{topic}}"> -->
+  <!--         <h3 class="panel-title"> -->
+  <!--           <a role="button" data-toggle="collapse" -->
+  <!--                                     data-parent="#accordion{{topic}}" href="#collapse{{topic}}" -->
+  <!--                                     aria-expanded="false" aria-controls="collapse{{topic}}"> -->
+  <!--             {{word_data[topic]}} -->
+  <!--           </a> -->
+  <!--         </h3> -->
+  <!--         </div> -->
+  <!--       <ul class="media-list"> -->
+  <!--         <li class="media"> -->
+  <!--           {% for doc in doc_data[topic] %} -->
+  <!--           <div class="media-left"> -->
+  <!--             <a href="#"> -->
+  <!--               <img class="media-object" src="{{doc['image']}}" alt="..."> -->
+  <!--             </a> -->
+  <!--           </div> -->
+  <!--           <div class="media-body"> -->
+  <!--             <h4 class="media-heading">{{doc['title']}}</h4> -->
+  <!--           </div> -->
+  <!--         </li> -->
+  <!--         {% endfor %} -->
+  <!--       </ul>  -->
+  <!--   </div> -->
+  <!--   </div> -->
+  <!-- </div> -->
+  <!-- </div> -->
+  <!--     {% endfor %} -->
+  <!-- </div> -->
+  <!-- </div> -->
+  <!--   </div> -->
 
       
 
