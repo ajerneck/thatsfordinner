@@ -1,9 +1,27 @@
 import collections
 import psycopg2
+import numpy as np
+import pandas as pd
+from sqlalchemy import create_engine
 
-con = psycopg2.connect(host='localhost', dbname='explore', user='explore', password='Ln2bOYAVCG6utNUSaSZaIVMH')
+engine = create_engine("postgresql+psycopg2://explore:Ln2bOYAVCG6utNUSaSZaIVMH@localhost/explore")
+#con = psycopg2.connect(host='localhost', dbname='explore', user='explore', password='Ln2bOYAVCG6utNUSaSZaIVMH')
 
-cur = con.cursor()
+ww = pd.read_sql_table('all_word_probs', engine)
+
+# cur = con.cursor()
+# cur.execute('select * from all_word_probs order by label')
+# ww = cur.fetchall()
+
+gen_recipes = collections.defaultdict(list)
+for topic, group in ww.groupby('label'):
+    # print topic
+    # print [(np.random.choice(group['word'], size=5, p=group['prob'])) for _ in range(0,2)]
+    x = [np.random.choice(group['word'], size=5, p=group['prob']).tolist() for i in range(0, 2)]
+    gen_recipes[topic] += [map(lambda i: ', '.join(i), x)]
+
+print gen_recipes
+
 
 ## extract most probable words for each topic.
 cur.execute('SELECT * FROM word_probs order by topic, prob desc;')

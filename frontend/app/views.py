@@ -2,6 +2,10 @@ from app import app
 import collections
 from flask import render_template, request
 import psycopg2
+import numpy as np
+import pandas as pd
+from sqlalchemy import create_engine
+
 
 @app.route('/')
 @app.route('/index')
