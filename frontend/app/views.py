@@ -71,10 +71,26 @@ def compact():
 
         doc_data = collections.defaultdict(list)
         for row in doc_probs:
-            doc_data[row[0]] += [{'ingredient': row[1], 'image':row[2], 'url':row[3], 'title':row[4]}]
+            doc_data[row[0]] += [{'ingredient': row[1].decode('ascii', 'ignore'), 'image':row[2], 'url':row[3], 'title':row[4]}]
 
         topics = sorted(doc_data.keys(), reverse=True)
 
     return render_template('compact.html', word_data=word_data, doc_data=doc_data, topics=topics)
 
+@app.route('/lucky')
+def lucky():
+
+    engine = create_engine("postgresql+psycopg2://explore:Ln2bOYAVCG6utNUSaSZaIVMH@localhost/explore")
+
+    ww = pd.read_sql_table('all_word_probs', engine)
+
+    gen_recipes = collections.defaultdict(list)
+
+    for topic, group in ww.groupby('label'):
+        x = [np.random.choice(group['word'], size=8, p=group['prob'], replace=False).tolist() for i in range(0, 3)]
+        gen_recipes[topic] += map(lambda i: ', '.join(i), x)
+
+
+    print gen_recipes[39]
+    return render_template('lucky.html', recipes=gen_recipes)
 
