@@ -1,28 +1,41 @@
 import numpy as np
 import pandas as pd
+from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction import text
+
 
 import psycopg2
 
 import common
 
-def load_data():
+def load_epicurious():
     con = common.make_engine()
 
     df_ep = pd.read_sql_table('recipes_recipe', con)
     df_ep = df_ep[['title','ingredient_txt','url','image']]
     df_ep['source'] = 'epicurious.com'
+
     print('Loaded %s records from epicurious.com' % df_ep.shape[0])
+    return df_ep
+
+def load_allrecipes():
+    con = common.make_engine()
 
     df_ar = pd.read_sql_table('allrecipes', con)
     df_ar = df_ar[['data-name','ingredients','url','data-imageurl']]
     df_ar.columns = ['title','ingredient_txt','url','image']
     df_ar['source'] = 'allrecipes.com'
-
     df_ar = df_ar.drop_duplicates('url')
     df_ar.reset_index()
 
     print('Loaded %s records from allrecipes.com' % df_ar.shape[0])
+    return df_ar
+
+def load_data():
+
+    df_ep = load_epicurious()
+    df_ar = load_allrecipes()
+
 
     df = pd.concat([df_ep, df_ar], ignore_index=True)
 
