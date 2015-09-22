@@ -51,10 +51,10 @@
 
 
     <div class="container">
-      {% for g in range(0, topics|count, 6) %}
+      {% for g in range(0, topics|count, 7) %}
       <div class="row">
         
-      {% for topic in topics[g:g+5] %}
+      {% for topic in topics[g:g+6] %}
       
       <div class="col-md-2 center-block">
              <div class="thumbnail">
@@ -66,6 +66,7 @@
                          data-target="#modal{{topic}}">See more
                  </button>
                </div>
+               
                <!-- Modal -->
                <div id="modal{{topic}}" class="modal fade" role="dialog">
                  <div class="modal-dialog modal-lg">
@@ -103,6 +104,7 @@
                    </div>
                  </div>
                </div>
+               
            </div>
          </div>
          {% endfor %}
@@ -259,7 +261,9 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <!-- <script src="static/js/jquery.js"></script> -- -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- <script src="static/js/jquery.js"></script> -->
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
     <script src="static/js/bootstrap.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
