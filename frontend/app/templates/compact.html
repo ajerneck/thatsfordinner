@@ -53,49 +53,188 @@
 
     <br><br>
 
-    <div class="container"
-         <div class="row"
-         <div class="col-md-4">
-              {% for topic in topics %}
-         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-           <div class="panel panel-success">
-             <div class="panel-heading" role="tab" id="heading{{topic}}">
-               <h4 class="panel-title">
-                 <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{topic}}" aria-expanded="false" aria-controls="collapse{{topic}}">
-                   {{word_data[topic]}}
-                 </a>
-               </h4>
-             </div>
-             <div id="collapse{{topic}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{topic}}">
-               <div class="panel-body">
-                 <ul class="media-list">
-                   <li class="media">
-                     {% for doc in doc_data[topic] %}
-                     <div class="media-left">
-                       <a href="#">
-                         <img class="media-object" src="{{doc['image']}}" alt="...">
-                       </a>
-                     </div>
-                     <div class="media-body">
-                       <h4 class="media-heading">{{doc['title']}}</h4>
-                       <p>
-                         {{doc['ingredient']}}
-                       </p>
 
-          <a href="{{doc.url}}" class="btn btn-default">Visit recipe</a>
+<!--     This is the basic structure. -->
+<!--     <div class="container"> -->
+
+<!--          <div class="row"> -->
+<!--            {% for topic in topics %} -->
+<!--            <div class="col-sm-6 col-md-4"> -->
+<!--              <div class="thumbnail"> -->
+<!--                <\!-- <img src="..." alt="..."> -\-> -->
+<!--                <div class="caption"> -->
+<!--                  <h4>{{word_data[topic]}}</h4> -->
+<!--                  <p>...</p> -->
+<!--                  <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> -->
+<!--                </div> -->
+<!--              </div> -->
+<!--            </div> -->
+<!--          </div> -->
+<!--          {% endfor %} -->
+<!-- </div> -->
+
+    <div class="container">
+
+         <div class="row">
+           {% for topic in topics %}
+           <div class="col-sm-6 col-md-4">
+             <div class="thumbnail">
+
+
+
+               <div class="caption">
+                 <h4>{{word_data[topic]}}</h4>
+               </div>
+
+               <!-- Trigger the modal with a button -->
+               <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+               <!-- Modal -->
+               <div id="myModal" class="modal fade" role="dialog">
+                 <div class="modal-dialog">
+                   
+                   <!-- Modal content-->
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal">&times;</button>
+                       <h4 class="modal-title">{{word_data[topic]}}</h4>
+                     </div>
+                     <div class="modal-body">
+                       
+                       <ul class="media-list">
+                         <li class="media">
+                           {% for doc in doc_data[topic] %}
+                           <div class="media-left">
+                             <a href="#">
+                               <img class="media-object" src="{{doc['image']}}" alt="...">
+                             </a>
+                           </div>
+                           <div class="media-body">
+                             <h4 class="media-heading">{{doc['title']}}</h4>
+                           </div>
+                         </li>
+                         {% endfor %}
+                       </ul>
+ 
 
                      </div>
-                   </li>
-                   {% endfor %}
-                 </ul> 
+                     <div class="modal-footer">
+                       <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                     </div>
+                   </div>
+
+                 </div>
+               </div>
+
              </div>
            </div>
          </div>
          {% endfor %}
-         </div>
-         </div>
-         </div>
-</div>
+    </div>
+
+
+
+
+
+<!-- this is the dropdown version. -->
+<!--     <div class="container"> -->
+
+<!--          <div class="row"> -->
+<!--            {% for topic in topics %} -->
+<!--            <div class="col-sm-6 col-md-4"> -->
+<!--              <div class="thumbnail"> -->
+
+<!--          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true"> -->
+<!--            <div class="panel panel-success"> -->
+<!--              <div class="panel-heading" role="tab" id="heading{{topic}}"> -->
+<!--                <h4 class="panel-title"> -->
+<!--                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{topic}}" aria-expanded="false" aria-controls="collapse{{topic}}"> -->
+<!--                    {{word_data[topic]}} -->
+<!--                  </a> -->
+<!--                </h4> -->
+<!--              </div> -->
+<!--              <div id="collapse{{topic}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{topic}}"> -->
+<!--                <div class="panel-body"> -->
+<!--                  <ul class="media-list"> -->
+<!--                    <li class="media"> -->
+<!--                      {% for doc in doc_data[topic] %} -->
+<!--                      <div class="media-left"> -->
+<!--                        <a href="#"> -->
+<!--                          <img class="media-object" src="{{doc['image']}}" alt="..."> -->
+<!--                        </a> -->
+<!--                      </div> -->
+<!--                      <div class="media-body"> -->
+<!--                        <h4 class="media-heading">{{doc['title']}}</h4> -->
+<!--                        <p> -->
+<!--                          {{doc['ingredient']}} -->
+<!--                        </p> -->
+
+<!--           <a href="{{doc.url}}" class="btn btn-default">Visit recipe</a> -->
+
+<!--                      </div> -->
+<!--                    </li> -->
+<!--                    {% endfor %} -->
+<!--                  </ul>  -->
+<!--              </div> -->
+<!--            </div> -->
+<!--          </div> -->
+ 
+
+
+
+
+
+<!--              </div> -->
+<!--            </div> -->
+<!--          </div> -->
+<!--          {% endfor %} -->
+<!-- </div> -->
+
+
+<!-- This is the old version. -->
+<!--     <div class="container"> -->
+<!--               {% for topic in topics %} -->
+<!--          <div class="row" -->
+<!--          <div class="col-md-4"> -->
+<!--          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true"> -->
+<!--            <div class="panel panel-success"> -->
+<!--              <div class="panel-heading" role="tab" id="heading{{topic}}"> -->
+<!--                <h4 class="panel-title"> -->
+<!--                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{topic}}" aria-expanded="false" aria-controls="collapse{{topic}}"> -->
+<!--                    {{word_data[topic]}} -->
+<!--                  </a> -->
+<!--                </h4> -->
+<!--              </div> -->
+<!--              <div id="collapse{{topic}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{topic}}"> -->
+<!--                <div class="panel-body"> -->
+<!--                  <ul class="media-list"> -->
+<!--                    <li class="media"> -->
+<!--                      {% for doc in doc_data[topic] %} -->
+<!--                      <div class="media-left"> -->
+<!--                        <a href="#"> -->
+<!--                          <img class="media-object" src="{{doc['image']}}" alt="..."> -->
+<!--                        </a> -->
+<!--                      </div> -->
+<!--                      <div class="media-body"> -->
+<!--                        <h4 class="media-heading">{{doc['title']}}</h4> -->
+<!--                        <p> -->
+<!--                          {{doc['ingredient']}} -->
+<!--                        </p> -->
+
+<!--           <a href="{{doc.url}}" class="btn btn-default">Visit recipe</a> -->
+
+<!--                      </div> -->
+<!--                    </li> -->
+<!--                    {% endfor %} -->
+<!--                  </ul>  -->
+<!--              </div> -->
+<!--            </div> -->
+<!--          </div> -->
+<!--          {% endfor %} -->
+<!--          </div> -->
+<!--          </div> -->
+<!--          </div> -->
+<!-- </div> -->
 
 
 
