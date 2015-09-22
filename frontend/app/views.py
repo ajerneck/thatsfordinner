@@ -6,6 +6,18 @@ import numpy as np
 import pandas as pd
 from sqlalchemy import create_engine
 
+def collapse_topic_words(df):
+    "Remove unigrams that appear in bigrams, and collapse bigrams to common words."
+    all_topics = collections.defaultdict(list)
+    for n, group in df.groupby('label'):
+        ks = collections.defaultdict(float)
+        for _, row in group.iterrows():
+            words = row['word'].split()
+            for w in words:
+                ks[w] += row['prob']
+        all_topics[n] = ', '.join([w.capitalize() for w,i in sorted(ks.items(), key=lambda x: x[1], reverse=True)])
+    return all_topics
+
 
 @app.route('/')
 @app.route('/index')
@@ -56,18 +68,27 @@ def topics():
 def compact():
     con = psycopg2.connect(host='localhost', dbname='explore', user='explore', password='Ln2bOYAVCG6utNUSaSZaIVMH')
 
+    engine = create_engine("postgresql+psycopg2://explore:Ln2bOYAVCG6utNUSaSZaIVMH@localhost/explore")
+
     with con:
         cur = con.cursor()
 
 
-        ## extract most probable words for each topic.
-        cur.execute('SELECT * FROM word_probs order by topic, prob desc;')
-        word_probs = cur.fetchall()
-        word_data = collections.defaultdict(list)
-        for row in word_probs:
-            word_data[row[2]] += [row[3]]
-        for k,v in word_data.items():
-            word_data[k] = ', '.join(v)
+        # ## extract most probable words for each topic.
+        # cur.execute('SELECT * FROM word_probs order by topic, prob desc;')
+        # word_probs = cur.fetchall()
+        # word_data = collections.defaultdict(list)
+        # for row in word_probs:
+        #     word_data[row[2]] += [row[3]]
+        # for k,v in word_data.items():
+        # cur.execute('SELECT * FROM all_word_probs order by label, prob desc;')
+        # word_probs = cur.fetchall()
+        #     word_data[k] = ', '.join(v)
+
+        ww = pd.read_sql_table('all_word_probs', engine)
+        xx = ww.sort(['label','prob']).groupby('label').tail(20)
+        word_data = collapse_topic_words(xx)#
+        print word_data
 
         ## extract most probable documents for each topic.
         cur.execute("SELECT doc_prob.topic, ingredient_txt, image, url, clean_recipes.title, prob FROM doc_prob, clean_recipes WHERE doc_prob.recipe_key=clean_recipes.key ORDER BY topic, rank;")
@@ -75,7 +96,7 @@ def compact():
 
         doc_data = collections.defaultdict(list)
         for row in doc_probs:
-            doc_data[row[0]] += [{'ingredient': row[1].decode('ascii', 'ignore'), 'image':row[2], 'url':row[3], 'title':row[4]}]
+            doc_data[row[0]] += [{'ingredient': row[1].decode('ascii', 'ignore'), 'image':row[2], 'url':row[3], 'title':row[4].decode('ascii', 'ignore')}]
 
         topics = sorted(doc_data.keys(), reverse=True)
 

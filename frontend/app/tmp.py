@@ -9,6 +9,88 @@ engine = create_engine("postgresql+psycopg2://explore:Ln2bOYAVCG6utNUSaSZaIVMH@l
 
 ww = pd.read_sql_table('all_word_probs', engine)
 
+xx = ww.sort(['label','prob']).groupby('label').tail(20)
+## get the 10 most probable within each group.
+
+ws = xx[xx['label']==0]['word'].values
+
+## loop over words, filter out those that are in other bigsams
+wss = [w.split() for w in ws]
+bs = []
+us = []
+for w in wss:
+    if len(w) > 1:
+        bs.append(w)
+    else:
+        us.append(w)
+
+keep = []
+for u in us:
+    hits = [b for b in bs if u[0] in b]
+    if hits == []:
+        keep.append(u)
+
+## this works.
+keep = []
+for w in itertools.chain(*wss):
+    print w
+    if w not in keep:
+        keep.append(w)
+
+## TODO: sum up the probabilities:
+
+
+
+## do nlp on words to identify nouns.
+
+
+## do decorate, sort, undecorate
+
+
+
+for row in ws.values.tolist():
+    print row
+    words = row[0].split()
+    prob = row[1]
+    for w in words:
+        ks[w] += prob
+
+k = collections.defaultdict(float)
+for w in itertools(*wss):
+    k[w] += 
+
+
+k = dict.fromkeys(itertools.chain(*wss), 0)
+
+
+
+
+
+
+x = {}
+import itertools
+dict.fromkeys(itertools.chain(*wss))
+
+ws = xx[xx['label']==0][['word','prob']]
+
+ws['word'].values
+ws['word'].values
+
+wss
+
+
+
+
+
+bs = [w for w in wss if len(w)>1]
+
+for w in ws:
+    if 
+
+use 'low' in 'low chicken'
+
+
+
 # cur = con.cursor()
 # cur.execute('select * from all_word_probs order by label')
 # ww = cur.fetchall()
@@ -24,11 +106,13 @@ print gen_recipes
 
 
 ## extract most probable words for each topic.
+
 cur.execute('SELECT * FROM word_probs order by topic, prob desc;')
 word_probs = cur.fetchall()
 word_data = collections.defaultdict(list)
 for row in word_probs:
     word_data[row[2]] += [row[3]]
+
 for k,v in word_data.items():
     word_data[k] = ', '.join(v)
 

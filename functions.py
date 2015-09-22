@@ -1,15 +1,21 @@
+import collections
 import numpy as np
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction import text
+from sqlalchemy import create_engine
 
 
 import psycopg2
 
-import common
+
+def make_engine():
+    "Return a sqlalchemy engine connection to explore database."
+    return create_engine("postgresql+psycopg2://explore:Ln2bOYAVCG6utNUSaSZaIVMH@localhost/explore")
+
 
 def load_epicurious():
-    con = common.make_engine()
+    con = make_engine()
 
     df_ep = pd.read_sql_table('recipes_recipe', con)
     df_ep = df_ep[['title','ingredient_txt','url','image']]
@@ -19,7 +25,7 @@ def load_epicurious():
     return df_ep
 
 def load_allrecipes():
-    con = common.make_engine()
+    con = make_engine()
 
     df_ar = pd.read_sql_table('allrecipes', con)
     df_ar = df_ar[['data-name','ingredients','url','data-imageurl']]
@@ -113,6 +119,9 @@ def most_probable_words(model, vocabulary, num_words):
 
     ww.columns = ['rank', 'label', 'word', 'prob']
     return ww
+
+
+
 
 
 
