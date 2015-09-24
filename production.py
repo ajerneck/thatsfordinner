@@ -61,24 +61,27 @@ def clean_formatting(df):
 
 def get_stop_words():
     "Combine custom stopwords with standard english ones."
-    ingredient_stop_words = [
-        'cup', 'tablespoons', 'teaspoons', 'cups', 'tablespoon', 'large',
-        'teaspoon', 'inch', 'pound', 'pounds', 'ounces', 'ounce', 'plus',
-        'chopped', 'minced', 'cut', 'sliced', 'diced', 'ground', 'grated',
-        'peeled', 'fresh', 'lb', 'oz', 'g', 'tbsp', 'tsp', 'f', 'slices',
-        'finely', 'thinly', 'medium', 'divided', 'pieces', 'coarse', 'stick',
-        'cubes', 'assorted', 'wedges', 'small', 'water', 'white', 'crushed',
-        'coarsely', 'temperature', 'room', 'dry', 'packed', 'halved',
-        'lengthwise', 'drained', 'powder', 'pale', 'parts', 'lightly',
+    ingredient_stop_words = [ 'cup', 'tablespoons', 'teaspoons', 'cups',
+        'tablespoon', 'large', 'teaspoon', 'inch', 'pound', 'pounds', 'ounces',
+        'ounce', 'plus', 'chopped', 'minced', 'cut', 'sliced', 'diced',
+        'ground', 'grated', 'peeled', 'fresh', 'lb', 'oz', 'g', 'tbsp', 'tsp',
+        'f', 'slices', 'finely', 'thinly', 'medium', 'divided', 'pieces',
+        'coarse', 'stick', 'cubes', 'assorted', 'wedges', 'small', 'water',
+        'white', 'crushed', 'coarsely', 'temperature', 'room', 'dry', 'packed',
+        'halved', 'lengthwise', 'drained', 'powder', 'pale', 'parts', 'lightly',
         'beaten', 'fine', 'plain', 'serving', 'taste', 'removed', 'crumbled',
-        'small', 'water', 'white', 'crushed', 'coarsely', 'temperature',
-        'room', 'dry', 'packed', 'halved', 'lengthwise', 'drained', 'powder',
-        'pale', 'parts', 'lightly', 'beaten', 'fine', 'plain', 'serving',
-        'taste', 'removed', 'crumbled', 'trimmed', 'freshly', 'seeded', 'size',
+        'small', 'water', 'white', 'crushed', 'coarsely', 'temperature', 'room',
+        'dry', 'packed', 'halved', 'lengthwise', 'drained', 'powder', 'pale',
+        'parts', 'lightly', 'beaten', 'fine', 'plain', 'serving', 'taste',
+        'removed', 'crumbled', 'trimmed', 'freshly', 'seeded', 'size',
         'reserved', 'garnish', 'quartered', 'discarded', 'mixed', 'torn',
         'bunch', 'stemmed', 'oil', 'salt', 'pepper', 'olive oil', 'garlic',
         'garlic cloves', 'black pepper', 'leaves', 'red', 'olive', 'black',
-        'cloves', 'preferably', 'ml', 'shredded','dried', 'g', 'pieces', 'inch', 'cut', 'size','bite', 'pinch','clove','taste', 'large', 'grated', 'half' , 'minced' , 'peeled' , 'seeded' , 'shredded', 'dried','piece','for','inch', 'cubed', 'kosher', 'seed', 'juice']
+        'cloves', 'preferably', 'ml', 'shredded','dried', 'g', 'pieces', 'inch',
+        'cut', 'size','bite', 'pinch','clove','taste', 'large', 'grated', 'half'
+        , 'minced' , 'peeled' , 'seeded' , 'shredded',
+        'dried','piece','for','inch', 'cubed', 'kosher', 'seed', 'juice',
+        'strip', 'strips', 'water' ]
 
     return text.ENGLISH_STOP_WORDS.union(ingredient_stop_words)
 
