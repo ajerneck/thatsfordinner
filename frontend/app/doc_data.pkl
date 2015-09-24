@@ -1,0 +1,3454 @@
+ccollections
+defaultdict
+p0
+(c__builtin__
+list
+p1
+tp2
+Rp3
+cnumpy.core.multiarray
+scalar
+p4
+(cnumpy
+dtype
+p5
+(S'i8'
+p6
+I0
+I1
+tp7
+Rp8
+(I3
+S'<'
+p9
+NNNI-1
+I-1
+I0
+tp10
+bS'\x00\x00\x00\x00\x00\x00\x00\x00'
+p11
+tp12
+Rp13
+(lp14
+(dp15
+S'url'
+p16
+Vhttp://allrecipes.com/recipe/11951/linguine-with-clam-sauce/
+p17
+sS'image'
+p18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/52131.jpg
+p19
+sS'title'
+p20
+VLinguine with Clam Sauce
+p21
+sS'ingredient'
+p22
+V2 (6.5 ounce) cans minced clams, with juice 1/4 cup butter 1/2 cup vegetable oil 1/2 teaspoon minced garlic 1 tablespoon dried parsley ground black pepper to taste 1/4 tablespoon dried basil 1 (16 ounce) package linguini pasta
+p23
+sa(dp24
+g16
+Vhttp://allrecipes.com/recipe/237190/portobello-mushroom-pasta-with-basil/
+p25
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1131393.jpg
+p26
+sg20
+VPortobello Mushroom Pasta with Basil
+p27
+sg22
+V1 (16 ounce) package farfalle (bow-tie) pasta 2 tablespoons olive oil 1 pound portobello mushrooms, chopped 3 cloves garlic, minced 1/4 cup balsamic vinegar 1 teaspoon ground black pepper 1/2 cup shaved Pecorino Romano cheese 1/2 cup chopped fresh basil
+p28
+sa(dp29
+g16
+Vhttp://allrecipes.com/recipe/47125/clam-sauce-with-linguine/
+p30
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/73976.jpg
+p31
+sg20
+VClam Sauce with Linguine
+p32
+sg22
+V1 (16 ounce) package linguine pasta 1/2 cup butter 3 cloves chopped garlic 1 pound fresh mushrooms, sliced 2 (6.5 ounce) cans chopped clams with juice 1/2 cup chopped fresh parsley 1 teaspoon salt 1/2 teaspoon ground white pepper 1/4 cup grated Parmesan cheese
+p33
+sasg4
+(g8
+S'\x01\x00\x00\x00\x00\x00\x00\x00'
+p34
+tp35
+Rp36
+(lp37
+(dp38
+g16
+Vhttp://allrecipes.com/recipe/23725/pineapple-enchiladas/
+p39
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/68192.jpg
+p40
+sg20
+VPineapple Enchiladas
+p41
+sg22
+V1 (20 ounce) can crushed pineapple 1/4 cup sour cream 2 cups shredded Cheddar cheese, divided 1 (10 ounce) can enchilada sauce, divided 6 (8 inch) flour tortillas
+p42
+sa(dp43
+g16
+Vhttp://allrecipes.com/recipe/34390/quick-chiles-rellenos-bake/
+p44
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/358192.jpg
+p45
+sg20
+VQuick Chiles Rellenos Bake
+p46
+sg22
+V3 (4 ounce) cans mild whole green chiles, drained (optional) 2 cups shredded Pepper Jack cheese 9 (8 inch) flour tortillas 1 (19 ounce) can enchilada sauce 1 cup sour cream chopped fresh cilantro
+p47
+sa(dp48
+g16
+Vhttp://allrecipes.com/recipe/212451/enchanted-sour-cream-chicken-enchiladas/
+p49
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1976605.jpg
+p50
+sg20
+VEnchanted Sour Cream Chicken Enchiladas
+p51
+sg22
+V2 cups cubed cooked chicken 1 cup sour cream 1/8 teaspoon salt 1 pinch ground black pepper 1/2 cup vegetable oil for frying 12 (5 inch) corn tortillas 1 (4 ounce) can chopped green chilies, drained 2 cups shredded Monterey Jack cheese
+p52
+sasg4
+(g8
+S'\x02\x00\x00\x00\x00\x00\x00\x00'
+p53
+tp54
+Rp55
+(lp56
+(dp57
+g16
+Vhttp://allrecipes.com/recipe/216951/apple-slow-cooked-beef-ribs/
+p58
+sg18
+Vhttp://images.media-allrecipes.com/global/recipes/nophoto/nopicture-250x250.png
+p59
+sg20
+VApple Slow Cooked Beef Ribs
+p60
+sg22
+V2 pounds boneless beef ribs 4 McIntosh apples - cored, peeled, and cut into large chunks 2 cups apple juice 2 onions, sliced 1/2 cup apple cider vinegar 5 cups water
+p61
+sa(dp62
+g16
+Vhttp://www.epicurious.com/recipes/food/views/nacho-vidal-51214870
+p63
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2014/2014_february/51214870_116.jpg
+p64
+sg20
+VNacho Vidal
+p65
+sg22
+V 2 limes, halved 3/4 cup apple cider vinegar 3/4 cup sugar 2 tablespoons honey 1 1/2 teaspoon crushed red pepper flakes 
+p66
+sa(dp67
+g16
+Vhttp://www.epicurious.com/recipes/food/views/the-shrubarb-cocktail-56389442
+p68
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2015/2015_april/56389442_116.jpg
+p69
+sg20
+VThe Shrubarb Cocktail
+p70
+sg22
+V 2 pounds rhubarb, cut into 1/4 pieces (about 6 cups) 1 (7-inch) piece ginger, unpeeled, cut into 1/4 coins (about 1/4 cup) 3/4 cup apple cider vinegar 1 1/4 cups sugar 
+p71
+sasg4
+(g8
+S'\x03\x00\x00\x00\x00\x00\x00\x00'
+p72
+tp73
+Rp74
+(lp75
+(dp76
+g16
+Vhttp://www.epicurious.com/recipes/food/views/janet-mccrackens-rib-roast-with-tapenade-51134520
+p77
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2012/2012_december/51134520_116.jpg
+p78
+sg20
+VJanet McCrackens Rib Roast with Tapenade
+p79
+sg22
+V 1 cup brine-cured pitted black olives (such as Kalamata) 1 cup brine-cured pitted green olives (such as Picholine) 1/4 cup extra-virgin olive oil 2 tablespoons chopped fresh thyme 2 tablespoons drained capers 1 tablespoon chopped fresh rosemary 3 garlic cloves, chopped 1 anchovy fillet packed in oil, drained 
+p80
+sa(dp81
+g16
+Vhttp://www.epicurious.com/recipes/food/views/cherry-tomatoes-stuffed-with-marinated-feta-353773
+p82
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2009/2009_july/353773_116.jpg
+p83
+sg20
+VCherry Tomatoes Stuffed with Marinated Feta
+p84
+sg22
+V 1 7-to 8-ounce package feta cheese, cut into 1/2-inch cubes 2 tablespoons extra-virgin olive oil plus additional for drizzling 1 tablespoon minced shallot 1/2 teaspoon chopped fresh oregano 1 pound large cherry tomatoes 12 pitted Kalamata olives, halved lengthwise 
+p85
+sa(dp86
+g16
+Vhttp://www.epicurious.com/recipes/food/views/honey-roasted-cherry-tomatoes-51174600
+p87
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2013/2013_june/51174600_116.jpg
+p88
+sg20
+VHoney-Roasted Cherry Tomatoes
+p89
+sg22
+V 1 pound/500g cherry tomatoes 2 garlic cloves 1 tablespoon clear honey 3 tablespoons olive oil Flaky sea salt and freshly ground black pepper 
+p90
+sasg4
+(g8
+S'\x04\x00\x00\x00\x00\x00\x00\x00'
+p91
+tp92
+Rp93
+(lp94
+(dp95
+g16
+Vhttp://allrecipes.com/recipe/21752/salmon-with-brown-sugar-and-bourbon-glaze/
+p96
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/44733.jpg
+p97
+sg20
+VSalmon with Brown Sugar and Bourbon Glaze
+p98
+sg22
+V4 tablespoons butter 1/2 cup dark brown sugar 4 (6 ounce) salmon steaks 1/3 cup bourbon whiskey
+p99
+sa(dp100
+g16
+Vhttp://allrecipes.com/recipe/21509/barbeque-pork-two-ways/
+p101
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/380148.jpg
+p102
+sg20
+VBarbeque Pork Two Ways
+p103
+sg22
+V2 1/2 pounds pork shoulder 1/2 cup chopped onion 1 clove garlic, minced 1/4 cup brown sugar 1 teaspoon dry mustard 1/2 teaspoon salt 1/4 teaspoon ground black pepper 2 cups ketchup 1/4 cup Worcestershire sauce
+p104
+sa(dp105
+g16
+Vhttp://allrecipes.com/recipe/68628/mistakenly-zesty-pork-chops/
+p106
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1775.jpg
+p107
+sg20
+VMistakenly Zesty Pork Chops
+p108
+sg22
+V1 cup soy sauce 3/4 cup water 1/2 cup brown sugar 1 tablespoon honey 1 dash lemon juice 4 pork chops 1 cup ketchup 1/2 cup cocktail sauce 1/4 cup brown sugar 2 tablespoons water 1 1/2 teaspoons ground dry mustard
+p109
+sasg4
+(g8
+S'\x05\x00\x00\x00\x00\x00\x00\x00'
+p110
+tp111
+Rp112
+(lp113
+(dp114
+g16
+Vhttp://allrecipes.com/recipe/235997/unstuffed-cabbage-roll/
+p115
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1088986.jpg
+p116
+sg20
+VUnstuffed Cabbage Roll
+p117
+sg22
+V2 pounds ground beef 1 large onion, chopped 1 small head cabbage, chopped 2 (14.5 ounce) cans diced tomatoes 1 (8 ounce) can tomato sauce 1/2 cup water 2 cloves garlic, minced 2 teaspoons salt 1 teaspoon ground black pepper
+p118
+sa(dp119
+g16
+Vhttp://allrecipes.com/recipe/26601/enchilada-casserole-ii/
+p120
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/213463.jpg
+p121
+sg20
+VEnchilada Casserole II
+p122
+sg22
+V1 1/2 pounds lean ground beef 1 onion, chopped 2 cloves garlic, minced 1 (15 ounce) can tomato sauce 1 (6 ounce) can tomato paste 1 teaspoon ground cumin 2 teaspoons chili powder salt to taste 4 (10 inch) flour tortillas 2 cups shredded Cheddar cheese
+p123
+sa(dp124
+g16
+Vhttp://allrecipes.com/recipe/239312/easy-skillet-spaghetti/
+p125
+sg18
+Vhttp://images.media-allrecipes.com/global/recipes/nophoto/nopicture-250x250.png
+p126
+sg20
+VEasy Skillet Spaghetti
+p127
+sg22
+V1 pound ground beef 3 cups water 18 fluid ounces tomato juice 1 (6 ounce) can tomato paste 2 tablespoons dried minced onion 1 1/2 teaspoons chili powder, or more to taste 1 teaspoon white sugar 1 teaspoon dried oregano, crushed 1 teaspoon garlic salt 1 teaspoon salt 7 ounces spaghetti
+p128
+sasg4
+(g8
+S'\x06\x00\x00\x00\x00\x00\x00\x00'
+p129
+tp130
+Rp131
+(lp132
+(dp133
+g16
+Vhttp://allrecipes.com/recipe/242379/lemon-pepper-rubbed-back-ribs/
+p134
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/2257546.jpg
+p135
+sg20
+VLemon Pepper Rubbed Back Ribs
+p136
+sg22
+VDry Rub: 3 tablespoons light brown sugar 2 tablespoons sea salt 1 tablespoon ground white pepper 1 tablespoon onion powder 2 teaspoons cayenne pepper 1 1/2 teaspoons dried lemon peel 1/2 teaspoon ground apple pie spice 2 racks Smithfield® Extra Tender Pork Back Ribs, membrane removed Vegetable oil Handful hickory or apple wood chips for smoking, soaked in water and drained (optional) 3/4 cup apple juice, in a spray bottle (optional)
+p137
+sa(dp138
+g16
+Vhttp://allrecipes.com/recipe/242371/cider-mopped-spareribs/
+p139
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/2254299.jpg
+p140
+sg20
+VCider-Mopped Spareribs
+p141
+sg22
+V3 tablespoons chili powder 2 tablespoons kosher salt 5 teaspoons granulated garlic powder 5 teaspoons black pepper 2 racks Smithfield® Pork Spareribs, membrane removed 1/2 cup apple cider vinegar 1/2 cup water Handful hickory or apple wood chips for smoking, soaked in water and drained (optional) 3/4 cup barbecue sauce (use your favorite)
+p142
+sa(dp143
+g16
+Vhttp://allrecipes.com/recipe/242372/traditional-rub-for-st-louis-ribs/
+p144
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/2267453.jpg
+p145
+sg20
+VTraditional Rub for St. Louis Ribs
+p146
+sg22
+VDry Rub: 1/4 cup dark brown sugar 3 tablespoons paprika 1 tablespoon dry mustard 1 tablespoon sea salt 1 1/2 teaspoons granulated garlic powder 1 1/2 teaspoons onion powder 1/2 teaspoon ground coriander 2 racks Smithfield® Extra Tender St. Louis Pork Spareribs, membrane removed Vegetable oil Handful hickory or apple wood chips for smoking, soaked in water and drained (optional) 3/4 cup apple juice, in a spray bottle (optional)
+p147
+sasg4
+(g8
+S'\x07\x00\x00\x00\x00\x00\x00\x00'
+p148
+tp149
+Rp150
+(lp151
+(dp152
+g16
+Vhttp://www.epicurious.com/recipes/food/views/buttery-sugar-cookies-387469
+p153
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2011/2011_december/387469_116.jpg
+p154
+sg20
+VButtery Sugar Cookies
+p155
+sg22
+V 2 sticks (1 cup) unsalted butter, softened 1 cup sugar 1/2 teaspoon salt 1 large egg 1 teaspoon pure vanilla extract 2 cups all-purpose flour 
+p156
+sa(dp157
+g16
+Vhttp://www.epicurious.com/recipes/food/views/simply-splendid-sugar-cookies-367869
+p158
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2011/2011_december/367869_116.jpg
+p159
+sg20
+VSimply Splendid Sugar Cookies
+p160
+sg22
+V 2 sticks (1/2 pound) unsalted butter, at room temperature 1 1/2 cups confectioners sugar 2 teaspoons vanilla extract 1/2 teaspoon baking soda 1/2 teaspoon fine salt 1 large egg 1 1/3 cups white whole-wheat flour, such as King Arthur 1 1/3 cup unbleached all-purpose flour White sugar sprinkles, for rolling 
+p161
+sa(dp162
+g16
+Vhttp://www.epicurious.com/recipes/food/views/sugar-cookie-362749
+p163
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2010/2010_december/362749_116.jpg
+p164
+sg20
+VSugar Cookie
+p165
+sg22
+V 3/4 cup cake flour  3/4 cup white whole-wheat flour or whole-wheat pastry flour  1/4 teaspoon baking powder  1/4 teaspoon baking soda 1/8 teaspoon salt 4 tablespoons unsalted butter, softened 1/2 cup granulated sugar  2 egg whites  1 teaspoon vanilla extract 
+p166
+sasg4
+(g8
+S'\x08\x00\x00\x00\x00\x00\x00\x00'
+p167
+tp168
+Rp169
+(lp170
+(dp171
+g16
+Vhttp://www.epicurious.com/recipes/food/views/chicken-skewers-with-meyer-lemon-salsa-380587
+p172
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2012/2012_january/380587_116.jpg
+p173
+sg20
+VChicken Skewers with Meyer Lemon Salsa
+p174
+sg22
+V 8 Meyer lemons 1/2 cup finely chopped English hothouse cucumber 3 tablespoons thinly sliced scallions, divided 1 serrano chile (with seeds), finely chopped Pinch of sugar Kosher salt 1 1/2 pounds skinless, boneless chicken thighs, cut into 1 1/2 pieces Freshly ground black pepper 1/4 cup plus 2 tablespoons chopped fresh cilantro 1/4 cup plain whole-milk yogurt 1 tablespoon vegetable oil 2 garlic cloves, coarsely chopped 1 teaspoon cracked coriander seeds 1 teaspoon turmeric (optional) 
+p175
+sa(dp176
+g16
+Vhttp://www.epicurious.com/recipes/food/views/roasted-citrus-and-avocado-salad-51260250
+p177
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2015/2015_january/51260250_116.jpg
+p178
+sg20
+VRoasted Citrus and Avocado Salad
+p179
+sg22
+V 1 blood or Valencia orange, sliced 1/8 thick, seeds removed 1 Meyer or regular lemon, sliced 1/8 thick, seeds removed 4 tablespoons olive oil, divided Kosher salt, freshly ground pepper 1/4 small red onion, thinly sliced 2 tablespoons fresh Meyer or regular lemon juice 1 bunch watercress or arugula, thick stems trimmed 1/2 cup fresh mint leaves 1 avocado, cut into wedges 
+p180
+sa(dp181
+g16
+Vhttp://www.epicurious.com/recipes/food/views/tomatillo-salsa-verde-51240020
+p182
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2014/2014_july/51240020_116.jpg
+p183
+sg20
+VTomatillo Salsa Verde
+p184
+sg22
+V 1 pound quartered rinsed husked tomatillos 1/2 coarsely chopped medium onion 1 smashed garlic clove 1 coarsely chopped serrano chile (seeds removed if desired) 1/4 cup fresh cilantro leaves with tender stems Salt 
+p185
+sasg4
+(g8
+S'\t\x00\x00\x00\x00\x00\x00\x00'
+p186
+tp187
+Rp188
+(lp189
+(dp190
+g16
+Vhttp://www.epicurious.com/recipes/food/views/fresh-pasta-51187280
+p191
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2013/2013_september/51187280_116.jpg
+p192
+sg20
+VFresh Pasta
+p193
+sg22
+V 1 cup plus 2 tablespoons fine durum wheat flour or all-purpose flour plus more for dusting 1 cup semolina flour (pasta flour) 
+p194
+sa(dp195
+g16
+Vhttp://allrecipes.com/recipe/18785/county-fair-corn-dogs/
+p196
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/882588.jpg
+p197
+sg20
+VCounty Fair Corn Dogs
+p198
+sg22
+V10 beef frankfurters 1/2 cup all-purpose flour for dusting 2/3 cup cornmeal 1/3 cup all-purpose flour 2 tablespoons corn flour (optional) 1 teaspoon salt 1 pinch ground cayenne pepper 1 egg 2 tablespoons corn oil 1/2 cup water 1 quart vegetable oil for frying
+p199
+sa(dp200
+g16
+Vhttp://allrecipes.com/recipe/159339/fried-frogs-legs/
+p201
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/704102.jpg
+p202
+sg20
+VFried Frog\u005cu0027s Legs
+p203
+sg22
+V24 frogs legs, skin removed 1 (4 ounce) packet saltine crackers, crushed 1 cup all-purpose flour 1/2 cup cornmeal 1 teaspoon minced onion 2 teaspoons salt 1 tablespoon ground black pepper 2 eggs 1/2 cup milk 2 cups vegetable oil for frying 1 cup peanut oil for frying
+p204
+sasg4
+(g8
+S'\n\x00\x00\x00\x00\x00\x00\x00'
+p205
+tp206
+Rp207
+(lp208
+(dp209
+g16
+Vhttp://allrecipes.com/recipe/241097/appetizing-vegetarian-burritos/
+p210
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/2055840.jpg
+p211
+sg20
+VAppetizing Vegetarian Burritos
+p212
+sg22
+V2 tablespoons olive oil 1 bunch celery, sliced 1 large onion, chopped 2 tablespoons chili powder 1 tablespoon ground cumin 2 cloves garlic, minced, or more to taste 1 (28 ounce) can diced tomatoes 1 (15 ounce) can cannellini beans, drained and rinsed 1 (15 ounce) can red kidney beans, drained and rinsed 1 tablespoon lime juice, or to taste hot sauce to taste salt and ground black pepper to taste 8 (10 inch) warm flour tortillas
+p213
+sa(dp214
+g16
+Vhttp://allrecipes.com/recipe/241096/gracies-amazing-vegetarian-burritos/
+p215
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/2055947.jpg
+p216
+sg20
+VGracie\u005cu0027s Amazing Vegetarian Burritos
+p217
+sg22
+V1 tablespoon olive oil 1 onion, chopped 1 tablespoon minced garlic 1 tablespoon chili powder, divided 2 teaspoons ground black pepper, divided 2 teaspoons cayenne pepper, divided 1 teaspoon ground cumin 1 cup canned pinto beans, rinsed and drained 1 cup canned black beans, rinsed and drained 1 cup frozen corn, thawed, drained 1 cup cooked brown rice 6 burrito-size flour tortillas
+p218
+sa(dp219
+g16
+Vhttp://allrecipes.com/recipe/230625/slow-cooker-chili-with-beer/
+p220
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1010036.jpg
+p221
+sg20
+VSlow Cooker Chili with Beer
+p222
+sg22
+V2 pounds ground beef 1 onion, diced 1 (29 ounce) can tomato sauce 1 (29 ounce) can kidney beans, undrained 1 (29 ounce) can pinto beans, undrained 2 cups beer 1 (14.5 ounce) can diced tomatoes 1 (4.5 ounce) can chopped green chilies 2 tablespoons chili powder 1 tablespoon ground cumin 2 teaspoons salt 2 teaspoons ground black pepper
+p223
+sasg4
+(g8
+S'\x0b\x00\x00\x00\x00\x00\x00\x00'
+p224
+tp225
+Rp226
+(lp227
+(dp228
+g16
+Vhttp://www.epicurious.com/recipes/food/views/roasted-poultry-wild-boar-bacon-and-mushroom-farro-with-pan-roasted-fennel-and-carrots-51183200
+p229
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2013/2013_july/51183200_116.jpg
+p230
+sg20
+VRoasted Poultry, Wild Boar Bacon, and Mushroom Farro with Pan-Roasted Fennel and Carrots
+p231
+sg22
+V Bones from 4 whole game hens, small chickens, or pigeons  5 cups water 2 medium carrots 1 medium onion 1 medium celery rib 2 sprigs fresh rosemary 2 sprigs fresh sage 5 whole black peppercorns 
+p232
+sa(dp233
+g16
+Vhttp://allrecipes.com/recipe/229659/slow-cooker-herbed-turkey-breast/
+p234
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/956219.jpg
+p235
+sg20
+VSlow Cooker Herbed Turkey Breast
+p236
+sg22
+V1 (5 pound) boneless turkey breast salt and ground black pepper to taste 5 sprigs fresh rosemary, divided 5 sprigs fresh thyme, divided 1 white onion, chopped - divided 1/2 cup butter, sliced into pats 2 cups chopped fresh celery leaves 1/2 (750 milliliter) bottle white wine, or more to taste
+p237
+sa(dp238
+g16
+Vhttp://www.epicurious.com/recipes/food/views/pan-roasted-rib-eyes-395036
+p239
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2012/2012_april/395036_116.jpg
+p240
+sg20
+VPan-Roasted Rib Eyes
+p241
+sg22
+V 2 2-pound 1 1/2-2-thick bone-in rib eyes, frenched Kosher salt and coarsely ground black pepper 10 sprigs thyme 5 sprigs rosemary 6 tablespoons (3/4 stick) unsalted butter, divided 2 tablespoons grapeseed oil, divided Béarnaise Sauce 
+p242
+sasg4
+(g8
+S'\x0c\x00\x00\x00\x00\x00\x00\x00'
+p243
+tp244
+Rp245
+(lp246
+(dp247
+g16
+Vhttp://allrecipes.com/recipe/38475/italian-sausage-and-zucchini/
+p248
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/669063.jpg
+p249
+sg20
+VItalian Sausage and Zucchini
+p250
+sg22
+V1 1/2 pounds Italian sausage links 2 small zucchini, sliced 1 small yellow squash, sliced 1/2 cup chopped onion 1 (14.5 ounce) can stewed tomatoes, with liquid
+p251
+sa(dp252
+g16
+Vhttp://allrecipes.com/recipe/179982/hot-dog-creole/
+p253
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/323331.jpg
+p254
+sg20
+VHot Dog Creole
+p255
+sg22
+V1 tablespoon vegetable oil 1 large onion, chopped 2 large bell peppers, chopped 1 (16 ounce) package hot dogs, cut into 1/2-inch pieces 1 (28 ounce) can stewed tomatoes 1 teaspoon dried oregano salt and pepper to taste
+p256
+sa(dp257
+g16
+Vhttp://allrecipes.com/recipe/68520/squash-stuff/
+p258
+sg18
+Vhttp://images.media-allrecipes.com/global/recipes/nophoto/nopicture-250x250.png
+p259
+sg20
+VSquash Stuff
+p260
+sg22
+V1 pound ground beef 1 (28 ounce) can crushed tomatoes, undrained 1 (28 ounce) can diced tomatoes, undrained 1 (15.25 ounce) can whole kernel corn, undrained 1 yellow squash, sliced 1 zucchini, sliced 2 potatoes, peeled and cubed 1 tablespoon seasoning salt 1 tablespoon ground black pepper
+p261
+sasg4
+(g8
+S'\r\x00\x00\x00\x00\x00\x00\x00'
+p262
+tp263
+Rp264
+(lp265
+(dp266
+g16
+Vhttp://allrecipes.com/recipe/213460/sicilian-style-steak/
+p267
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/2415500.jpg
+p268
+sg20
+VSicilian Style Steak
+p269
+sg22
+V1 cup Italian seasoned dry bread crumbs 1 cup grated Parmesan cheese 1 teaspoon seasoned salt 1 tablespoon garlic powder 1/2 cup olive oil 2 (16 ounce) t-bone steaks
+p270
+sa(dp271
+g16
+Vhttp://allrecipes.com/recipe/85148/fast-and-friendly-meatballs/
+p272
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/570651.jpg
+p273
+sg20
+VFast and Friendly Meatballs
+p274
+sg22
+V2 tablespoons olive oil 1 (20 ounce) package ground turkey 1 egg, beaten 1/3 cup Italian seasoned bread crumbs
+p275
+sa(dp276
+g16
+Vhttp://allrecipes.com/recipe/240542/amazing-fried-pork-chops/
+p277
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/2172387.jpg
+p278
+sg20
+VAmazing Fried Pork Chops!
+p279
+sg22
+V2 tablespoons olive oil, or as needed 3 eggs 1/3 cup milk 2 cups Italian-seasoned bread crumbs, or more as needed 1/4 cup garlic powder 1/4 cup onion powder 1/4 cup seasoned salt 1 teaspoon ground black pepper 1 tablespoon olive oil, or as needed 6 thick-cut boneless pork chops 1/3 cup Parmesan cheese
+p280
+sasg4
+(g8
+S'\x0e\x00\x00\x00\x00\x00\x00\x00'
+p281
+tp282
+Rp283
+(lp284
+(dp285
+g16
+Vhttp://allrecipes.com/recipe/244556/mummy-pizza/
+p286
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/2451158.jpg
+p287
+sg20
+VMummy Pizza
+p288
+sg22
+V4 slices French bread 1/4 cup pizza sauce 1/2 teaspoon dried oregano 1/2 teaspoon garlic powder 4 pimento-stuffed green olives, cut in half 2 string cheese sticks, pulled into thin strips
+p289
+sa(dp290
+g16
+Vhttp://allrecipes.com/recipe/24876/baked-cornish-game-hens/
+p291
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/614106.jpg
+p292
+sg20
+VBaked Cornish Game Hens
+p293
+sg22
+V2 Cornish game hens 1/2 cup melted butter 1/2 onion, chopped 1/2 stalk celery, chopped 1/4 green bell pepper, chopped 1 (4.5 ounce) can mushrooms, drained and chopped 2 cloves garlic, minced 1 tablespoon dried basil 1 teaspoon dried oregano 1 tablespoon chopped fresh parsley 1/4 cup melted butter
+p294
+sa(dp295
+g16
+Vhttp://allrecipes.com/recipe/45160/roasted-sherry-duck/
+p296
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/424695.jpg
+p297
+sg20
+VRoasted Sherry Duck
+p298
+sg22
+V1 (4 pound) frozen duck 6 tablespoons olive oil 2 cups dry sherry 3 teaspoons dried oregano 3 teaspoons dried rosemary 3 teaspoons dried basil
+p299
+sasg4
+(g8
+S'\x0f\x00\x00\x00\x00\x00\x00\x00'
+p300
+tp301
+Rp302
+(lp303
+(dp304
+g16
+Vhttp://allrecipes.com/recipe/216051/spaghetti-squash-tacos/
+p305
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/506826.jpg
+p306
+sg20
+VSpaghetti Squash Tacos
+p307
+sg22
+V1 large spaghetti squash, halved and seeded 2 teaspoons vegetable oil 1 (1.25 ounce) package dry taco seasoning mix 1 small onion, diced 1 jalapeno pepper, seeded and diced 1 pinch salt, to taste 12 crisp taco shells
+p308
+sa(dp309
+g16
+Vhttp://allrecipes.com/recipe/240381/chili-pizza-from-hormel/
+p310
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1691655.jpg
+p311
+sg20
+VChili Pizza from Hormel(R)
+p312
+sg22
+V1 (15 ounce) jar cheese dip 1 (15 ounce) can HORMEL® Chili No Beans 2 (12 inch) pre-baked pizza crusts 2 cups shredded lettuce 1 cup diced tomatoes Corn chips, black olives and diced onions, if desired
+p313
+sa(dp314
+g16
+Vhttp://allrecipes.com/recipe/234529/sandys-frito-pie/
+p315
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1151000.jpg
+p316
+sg20
+VSandy\u005cu0027s Frito Pie
+p317
+sg22
+V1 pound ground beef 1 small onion, chopped 1 (16 ounce) can chili beans 1 (15.25 ounce) can whole kernel corn, drained 1 (10 ounce) container fresh restaurant-style salsa 1 (4 ounce) can sliced black olives 1 (1 ounce) package taco seasoning 1 (10.5 ounce) bag chili cheese flavored corn chips (such as Fritos®), crushed 2 cups shredded Mexican cheese blend
+p318
+sasg4
+(g8
+S'\x10\x00\x00\x00\x00\x00\x00\x00'
+p319
+tp320
+Rp321
+(lp322
+(dp323
+g16
+Vhttp://allrecipes.com/recipe/236583/greek-style-mahi-mahi/
+p324
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1564655.jpg
+p325
+sg20
+VGreek-Style Mahi Mahi
+p326
+sg22
+V1/2 cup lemon juice 1/3 cup olive oil 3 tablespoons chopped fresh oregano 3 tablespoons chopped fresh spearmint 1 teaspoon lemon zest 1/3 teaspoon garlic, minced 1/4 teaspoon salt 4 (5 ounce) mahi mahi fillets
+p327
+sa(dp328
+g16
+Vhttp://www.epicurious.com/recipes/food/views/radishes-with-burrata-51234820
+p329
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2014/2014_may/51234820_116.jpg
+p330
+sg20
+VRadishes with Burrata
+p331
+sg22
+V 8 ounces burrata torn into pieces (or use bocconcini) 2 thinly sliced watermelon radishes 2 tablespoons olive oil 2 teaspoons fresh lemon juice salt and pepper chopped chives and finely grated lemon zest (for topping) 
+p332
+sa(dp333
+g16
+Vhttp://allrecipes.com/recipe/103820/foil-barbecued-trout-with-wine/
+p334
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/225473.jpg
+p335
+sg20
+VFoil Barbecued Trout with Wine
+p336
+sg22
+V2 trout, cleaned and head removed 1/4 cup dry white wine 2 tablespoons butter, melted 1 tablespoon lemon juice 2 tablespoons chopped fresh parsley salt and pepper to taste
+p337
+sasg4
+(g8
+S'\x11\x00\x00\x00\x00\x00\x00\x00'
+p338
+tp339
+Rp340
+(lp341
+(dp342
+g16
+Vhttp://allrecipes.com/recipe/230586/roast-with-gravy/
+p343
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/969643.jpg
+p344
+sg20
+VRoast with Gravy
+p345
+sg22
+V2 tablespoons olive oil 1 (3 pound) beef sirloin tip roast 1 onion, chopped 4 cloves garlic, minced 2 cups brewed coffee 1 1/2 cups water 2 cubes beef bouillon 6 basil leaves 1 tablespoon salt 1 teaspoon ground black pepper 1/2 cup all-purpose flour 1/2 cup water salt to taste
+p346
+sa(dp347
+g16
+Vhttp://allrecipes.com/recipe/97621/foolproof-rib-roast/
+p348
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/792951.jpg
+p349
+sg20
+VFoolproof Rib Roast
+p350
+sg22
+V1 (5 pound) standing beef rib roast 2 teaspoons salt 1 teaspoon ground black pepper 1 teaspoon garlic powder
+p351
+sa(dp352
+g16
+Vhttp://allrecipes.com/recipe/42176/all-american-roast-beef/
+p353
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/959026.jpg
+p354
+sg20
+VAll American Roast Beef
+p355
+sg22
+V3 pounds beef eye of round roast 1/2 teaspoon kosher salt 1/2 teaspoon garlic powder 1/4 teaspoon freshly ground black pepper
+p356
+sasg4
+(g8
+S'\x12\x00\x00\x00\x00\x00\x00\x00'
+p357
+tp358
+Rp359
+(lp360
+(dp361
+g16
+Vhttp://allrecipes.com/recipe/234799/poor-mans-stroganoff/
+p362
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1074687.jpg
+p363
+sg20
+VPoor Man\u005cu0027s Stroganoff
+p364
+sg22
+V1 (12 ounce) package egg noodles 1 pound ground beef 1 teaspoon Greek seasoning (such as Cavenders®) salt and ground black pepper to taste 1 teaspoon vegetable oil 1 (16 ounce) package sliced fresh mushrooms 1 pint sour cream
+p365
+sa(dp366
+g16
+Vhttp://allrecipes.com/recipe/81203/jacked-up-tuna/
+p367
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/2187688.jpg
+p368
+sg20
+VJacked-Up Tuna
+p369
+sg22
+V1 (8 ounce) package uncooked egg noodles 1 (15 ounce) can peas, drained 1 (6 ounce) can tuna, drained and flaked 1/2 cup sour cream 1/4 cup milk garlic powder to taste salt and pepper to taste
+p370
+sa(dp371
+g16
+Vhttp://allrecipes.com/recipe/18786/ground-turkey-casserole/
+p372
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/54231.jpg
+p373
+sg20
+VGround Turkey Casserole
+p374
+sg22
+V1 pound ground turkey 1 (15 ounce) can tomato sauce 1 teaspoon white sugar 1 (8 ounce) container sour cream 1 (8 ounce) package cream cheese 1 (12 ounce) package uncooked egg noodles 2 cups shredded Cheddar cheese
+p375
+sasg4
+(g8
+S'\x13\x00\x00\x00\x00\x00\x00\x00'
+p376
+tp377
+Rp378
+(lp379
+(dp380
+g16
+Vhttp://allrecipes.com/recipe/14047/barbecue-tofu-sandwiches/
+p381
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/19805.jpg
+p382
+sg20
+VBarbecue Tofu Sandwiches
+p383
+sg22
+V1 (12 ounce) package extra firm tofu 3 tablespoons vegetable oil 1 onion, thinly sliced 1 1/2 cups barbecue sauce 6 hamburger buns
+p384
+sa(dp385
+g16
+Vhttp://allrecipes.com/recipe/19306/sukhothai-pad-thai/
+p386
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/466609.jpg
+p387
+sg20
+VSukhothai Pad Thai
+p388
+sg22
+V1/2 cup white sugar 1/2 cup distilled white vinegar 1/4 cup soy sauce 2 tablespoons tamarind pulp 1 (12 ounce) package dried rice noodles 1/2 cup vegetable oil 1 1/2 teaspoons minced garlic 4 eggs 1 (12 ounce) package firm tofu, cut into 1/2 inch strips 1 1/2 tablespoons white sugar 1 1/2 teaspoons salt 1 1/2 cups ground peanuts 1 1/2 teaspoons ground, dried oriental radish 1/2 cup chopped fresh chives 1 tablespoon paprika 2 cups fresh bean sprouts 1 lime, cut into wedges
+p389
+sa(dp390
+g16
+Vhttp://allrecipes.com/recipe/244145/tofu-piccata/
+p391
+sg18
+Vhttp://images.media-allrecipes.com/global/recipes/nophoto/nopicture-250x250.png
+p392
+sg20
+VTofu Piccata
+p393
+sg22
+V1 (12 ounce) package extra-firm tofu, drained 10 marinated artichoke hearts, marinade reserved 2 tablespoons capers, or more to taste, brine reserved 1/2 cup bread crumbs 1 tablespoon olive oil, or as needed 2 tablespoons lemon juice, or more to taste 1/2 cup water
+p394
+sasg4
+(g8
+S'\x14\x00\x00\x00\x00\x00\x00\x00'
+p395
+tp396
+Rp397
+(lp398
+(dp399
+g16
+Vhttp://allrecipes.com/recipe/212952/fried-rice-sinangag/
+p400
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/753620.jpg
+p401
+sg20
+VFried Rice (Sinangag)
+p402
+sg22
+V2 teaspoons cooking oil 2 eggs, beaten 2 teaspoons cooking oil 2 cloves garlic, minced 4 cups cold, cooked white rice 1 tablespoon soy sauce 1/4 pound diced cooked ham
+p403
+sa(dp404
+g16
+Vhttp://allrecipes.com/recipe/230819/pork-fried-rice-for-a-crowd/
+p405
+sg18
+Vhttp://images.media-allrecipes.com/global/recipes/nophoto/nopicture-250x250.png
+p406
+sg20
+VPork Fried Rice for a Crowd
+p407
+sg22
+V1 cup peanut oil 15 eggs 30 cups cold cooked rice 6 cups frozen peas, thawed 3 cups cubed fully cooked ham 3 cups chopped green onion 5 ounces soy sauce, or to taste
+p408
+sa(dp409
+g16
+Vhttp://allrecipes.com/recipe/228310/quick-and-creamy-pasta-carbonara/
+p410
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1100575.jpg
+p411
+sg20
+VQuick and Creamy Pasta Carbonara
+p412
+sg22
+V3 cups rigatoni pasta 6 bacon strips, diced 2 cloves garlic, minced 1 1/4 cups milk 1 (8 ounce) package cream cheese, cut into cubes 1/2 cup butter, softened 1/2 cup freshly shredded Parmesan cheese 1/4 cup fresh green peas 1/4 cup diced cooked ham
+p413
+sasg4
+(g8
+S'\x15\x00\x00\x00\x00\x00\x00\x00'
+p414
+tp415
+Rp416
+(lp417
+(dp418
+g16
+Vhttp://allrecipes.com/recipe/238727/veggie-loaf/
+p419
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1283153.jpg
+p420
+sg20
+VVeggie Loaf
+p421
+sg22
+V1 tablespoon Spectrum Naturals® Olive Oil Extra Virgin 1 medium onion, chopped 1 clove garlic, minced 1 egg, beaten 2 (340 gram) packages Yves Veggie Cuisine® Original Veggie Ground Round 1/3 cup dry breadcrumbs 1/3 cup ketchup 1/2 teaspoon dried thyme 1/2 teaspoon seasoning salt
+p422
+sa(dp423
+g16
+Vhttp://allrecipes.com/recipe/238716/sage-and-apple-sausage-pizza/
+p424
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1283137.jpg
+p425
+sg20
+VSage and Apple Sausage Pizza
+p426
+sg22
+V2 teaspoons Spectrum Naturals® Olive Oil 1 cup sliced red or sweet onion 1 (12 inch) pre-cooked thin pizza crust 1/2 cup pizza sauce 2 Yves Veggie Cuisine® Sage and Apple Sausages, sliced 2 slices Yves Veggie Cuisine® Veggie Bacon Strips, sliced 1/2 cup sliced assorted bell peppers 2 tablespoons grated Parmesan cheese 3/4 cup shredded mozzarella cheese
+p427
+sa(dp428
+g16
+Vhttp://allrecipes.com/recipe/238720/sweet-potato-shepherds-pie/
+p429
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1283143.jpg
+p430
+sg20
+VSweet Potato Shepherd\u005cu0027s Pie
+p431
+sg22
+V1 1/2 pounds sweet potatoes, peeled and chopped 2 tablespoons soft, non-hydrogenated margarine 1/4 teaspoon fresh ground pepper 2 teaspoons Spectrum® Canola Oil 1 (340 gram) package Yves Veggie Cuisine® Original Veggie Ground Round 1 green pepper, chopped 2 cloves garlic, minced 1 tablespoon all-purpose flour 1 cup Imagine® Low Sodium Organic Vegetable Broth 1 cup combined, Yves Veggie Cuisine® sweet peas, Yves Veggie Cuisine® whole kernel Golden Corn and carrots
+p432
+sasg4
+(g8
+S'\x16\x00\x00\x00\x00\x00\x00\x00'
+p433
+tp434
+Rp435
+(lp436
+(dp437
+g16
+Vhttp://allrecipes.com/recipe/228589/sweet-meatballs/
+p438
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1129568.jpg
+p439
+sg20
+VSweet Meatballs
+p440
+sg22
+V4 pounds frozen meatballs 1 (16 ounce) bottle barbeque sauce 1 (16 ounce) bottle French salad dressing 1 (16 ounce) bottle Italian-style salad dressing ground black pepper to taste
+p441
+sa(dp442
+g16
+Vhttp://allrecipes.com/recipe/17343/festival-chicken/
+p443
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/601700.jpg
+p444
+sg20
+VFestival Chicken
+p445
+sg22
+V1 (12 ounce) jar apricot preserves 1 (8 ounce) bottle Russian-style salad dressing 1 packet dry onion soup mix 2 (4 pound) whole chickens, each cut into 8 pieces
+p446
+sa(dp447
+g16
+Vhttp://allrecipes.com/recipe/19483/grilled-kingfish/
+p448
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/831317.jpg
+p449
+sg20
+VGrilled Kingfish
+p450
+sg22
+V2 pounds whole kingfish, gutted and washed 2 cups Italian-style salad dressing
+p451
+sasg4
+(g8
+S'\x17\x00\x00\x00\x00\x00\x00\x00'
+p452
+tp453
+Rp454
+(lp455
+(dp456
+g16
+Vhttp://allrecipes.com/recipe/60020/oat-and-herb-encrusted-turkey/
+p457
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/746873.jpg
+p458
+sg20
+VOat and Herb Encrusted Turkey
+p459
+sg22
+V1/2 cup milk 3 tablespoons prepared brown mustard 1/2 cup quick cooking oats 1 tablespoon dried sage 1 tablespoon dried rosemary 2 (6 ounce) fillets turkey breast 1 (6 ounce) container fat-free plain yogurt 1 tablespoon whole grain mustard salt and ground black pepper to taste
+p460
+sa(dp461
+g16
+Vhttp://allrecipes.com/recipe/237334/spicy-buffalo-style-meatballs/
+p462
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/2141762.jpg
+p463
+sg20
+VSpicy Buffalo-Style Meatballs
+p464
+sg22
+V1 pound ground beef 1/2 cup quick-cooking oats 1 small onion, chopped 1 large egg 1/4 cup water 1 teaspoon garlic powder 1/2 teaspoon salt 1/2 teaspoon ground black pepper 2 tablespoons hot sauce, or more to taste 2 tablespoons butter, melted 1 tablespoon honey
+p465
+sa(dp466
+g16
+Vhttp://allrecipes.com/recipe/232305/joyces-granola/
+p467
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1101935.jpg
+p468
+sg20
+VJoyce\u005cu0027s Granola
+p469
+sg22
+V4 cups rolled oats 1 cup wheat germ 1/2 cup flax seed meal 1/2 cup sliced almonds 1/2 cup walnuts 1 teaspoon ground cinnamon 5 tablespoons unsweetened applesauce 2 tablespoons agave nectar 3 tablespoons (blank) sugar-free pancake syrup
+p470
+sasg4
+(g8
+S'\x18\x00\x00\x00\x00\x00\x00\x00'
+p471
+tp472
+Rp473
+(lp474
+(dp475
+g16
+Vhttp://allrecipes.com/recipe/8924/rollatini-with-pork-and-rosemary-filling/
+p476
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/375.jpg
+p477
+sg20
+VRollatini with Pork and Rosemary Filling
+p478
+sg22
+V2 tablespoons olive oil 1 small onion, chopped 2 cloves garlic, chopped 1/2 pound ground pork salt and pepper to taste 2 teaspoons chopped fresh rosemary 4 skinless, boneless chicken breast halves - pounded to 1/4 inch thickness
+p479
+sa(dp480
+g16
+Vhttp://allrecipes.com/recipe/23998/a-good-easy-garlic-chicken/
+p481
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/605723.jpg
+p482
+sg20
+VA Good Easy Garlic Chicken
+p483
+sg22
+V3 tablespoons butter 4 skinless, boneless chicken breast halves 2 teaspoons garlic powder 1 teaspoon seasoning salt 1 teaspoon onion powder
+p484
+sa(dp485
+g16
+Vhttp://allrecipes.com/recipe/83506/honey-glazed-stuffed-chicken/
+p486
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/692320.jpg
+p487
+sg20
+VHoney Glazed Stuffed Chicken
+p488
+sg22
+V4 skinless, boneless chicken breast halves 4 tablespoons Boursin cheese with herbs 8 slices bacon toothpicks 1/2 cup honey
+p489
+sasg4
+(g8
+S'\x19\x00\x00\x00\x00\x00\x00\x00'
+p490
+tp491
+Rp492
+(lp493
+(dp494
+g16
+Vhttp://www.epicurious.com/recipes/food/views/tandoori-turkey-368303
+p495
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2011/2011_november/368303_116.jpg
+p496
+sg20
+VTandoori Turkey
+p497
+sg22
+V 2 1/2 tablespoons coriander seeds 2 tablespoons cumin seeds 1 tablespoon plus 1 teapsoon whole black peppercorns 1 tablespoon ground cardamom 2 teaspoons chili powder 1 teaspoon dried fenugreek 1 teaspoon whole cloves 1 3-4 cinnamon stick, broken into pieces 1/4 teaspoon ajwain seeds 
+p498
+sa(dp499
+g16
+Vhttp://www.epicurious.com/recipes/food/views/country-captain-with-cauliflower-and-peas-357529
+p500
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2010/2010_march/357529_116.jpg
+p501
+sg20
+VCountry Captain with Cauliflower and Peas
+p502
+sg22
+V 1 1/2 teaspoons coriander seeds 1 teaspoon fennel seeds 1 teaspoon cumin seeds 1/2 teaspoon whole black peppercorns 3 whole cloves 1/4 teaspoon cardamom seeds (from 3 whole green cardamom pods) 1 1/2-inch piece cinnamon stick 1/2 teaspoon turmeric 1/4 teaspoon (scant) cayenne pepper 
+p503
+sa(dp504
+g16
+Vhttp://allrecipes.com/recipe/46995/sri-lankan-potato-curry/
+p505
+sg18
+Vhttp://images.media-allrecipes.com/global/recipes/nophoto/nopicture-250x250.png
+p506
+sg20
+VSri Lankan Potato Curry
+p507
+sg22
+V3/4 teaspoon coriander seed 1/4 teaspoon fennel seed 1/4 teaspoon cumin seed 4 leaves fresh curry 4 large potatoes - peeled and cubed 1 tablespoon ghee (clarified butter) 1/2 onion, finely chopped 1 clove garlic, minced 1 (1 inch) piece fresh ginger root, grated 1/2 teaspoon cumin seed 1/2 teaspoon coriander seed 1/2 cup coconut milk 1 tablespoon chopped fresh cilantro salt to taste
+p508
+sasg4
+(g8
+S'\x1a\x00\x00\x00\x00\x00\x00\x00'
+p509
+tp510
+Rp511
+(lp512
+(dp513
+g16
+Vhttp://www.epicurious.com/recipes/food/views/arugula-stuffed-leg-of-lamb-with-roasted-spring-vegetables-395393
+p514
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2012/2012_april/395393_116.jpg
+p515
+sg20
+VArugula-Stuffed Leg of Lamb with Roasted Spring Vegetables
+p516
+sg22
+V 3 large garlic cloves, thinly sliced lengthwise 1 tablespoon olive oil 10 ounces baby arugula or baby spinach Salt 
+p517
+sa(dp518
+g16
+Vhttp://allrecipes.com/recipe/220207/fiesta-lime-parmesan-halibut/
+p519
+sg18
+Vhttp://images.media-allrecipes.com/global/recipes/nophoto/nopicture-250x250.png
+p520
+sg20
+VFiesta Lime Parmesan Halibut
+p521
+sg22
+V2 (6 ounce) halibut steaks salt and ground black pepper to taste 1/2 teaspoon lime-flavored salt-free seasoning blend (such as Mrs Dash® Fiesta Lime Seasoning), or to taste 1/2 cup panko bread crumbs 1/4 cup shredded Parmesan cheese 1/8 teaspoon lime-flavored salt-free seasoning blend (such as Mrs Dash® Fiesta Lime Seasoning) 1/2 teaspoon dried thyme 1/2 clove garlic, minced 1/4 cup olive oil, or as needed
+p522
+sa(dp523
+g16
+Vhttp://allrecipes.com/recipe/109642/grandmas-favorite-chicken/
+p524
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/2546040.jpg
+p525
+sg20
+VGrandma\u005cu0027s Favorite Chicken
+p526
+sg22
+V8 chicken legs 5 large white potatoes 1 (8 ounce) package baby carrots 5 cloves garlic 2 yellow squash, quartered lengthwise and cut crosswise into 1/2-inch slices 1 large onion, peeled and sliced 1 tablespoon dried parsley flakes 1/2 tablespoon garlic powder salt to taste black pepper to taste 4 tablespoons butter, divided 2 cups water, or as needed
+p527
+sasg4
+(g8
+S'\x1b\x00\x00\x00\x00\x00\x00\x00'
+p528
+tp529
+Rp530
+(lp531
+(dp532
+g16
+Vhttp://allrecipes.com/recipe/112538/slow-cooker-lasagna-ii/
+p533
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/770884.jpg
+p534
+sg20
+VSlow Cooker Lasagna II
+p535
+sg22
+V1 (16 ounce) package lasagna noodles 1 pound lean ground beef 1 1/2 (26 ounce) jars spaghetti sauce 2 cups shredded mozzarella cheese 1/2 cup grated Parmesan cheese 1 (8 ounce) container ricotta cheese 2 eggs 2 cups shredded mozzarella cheese
+p536
+sa(dp537
+g16
+Vhttp://allrecipes.com/recipe/86446/three-cheese-manicotti-ii/
+p538
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/980951.jpg
+p539
+sg20
+VThree Cheese Manicotti II
+p540
+sg22
+V1 (8 ounce) package manicotti shells 4 cups shredded mozzarella cheese, divided 2 cups ricotta cheese 1 cup grated Parmesan cheese, divided 1 tablespoon minced garlic 1 egg 2 tablespoons dried basil 2 (26 ounce) jars pasta sauce
+p541
+sa(dp542
+g16
+Vhttp://allrecipes.com/recipe/13883/manicotti/
+p543
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/48652.jpg
+p544
+sg20
+VManicotti
+p545
+sg22
+V1 pint part-skim ricotta cheese 8 ounces shredded mozzarella cheese 3/4 cup grated Parmesan cheese 2 eggs 1 teaspoon dried parsley salt to taste ground black pepper to taste 1 (16 ounce) jar spaghetti sauce 5 1/2 ounces manicotti pasta
+p546
+sasg4
+(g8
+S'\x1c\x00\x00\x00\x00\x00\x00\x00'
+p547
+tp548
+Rp549
+(lp550
+(dp551
+g16
+Vhttp://allrecipes.com/recipe/22597/roast-beef-and-yorkshire-pudding/
+p552
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/922437.jpg
+p553
+sg20
+VRoast Beef and Yorkshire Pudding
+p554
+sg22
+V2 pounds rump roast garlic powder to taste salt to taste freshly ground pepper, to taste 1/4 teaspoon salt 1 cup all-purpose flour 2 eggs, beaten 1 cup milk
+p555
+sa(dp556
+g16
+Vhttp://allrecipes.com/recipe/21688/pork-liver-pudding/
+p557
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/973695.jpg
+p558
+sg20
+VPork Liver Pudding
+p559
+sg22
+V1/2 pound pork liver 1/2 pound ground pork 1 1/2 teaspoons salt 1 pinch ground black pepper 1 dash ground allspice 1 onion, chopped 1 tablespoon butter 1 tablespoon all-purpose flour 1 cup milk 1 egg 2 bay leaves
+p560
+sa(dp561
+g16
+Vhttp://www.epicurious.com/recipes/food/views/bourbon-brown-butter-pecan-pie-51252550
+p562
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2014/2014_october/51252550_116.jpg
+p563
+sg20
+VBourbon-Brown Butter Pecan Pie
+p564
+sg22
+V 1/2 teaspoon kosher salt 1 1/2 cups all-purpose flour, plus more 3/4 cup vegetable shortening 
+p565
+sasg4
+(g8
+S'\x1d\x00\x00\x00\x00\x00\x00\x00'
+p566
+tp567
+Rp568
+(lp569
+(dp570
+g16
+Vhttp://allrecipes.com/recipe/239883/mushroom-sliders/
+p571
+sg18
+Vhttp://images.media-allrecipes.com/global/recipes/nophoto/nopicture-250x250.png
+p572
+sg20
+VMushroom Sliders
+p573
+sg22
+V1 pound lean ground beef, or more to taste 1 large egg 1 small onion, finely chopped 1 cup finely chopped mushrooms 1 teaspoon ground black pepper 1/2 teaspoon garlic salt salt to taste 6 portobello mushrooms, or more to taste 1 green bell pepper, halved and seeded 1 red bell pepper, halved and seeded 1 yellow bell pepper, halved and seeded
+p574
+sa(dp575
+g16
+Vhttp://allrecipes.com/recipe/18787/superb-sausage-casserole/
+p576
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1065082.jpg
+p577
+sg20
+VSuperb Sausage Casserole
+p578
+sg22
+V6 links pork sausage 1 large red bell pepper, chopped 1 large orange bell pepper, chopped 1 large yellow bell pepper, chopped 1 large onion, diced 1/2 cup ketchup 3/4 cup hot water salt and pepper to taste
+p579
+sa(dp580
+g16
+Vhttp://allrecipes.com/recipe/212989/pork-picadillo/
+p581
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/809735.jpg
+p582
+sg20
+VPork Picadillo
+p583
+sg22
+V2 tablespoons olive oil 1 onion, diced 2 cloves garlic, crushed 2 1/2 pounds ground pork salt and pepper to taste 1 yellow bell pepper, cut into thin strips 1 green bell pepper, cut into thin strips 1 red bell pepper, cut into thin strips 1 (1.5 ounce) box raisins 1 bunch spinach, chopped
+p584
+sasg4
+(g8
+S'\x1e\x00\x00\x00\x00\x00\x00\x00'
+p585
+tp586
+Rp587
+(lp588
+(dp589
+g16
+Vhttp://www.epicurious.com/recipes/food/views/income-tax-cocktail-358331
+p590
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2010/2010_april/358331_116.jpg
+p591
+sg20
+VIncome Tax Cocktail
+p592
+sg22
+V 1 1/2 ounces (3 tablespoons) gin 1/2 ounce (1 tablespoon) fresh orange juice 2 teaspoons dry vermouth 2 teaspoons sweet vermouth 2 dashes (about \u215b tsp.) Angostura bitters 
+p593
+sa(dp594
+g16
+Vhttp://www.epicurious.com/recipes/food/views/easy-does-it-baby-51205650
+p595
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2013/2013_december/51205650_116.jpg
+p596
+sg20
+VEasy Does It, Baby
+p597
+sg22
+V 6 sprigs thyme 1 750-milliliter bottle Aperol 1 750-milliliter bottle blanc or dry vermouth, preferably Dolin 4 cups fresh pink grapefruit juice 1 750-milliliter bottle dry sparkling rosé 2 cups club soda 
+p598
+sa(dp599
+g16
+Vhttp://www.epicurious.com/recipes/food/views/grapefruit-campari-granita-with-vanilla-whipped-cream-357517
+p600
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2010/2010_march/357517_116.jpg
+p601
+sg20
+VGrapefruit-Campari Granita with Vanilla Whipped Cream
+p602
+sg22
+V 2 cups fresh ruby red or pink grapefruit juice, divided 6 tablespoons sugar 2/3 cup Campari 1 tablespoon (packed) finely grated ruby red or pink grapefruit peel 4 ruby red or pink grapefruits 
+p603
+sasg4
+(g8
+S'\x1f\x00\x00\x00\x00\x00\x00\x00'
+p604
+tp605
+Rp606
+(lp607
+(dp608
+g16
+Vhttp://www.epicurious.com/recipes/food/views/crunchy-vegetable-salad-with-pears-and-creamy-cheddar-dressing-51220230
+p609
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2014/2014_february/51220230_116.jpg
+p610
+sg20
+VCrunchy Vegetable Salad with Pears and Creamy Cheddar Dressing
+p611
+sg22
+V 1 head Romaine lettuce, chopped 1 small head radicchio, chopped 3 stalks celery, thinly sliced on a diagonal 2 large USA Pears, such as Anjou or Bartlett, cored and sliced 1/3 cup toasted and chopped hazelnuts 
+p612
+sa(dp613
+g16
+Vhttp://www.epicurious.com/recipes/food/views/kale-with-pomegranate-dressing-and-ricotta-salata-51255570
+p614
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2014/2014_november/51255570_116.jpg
+p615
+sg20
+VKale with Pomegranate Dressing and Ricotta Salata
+p616
+sg22
+V 1 small shallot, finely chopped 2 tablespoons white wine vinegar 2 teaspoons pomegranate molasses Kosher salt, freshly ground pepper 1 bunch red Russian or purple kale or 2 bunches Tuscan kale, ribs and stems removed, leaves torn into 2 pieces 1/2 cup pomegranate seeds 2 tablespoons olive oil 2 ounces ricotta salata (salted dry ricotta) 
+p617
+sa(dp618
+g16
+Vhttp://www.epicurious.com/recipes/food/views/collard-greens-salad-with-ginger-and-spicy-seed-brittle-56389371
+p619
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2015/2015_april/56389371_116.jpg
+p620
+sg20
+VCollard Greens Salad with Ginger and Spicy Seed Brittle
+p621
+sg22
+V 2 tablespoons apple cider vinegar 1 1/2 teaspoons finely grated peeled ginger 1 teaspoon Aleppo pepper or 1/2 teaspoon crushed red pepper flakes, divided 3 teaspoons honey, divided 3 tablespoons olive oil 1 teaspoon toasted sesame oil Kosher salt 2 tablespoons raw sunflower seeds 1 tablespoon raw pumpkin seeds (pepitas) 1 tablespoon raw sesame seeds 1 bunch collard greens (about 10 ounces), center ribs and stems removed, leaves thinly sliced 
+p622
+sasg4
+(g8
+S' \x00\x00\x00\x00\x00\x00\x00'
+p623
+tp624
+Rp625
+(lp626
+(dp627
+g16
+Vhttp://allrecipes.com/recipe/231944/white-spaghetti-pie/
+p628
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1061105.jpg
+p629
+sg20
+VWhite Spaghetti Pie
+p630
+sg22
+Vcooking spray 2 tablespoons salt 1 (16 ounce) package elbow macaroni 6 ounces pepperoni, sliced 6 ounces thinly sliced salami 6 eggs 1/4 cup evaporated milk 1 pound shredded mozzarella cheese 1 cup grated Parmesan cheese 1 teaspoon Italian seasoning 1/2 teaspoon red pepper flakes
+p631
+sa(dp632
+g16
+Vhttp://allrecipes.com/recipe/142773/portobello-bellybuttons/
+p633
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/890246.jpg
+p634
+sg20
+VPortobello Bellybuttons
+p635
+sg22
+V1 (16 ounce) package cheese tortellini 3 tablespoons butter 1 clove garlic, minced 2 portobello mushrooms, chopped 1/2 pound button mushrooms, sliced 1/4 cup white wine 1/2 tablespoon dried basil salt and pepper to taste 1/2 cup grated Parmesan cheese
+p636
+sa(dp637
+g16
+Vhttp://allrecipes.com/recipe/228223/nanas-zucchini-quiche/
+p638
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/974081.jpg
+p639
+sg20
+VNana\u005cu0027s Zucchini Quiche
+p640
+sg22
+V1 unbaked 9-inch pie crust 2 tablespoons butter 1 1/2 pounds zucchini, thinly sliced 1 cup shredded carrots 1 cup chopped mushrooms 1 3/4 cups shredded mozzarella cheese 1 1/4 cups ricotta cheese 2/3 cup half-and-half 4 eggs, beaten 3/4 teaspoon salt 1/2 teaspoon dried oregano 1/2 teaspoon dried basil 1/4 teaspoon garlic powder freshly ground black pepper to taste 1/4 teaspoon paprika
+p641
+sasg4
+(g8
+S'!\x00\x00\x00\x00\x00\x00\x00'
+p642
+tp643
+Rp644
+(lp645
+(dp646
+g16
+Vhttp://allrecipes.com/recipe/9143/harvest-rice-dish/
+p647
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/326383.jpg
+p648
+sg20
+VHarvest Rice Dish
+p649
+sg22
+V1/2 cup slivered almonds 2 cups chicken broth 1/2 cup uncooked brown rice 1/2 cup uncooked wild rice 3 tablespoons butter 3 onions, sliced into 1/2 inch wedges 1 tablespoon brown sugar 1 cup dried cranberries 2/3 cup fresh sliced mushrooms 1/2 teaspoon orange zest salt and pepper to taste
+p650
+sa(dp651
+g16
+Vhttp://allrecipes.com/recipe/230896/wild-and-brown-rice/
+p652
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1730946.jpg
+p653
+sg20
+VWild and Brown Rice
+p654
+sg22
+V1 1/2 cups uncooked wild rice 3 cups boiling water 1 cup uncooked brown rice 1 cup diced onion 1 cup diced carrots 3/4 cup diced celery 3 (14.5 ounce) cans chicken broth 1/2 teaspoon ground thyme 1/4 teaspoon dried marjoram 1/2 teaspoon salt 1/4 teaspoon ground black pepper
+p655
+sa(dp656
+g16
+Vhttp://allrecipes.com/recipe/230901/easy-oven-brown-rice/
+p657
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1027922.jpg
+p658
+sg20
+VEasy Oven Brown Rice
+p659
+sg22
+V1 1/2 cups brown rice 1 teaspoon salt 2 tablespoons butter 3 cups boiling water
+p660
+sasg4
+(g8
+S'"\x00\x00\x00\x00\x00\x00\x00'
+p661
+tp662
+Rp663
+(lp664
+(dp665
+g16
+Vhttp://allrecipes.com/recipe/92848/country-chicken/
+p666
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/425057.jpg
+p667
+sg20
+VCountry Chicken
+p668
+sg22
+V1/2 cup butter 1 (4 pound) whole chicken, cut into pieces 1 pinch salt and pepper to taste 2 (14 ounce) cans chicken broth 2 cups water 2 cubes  chicken bouillon 16 ounces sour cream
+p669
+sa(dp670
+g16
+Vhttp://allrecipes.com/recipe/18814/sunday-sticky-chicken/
+p671
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/995298.jpg
+p672
+sg20
+VSunday Sticky Chicken
+p673
+sg22
+V1 cup all-purpose flour 1 teaspoon seasoned salt ground black pepper to taste 1 (4 pound) whole chicken, cut into pieces 1/4 cup vegetable oil 2 cups milk 1 (14.5 ounce) can chicken broth 1 tablespoon cornstarch 1/4 cup water
+p674
+sa(dp675
+g16
+Vhttp://allrecipes.com/recipe/238521/basic-seitan---wheat-meat-vegan-meat-substitute/
+p676
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1323221.jpg
+p677
+sg20
+VBasic Seitan - Wheat Meat (Vegan Meat Substitute)
+p678
+sg22
+VDough: 1 cup vital wheat gluten 3 tablespoons nutritional yeast 1/2 cup vegetable broth 1/4 cup liquid amino acid (such as Bragg®) 1 tablespoon olive oil 1 1/2 teaspoons minced garlic Cooking Broth: 4 cups vegetable broth 4 cups water 1/4 cup tamari
+p679
+sasg4
+(g8
+S'#\x00\x00\x00\x00\x00\x00\x00'
+p680
+tp681
+Rp682
+(lp683
+(dp684
+g16
+Vhttp://allrecipes.com/recipe/228102/paleo-roasted-whitefish-with-leeks-and-bacon/
+p685
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/968055.jpg
+p686
+sg20
+VPaleo Roasted Whitefish with Leeks and Bacon
+p687
+sg22
+V4 leeks, sliced 2 ounces bacon, chopped 1/4 cup olive oil 1 tablespoon chopped fresh thyme 1/2 cup white wine 1 1/2 pounds whitefish fillets 2 tablespoons olive oil 1 sprig fresh thyme
+p688
+sa(dp689
+g16
+Vhttp://allrecipes.com/recipe/76297/vegetarian-cassoulet/
+p690
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1103125.jpg
+p691
+sg20
+VVegetarian Cassoulet
+p692
+sg22
+V2 tablespoons olive oil 1 onion 2 carrots, peeled and diced 1 pound dry navy beans, soaked overnight 4 cups mushroom broth 1 cube vegetable bouillon 1 bay leaf 4 sprigs fresh parsley 1 sprig fresh rosemary 1 sprig fresh lemon thyme, chopped 1 sprig fresh savory 1 large potato, peeled and cubed
+p693
+sa(dp694
+g16
+Vhttp://www.epicurious.com/recipes/food/views/braised-italian-style-pot-roast-51119610
+p695
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2012/2012_october/51119610_116.jpg
+p696
+sg20
+VBraised Italian-Style Pot Roast
+p697
+sg22
+V One 5-inch sprig fresh thyme  5 fresh Italian, flat leafed parsley stems  2 dried bay leaves or 1 fresh bay leaf  One 5-inch sprig fresh rosemary  2 juniper berries, crushed 
+p698
+sasg4
+(g8
+S'$\x00\x00\x00\x00\x00\x00\x00'
+p699
+tp700
+Rp701
+(lp702
+(dp703
+g16
+Vhttp://allrecipes.com/recipe/229814/a-little-different-baked-mac-and-cheese/
+p704
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/2016014.jpg
+p705
+sg20
+VA Little Different Baked Mac and Cheese
+p706
+sg22
+V1 (16 ounce) package elbow macaroni 1 (28 ounce) can whole peeled tomatoes, drained and chopped 1 (16 ounce) package sharp Cheddar cheese, sliced 1/2 cup milk 1 (4 ounce) packet saltine crackers, crushed
+p707
+sa(dp708
+g16
+Vhttp://allrecipes.com/recipe/221001/alishas-scalloped-potatoes-and-ham/
+p709
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1579379.jpg
+p710
+sg20
+VAlisha\u005cu0027s Scalloped Potatoes and Ham
+p711
+sg22
+V8 potatoes, peeled and cut into 1/4-inch slices 1/2 cup milk 1/4 cup sour cream 1/4 cup butter 1/4 cup shredded Cheddar cheese, or to taste 1 pound ham, diced 1 pinch garlic powder, or to taste 1 pinch onion powder, or to taste 1 pinch salt and ground black pepper to taste 1/4 cup shredded Cheddar cheese
+p712
+sa(dp713
+g16
+Vhttp://allrecipes.com/recipe/23147/dannys-macaroni-and-cheese/
+p714
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/627563.jpg
+p715
+sg20
+VDanny\u005cu0027s Macaroni and Cheese
+p716
+sg22
+V1 (8 ounce) package elbow macaroni 1 (14.5 ounce) can stewed tomatoes 1 (8 ounce) package shredded sharp Cheddar cheese
+p717
+sasg4
+(g8
+S'%\x00\x00\x00\x00\x00\x00\x00'
+p718
+tp719
+Rp720
+(lp721
+(dp722
+g16
+Vhttp://www.epicurious.com/recipes/food/views/carrot-ginger-soup-with-chile-butter-and-roasted-peanuts-358493
+p723
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2010/2010_may/358493_116.jpg
+p724
+sg20
+VCarrot-Ginger Soup with Chile Butter and Roasted Peanuts
+p725
+sg22
+V 1/4 cup (1/2 stick) unsalted butter, room temperature 2 tablespoons finely chopped green onions (white and green parts only) 1/4 teaspoon dried crushed red pepper 
+p726
+sa(dp727
+g16
+Vhttp://www.epicurious.com/recipes/food/views/wakame-cucumber-salad-51239960
+p728
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2014/2014_july/51239960_116.jpg
+p729
+sg20
+VWakame-Cucumber Salad
+p730
+sg22
+V 1 ounce dried wakame 1/2 cup distilled white vinegar 2/3 cup sugar 3 tablespoons kosher salt 1 teaspoon black peppercorns 1/2 English hothouse cucumber or 2 kirby cucumbers, sliced 1/4 thick 1/4 medium daikon (Japanese white radish; about 6 ounces), peeled, thinly sliced 
+p731
+sa(dp732
+g16
+Vhttp://allrecipes.com/recipe/92454/shrimp-in-lobster-sauce/
+p733
+sg18
+Vhttp://images.media-allrecipes.com/global/recipes/nophoto/nopicture-250x250.png
+p734
+sg20
+VShrimp in Lobster Sauce
+p735
+sg22
+V2 tablespoons vegetable oil 2 cloves garlic, minced 1 pound ground pork 1 pound fresh shrimp, peeled and deveined 2 tablespoons soy sauce 1/2 teaspoon white sugar 5 green onions, chopped 1 cup water, or as needed 1 tablespoon cornstarch 1 tablespoon cold water 2 eggs, beaten
+p736
+sasg4
+(g8
+S'&\x00\x00\x00\x00\x00\x00\x00'
+p737
+tp738
+Rp739
+(lp740
+(dp741
+g16
+Vhttp://allrecipes.com/recipe/232403/blotche-aka-widow-maker/
+p742
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1009024.jpg
+p743
+sg20
+VBLOTCHE aka Widow maker
+p744
+sg22
+V2 slices thin-sliced bacon, cut into 1-inch pieces 2 slices rustic country bread 4 teaspoons butter, softened 2 green onions (white and light green parts only), minced 3 ounces thinly sliced Havarti cheese 3 ounces sliced deli ham 2 eggs 4 thin slices ripe tomato 4 inner leaves of romaine lettuce, ribs removed
+p745
+sa(dp746
+g16
+Vhttp://allrecipes.com/recipe/59768/the-munroe-melt/
+p747
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1039470.jpg
+p748
+sg20
+VThe Munroe Melt
+p749
+sg22
+V1 crusty sandwich roll, split 1 tablespoon prepared Dijon mustard mayonnaise blend 2 slices deli turkey 1 slice Swiss cheese 2 slices deli ham 1 tablespoon mayonnaise 2 slices deli roast beef 2 slices tomato 1 slice Muenster cheese
+p750
+sa(dp751
+g16
+Vhttp://www.epicurious.com/recipes/food/views/blt-bliss-51196240
+p752
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2013/2013_october/51196240_116.jpg
+p753
+sg20
+VBLT Bliss
+p754
+sg22
+V 2 slices of whole-grain bread 1 ounce turkey bacon 2 lettuce leaves 2 slices tomato 1/4 sliced avocado 1 tablespoon mayo A medium apple 
+p755
+sasg4
+(g8
+S"'\x00\x00\x00\x00\x00\x00\x00"
+p756
+tp757
+Rp758
+(lp759
+(dp760
+g16
+Vhttp://allrecipes.com/recipe/237375/paleo-broccoli-rabe-and-sausage/
+p761
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/2381782.jpg
+p762
+sg20
+VPaleo Broccoli Rabe and Sausage
+p763
+sg22
+V3 tablespoons olive oil, or more to taste, divided 4 (3.5 ounce) links Italian sausage, sliced 2 large cloves garlic, minced 2 bunches broccoli rabe, trimmed 1 pinch lemon zest, or to taste 1 pinch ground red pepper, or to taste sea salt to taste 1/2 lemon
+p764
+sa(dp765
+g16
+Vhttp://allrecipes.com/recipe/241776/tuscan-style-sausage-sandwiches/
+p766
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/2176937.jpg
+p767
+sg20
+VTuscan-Style Sausage Sandwiches
+p768
+sg22
+V1 pound hot Italian sausage links or sweet Italian sausage links, sliced 1 small onion, sliced 1 (10 ounce) package frozen chopped spinach, thawed and squeezed dry 1 (24 ounce) jar Ragu® Sauce 1 (16-inch) loaf Italian bread or French bread, cut into 4 pieces
+p769
+sa(dp770
+g16
+Vhttp://allrecipes.com/recipe/231160/spicy-italian-sausage-and-lentil-casserole/
+p771
+sg18
+Vhttp://images.media-allrecipes.com/global/recipes/nophoto/nopicture-250x250.png
+p772
+sg20
+VSpicy Italian Sausage and Lentil Casserole
+p773
+sg22
+V1 cup black beluga lentils 2 1/2 cups water 1 pinch salt 1 tablespoon olive oil 1 onion, chopped 4 hot Italian sausage links 1 clove garlic, crushed 1 (8 ounce) package crimini mushrooms, sliced 1 eggplant, chopped 1 small hot pepper, chopped salt and ground black pepper to taste 1 (14 ounce) can diced tomatoes
+p774
+sasg4
+(g8
+S'(\x00\x00\x00\x00\x00\x00\x00'
+p775
+tp776
+Rp777
+(lp778
+(dp779
+g16
+Vhttp://allrecipes.com/recipe/21287/easy-crabmeat-enchiladas/
+p780
+sg18
+Vhttp://images.media-allrecipes.com/global/recipes/nophoto/nopicture-250x250.png
+p781
+sg20
+VEasy Crabmeat Enchiladas
+p782
+sg22
+V12 ounces imitation crabmeat, flaked 1/4 cup low-fat sour cream 1/2 onion, chopped 1 (10 ounce) can enchilada sauce 1/4 cup skim milk 6 (8 inch) low-fat flour tortilla
+p783
+sa(dp784
+g16
+Vhttp://allrecipes.com/recipe/55022/persian-kabob/
+p785
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/112968.jpg
+p786
+sg20
+VPersian Kabob
+p787
+sg22
+V1 (8 ounce) container plain low-fat yogurt 1 onion, chopped 1/2 teaspoon dried mint 2 pounds beef top sirloin, cut into large cubes
+p788
+sasg4
+(g8
+S')\x00\x00\x00\x00\x00\x00\x00'
+p789
+tp790
+Rp791
+(lp792
+(dp793
+g16
+Vhttp://allrecipes.com/recipe/228893/zucchini-and-soy-bean-stir-fry/
+p794
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1024166.jpg
+p795
+sg20
+VZucchini and Soy Bean Stir Fry
+p796
+sg22
+V1/3 cup broccoli florets 1/3 cup cauliflower florets 1/2 cup shelled edamame (green soybeans) 1 large carrot, chopped 1 tablespoon water 2 tablespoons olive oil 1 onion, chopped 1 zucchini, sliced 5 large mushrooms, sliced 1 tablespoon finely chopped garlic 1 1/2 tablespoons reduced-sodium teriyaki sauce 2 tablespoons agave nectar
+p797
+sa(dp798
+g16
+Vhttp://www.epicurious.com/recipes/food/views/matzo-balls-363287
+p799
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2009/2009_december/363287_116.jpg
+p800
+sg20
+VMatzo Balls
+p801
+sg22
+V 1 tablespoon plus 1/4 teaspoon salt 4 large eggs 1/3 cup schmaltz 1/4 teaspoon pepper 1 tablespoon baking powder 1 1/3 cups matzo meal 
+p802
+sa(dp803
+g16
+Vhttp://allrecipes.com/recipe/236813/cauliflower-steak/
+p804
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1124918.jpg
+p805
+sg20
+VCauliflower Steak
+p806
+sg22
+V1 head cauliflower 2 tablespoons olive oil, or as needed, divided 1/2 cup water 1 onion, chopped 1 cup sliced mushrooms 3 slices Havarti cheese, or more to taste
+p807
+sasg4
+(g8
+S'*\x00\x00\x00\x00\x00\x00\x00'
+p808
+tp809
+Rp810
+(lp811
+(dp812
+g16
+Vhttp://www.epicurious.com/recipes/food/views/devilish-green-eggs-and-ham-51158200
+p813
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2013/2013_march/51158200_116.jpg
+p814
+sg20
+VDevilish Green Eggs and Ham
+p815
+sg22
+V 1 dozen hard-cooked eggs 
+p816
+sa(dp817
+g16
+Vhttp://allrecipes.com/recipe/23075/spam-and-cheese-casserole/
+p818
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1630.jpg
+p819
+sg20
+VSpam and Cheese Casserole
+p820
+sg22
+V1 (12 ounce) container fully cooked luncheon meat (e.g. Spam), chopped 2 eggs, beaten 20 soda crackers, crushed 2 cups milk 1 cup shredded Cheddar cheese, divided
+p821
+sa(dp822
+g16
+Vhttp://allrecipes.com/recipe/47598/spam-burgers/
+p823
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/2135496.jpg
+p824
+sg20
+VSpam Burgers
+p825
+sg22
+V1 (12 ounce) container fully cooked luncheon meat (e.g. Spam) 4 hard-cooked eggs 4 ounces Cheddar cheese, cubed 1 medium onion, chopped 3 tablespoons mayonnaise 6 slices bacon, cut in half 6 hamburger buns, split
+p826
+sasg4
+(g8
+S'+\x00\x00\x00\x00\x00\x00\x00'
+p827
+tp828
+Rp829
+(lp830
+(dp831
+g16
+Vhttp://allrecipes.com/recipe/237839/brats-onions-and-apples/
+p832
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1499261.jpg
+p833
+sg20
+VBrats, Onions, and Apples
+p834
+sg22
+V1 tablespoon olive oil 4 bratwurst 2 apple, cored and sliced 1 sweet onion, sliced 2 (12 fluid ounce) cans or bottles beer salt and ground black pepper to taste
+p835
+sa(dp836
+g16
+Vhttp://allrecipes.com/recipe/233644/maries-shepherds-pie/
+p837
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1070666.jpg
+p838
+sg20
+VMarie\u005cu0027s Shepherd\u005cu0027s Pie
+p839
+sg22
+V4 large potatoes, peeled and cubed 2 tablespoons butter, divided salt and ground black pepper to taste 1 pound ground beef 1 packet dry French onion soup mix 1 cube chicken bouillon 1 cube beef bouillon 2 tablespoons water (optional) 1 (11 ounce) can whole kernel corn, drained 1 (10 ounce) can diced carrots, drained 1 (10 ounce) can peas, drained 2 tablespoons paprika 1 cup shredded Cheddar cheese
+p840
+sa(dp841
+g16
+Vhttp://allrecipes.com/recipe/143226/wisconsin-slow-cooker-brats/
+p842
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/851198.jpg
+p843
+sg20
+VWisconsin Slow Cooker Brats
+p844
+sg22
+V8 bratwurst 2 (12 fluid ounce) cans or bottles beer 1 onion, sliced 3/4 cup ketchup
+p845
+sasg4
+(g8
+S',\x00\x00\x00\x00\x00\x00\x00'
+p846
+tp847
+Rp848
+(lp849
+(dp850
+g16
+Vhttp://www.epicurious.com/recipes/food/views/grilled-clams-with-herb-butter-395935
+p851
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2012/2012_june/395935_116.jpg
+p852
+sg20
+VGrilled Clams with Herb Butter
+p853
+sg22
+V 1/2 cup (1 stick) unsalted butter, room temperature 1 tablespoon chopped flat-leaf parsley 1 tablespoon chopped fresh dill 1 tablespoon chopped scallion 1 tablespoon fresh lemon juice Kosher salt and freshly ground black pepper 24 littleneck clams, scrubbed Lemon wedges 
+p854
+sa(dp855
+g16
+Vhttp://www.epicurious.com/recipes/food/views/steamed-mussels-in-white-wine-367721
+p856
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2011/2011_october/367721_116.jpg
+p857
+sg20
+VSteamed Mussels in White Wine
+p858
+sg22
+V 1 large shallot, finely chopped 1/4 onion, finely chopped (about 1/3 cup) 1/4 cup dry white wine 3 1/2 tablespoons unsalted butter, cut into 1/2 cubes 1 tablespoon white wine vinegar 4 1/2 pounds mussels, scrubbed, debearded Freshly ground black pepper 2 tablespoons chopped flat-leaf parsley 
+p859
+sa(dp860
+g16
+Vhttp://www.epicurious.com/recipes/food/views/shellfish-and-potatoes-a-la-mariniere-394698
+p861
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2012/2012_march/394698_116.jpg
+p862
+sg20
+VShellfish and Potatoes à la Marinière
+p863
+sg22
+V 1 1/4 pounds small new or baby Yukon Gold potatoes 1 tablespoon kosher salt plus more 2 tablespoons olive oil 1 fennel bulb, trimmed, diced 2 shallots, finely chopped 4 garlic cloves, finely chopped 3/4 cup dry white wine 1 pound littleneck clams, scrubbed 1 pound mussels, scrubbed, debearded 1 pound cockles or small Manila clams, scrubbed 6-8 razor clams, scrubbed (optional) 1 cup (packed) flat-leaf parsley leaves, coarsely chopped, plus whole leaves for garnish 1 1/2 tablespoons unsalted butter Freshly ground black pepper 
+p864
+sasg4
+(g8
+S'-\x00\x00\x00\x00\x00\x00\x00'
+p865
+tp866
+Rp867
+(lp868
+(dp869
+g16
+Vhttp://allrecipes.com/recipe/240005/lazy-girl-pizza-margherita/
+p870
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1657843.jpg
+p871
+sg20
+VLazy Girl Pizza Margherita
+p872
+sg22
+V2 pocketless Greek pita breads 1/4 cup basil pesto 1 cup shredded mozzarella cheese 2 Roma tomatoes, sliced
+p873
+sa(dp874
+g16
+Vhttp://allrecipes.com/recipe/153790/algerian-kefta-meatballs/
+p875
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/497967.jpg
+p876
+sg20
+VAlgerian Kefta (Meatballs)
+p877
+sg22
+V1 pound lean ground beef 4 cloves garlic, minced, divided 1/4 cup finely chopped onion, divided salt and pepper to taste 3 roma (plum) tomatoes, diced 1 teaspoon dried parsley 1/2 teaspoon ras el hanout (optional) 1/2 cup water
+p878
+sa(dp879
+g16
+Vhttp://allrecipes.com/recipe/19860/simmering-marinara-with-brie/
+p880
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1023141.jpg
+p881
+sg20
+VSimmering Marinara with Brie
+p882
+sg22
+V1 tablespoon olive oil 6 cloves garlic, minced 2 pounds roma (plum) tomatoes, chopped 1/2 cup chopped fresh basil 8 ounces Brie cheese
+p883
+sasg4
+(g8
+S'.\x00\x00\x00\x00\x00\x00\x00'
+p884
+tp885
+Rp886
+(lp887
+(dp888
+g16
+Vhttp://allrecipes.com/recipe/55990/brandis-won-tons/
+p889
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/804934.jpg
+p890
+sg20
+VBrandi\u005cu0027s Won Tons
+p891
+sg22
+V2 cups shredded napa cabbage 1/2 pound ground pork 2 tablespoons soy sauce 1 tablespoon dry sherry 2 teaspoons cornstarch 1 1/2 teaspoons minced fresh ginger root 1 green onion, minced 36 wonton wrappers 1 egg white, beaten 1/4 cup soy sauce 1/4 cup seasoned rice vinegar 2 tablespoons finely shredded fresh ginger
+p892
+sa(dp893
+g16
+Vhttp://www.epicurious.com/recipes/food/views/japanese-style-grilled-fish-359629
+p894
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2010/2010_june/359629_116.jpg
+p895
+sg20
+VJapanese-Style Grilled Fish
+p896
+sg22
+V 1/4 cup soy sauce 1/4 cup sake or dry white wine 1/4 cup mirin or sweet sherry 2 tablespoons sugar 2 tablespoons grated fresh ginger 
+p897
+sa(dp898
+g16
+Vhttp://allrecipes.com/recipe/27953/yakitori-don/
+p899
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/63142.jpg
+p900
+sg20
+VYakitori Don
+p901
+sg22
+V1 (3 pound) whole chicken, cut into pieces 1 tablespoon grated fresh ginger root 1 clove garlic, crushed 3 tablespoons white sugar 2/3 cup soy sauce 1 tablespoon sake 1/4 cup mirin (Japanese sweet wine) 2 tablespoons cooking oil
+p902
+sasg4
+(g8
+S'/\x00\x00\x00\x00\x00\x00\x00'
+p903
+tp904
+Rp905
+(lp906
+(dp907
+g16
+Vhttp://allrecipes.com/recipe/48740/oyster-souffle/
+p908
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1377803.jpg
+p909
+sg20
+VOyster Souffle
+p910
+sg22
+V35 buttery round crackers, crushed 1 (12 ounce) can oysters, drained 2 cups half-and-half cream 1 tablespoon butter 1 pinch paprika
+p911
+sa(dp912
+g16
+Vhttp://www.epicurious.com/recipes/food/views/24th-street-spritz-51234410
+p913
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2014/2014_may/51234410_116.jpg
+p914
+sg20
+V24th Street Spritz
+p915
+sg22
+V 4 celery stalks, chopped 1 cup sugar 1/4 cup celery seeds 
+p916
+sa(dp917
+g16
+Vhttp://allrecipes.com/recipe/232951/savory-chicken-and-stuffing-casserole/
+p918
+sg18
+Vhttp://images.media-allrecipes.com/global/recipes/nophoto/nopicture-250x250.png
+p919
+sg20
+VSavory Chicken and Stuffing Casserole
+p920
+sg22
+V1 (8 ounce) loaf soft French bread, cut into cubes 1 pound pork sausage with sage 2 cups diced celery 1 large onion, diced 2 tablespoons minced garlic 1 (9x9 inch) pan cornbread, crumbled 1 (10.5 ounce) can cream of chicken soup 1 rotisserie chicken, boned and shredded 1 sleeve buttery round crackers (such as Ritz®), crushed 2 eggs, beaten 3 cups chicken broth, or as needed 1/4 cup crushed buttery round crackers (such as Ritz®), or as needed 1 tablespoon melted butter, or as needed
+p921
+sasg4
+(g8
+S'0\x00\x00\x00\x00\x00\x00\x00'
+p922
+tp923
+Rp924
+(lp925
+(dp926
+g16
+Vhttp://allrecipes.com/recipe/93357/unbelievable-spinach-calzones/
+p927
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/32494.jpg
+p928
+sg20
+VUnbelievable Spinach Calzones
+p929
+sg22
+V1 (15 ounce) container ricotta cheese 2 eggs 2 tablespoons dried Italian seasoning 3 cups shredded mozzarella cheese 1 cup freshly grated Parmesan cheese 1 (10 ounce) package frozen chopped spinach, thawed and squeezed dry salt and pepper to taste 1 (32 ounce) package frozen white bread dough, thawed
+p930
+sa(dp931
+g16
+Vhttp://allrecipes.com/recipe/21686/spinach-quiche/
+p932
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/39059.jpg
+p933
+sg20
+VSpinach Quiche
+p934
+sg22
+V1 (10 ounce) package frozen chopped spinach, thawed 1 bunch green onions, finely chopped (white parts only) 4 eggs, beaten 1 (16 ounce) package cottage cheese 2 cups shredded Cheddar cheese 1/4 cup crushed croutons
+p935
+sa(dp936
+g16
+Vhttp://allrecipes.com/recipe/219720/homemade-spanakopita/
+p937
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/855474.jpg
+p938
+sg20
+VHomemade Spanakopita
+p939
+sg22
+V5 (10 ounce) packages frozen chopped spinach - thawed, drained and squeezed dry 6 eggs 1 cup chopped fresh dill leaves 1 large onion, chopped 1 pound crumbled feta cheese 1/2 pound cottage cheese 1 teaspoon ground black pepper, or to taste 8 sheets phyllo dough, thawed 3 tablespoons olive oil, divided sour cream for garnish (optional)
+p940
+sasg4
+(g8
+S'1\x00\x00\x00\x00\x00\x00\x00'
+p941
+tp942
+Rp943
+(lp944
+(dp945
+g16
+Vhttp://www.epicurious.com/recipes/food/views/baked-mustard-crusted-salmon-with-asparagus-and-tarragon-56389444
+p946
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2015/2015_april/56389444_116.jpg
+p947
+sg20
+VBaked Mustard-Crusted Salmon with Asparagus and Tarragon
+p948
+sg22
+V 1 bunch thin asparagus (about 1 pound), trimmed  3 tablespoons olive oil, divided 3/4 teaspoon kosher salt, divided 1/2 teaspoon freshly ground black pepper, divided 4 (6-ounce) skin-on salmon fillets 8 teaspoons country-style or whole-grain Dijon mustard 3 tablespoons panko (Japanese breadcrumbs) 1/4 teaspoon smoked paprika 2 tablespoons chopped fresh tarragon 
+p949
+sa(dp950
+g16
+Vhttp://allrecipes.com/recipe/14819/pretzel-chicken-chunks/
+p951
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/66417.jpg
+p952
+sg20
+VPretzel Chicken Chunks
+p953
+sg22
+V4 skinless, boneless chicken breast halves 3/4 cup prepared Dijon-style mustard 2 tablespoons honey 1/4 teaspoon cayenne pepper 1/4 teaspoon garlic salt 3/4 cup crushed pretzels
+p954
+sa(dp955
+g16
+Vhttp://www.epicurious.com/recipes/food/views/egg-sandwich-with-bologna-gherkin-mayo-and-crispy-onions-51239410
+p956
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2014/2014_june/51239410_116.jpg
+p957
+sg20
+VEgg Sandwich with Bologna, Gherkin Mayo, and Crispy Onions
+p958
+sg22
+V 1/2 cup mayonnaise, such as Hellmans 1 tablespoon whole-grain mustard 2 1/2 tablespoons prepared horseradish, drained 2 tablespoons minced gherkins 1 tablespoon lemon juice 1/2 teaspoon minced garlic 1/4 teaspoon kosher salt  1/8 teaspoon black pepper 
+p959
+sasg4
+(g8
+S'2\x00\x00\x00\x00\x00\x00\x00'
+p960
+tp961
+Rp962
+(lp963
+(dp964
+g16
+Vhttp://www.epicurious.com/recipes/food/views/maple-cheesecake-with-maple-cranberry-compote-356358
+p965
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2009/2009_december/356358_116.jpg
+p966
+sg20
+VMaple Cheesecake with Maple-Cranberry Compote
+p967
+sg22
+V 1 1/2 cups pure maple syrup (preferably grade A dark amber) 
+p968
+sa(dp969
+g16
+Vhttp://www.epicurious.com/recipes/food/views/maple-pecan-popcorn-356189
+p970
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2009/2009_october/356189_116.jpg
+p971
+sg20
+VMaple Pecan Popcorn
+p972
+sg22
+V About 8 cups plain popcorn 1 cup pecans (3 1/2 ounces), coarsely chopped and toasted 3/4 stick unsalted butter 1 1/2 cups pure maple syrup 1/2 teaspoon salt 
+p973
+sa(dp974
+g16
+Vhttp://allrecipes.com/recipe/239428/crispy-panko-chicken-breasts/
+p975
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1470494.jpg
+p976
+sg20
+VCrispy Panko Chicken Breasts
+p977
+sg22
+V1 pound boneless skinless chicken breasts 1 egg 1 cup panko crumbs 1/2 teaspoon Spice Islands® Fine Grind Sea Salt 1/4 teaspoon Spice Islands® Fine Grind Black Pepper 1/2 teaspoon Spice Islands® Garlic Powder 1/2 teaspoon Spice Islands® Onion Powder 1/4 cup Mazola® Corn Oil
+p978
+sasg4
+(g8
+S'3\x00\x00\x00\x00\x00\x00\x00'
+p979
+tp980
+Rp981
+(lp982
+(dp983
+g16
+Vhttp://www.epicurious.com/recipes/food/views/corn-on-the-cob-with-mint-feta-butter-354513
+p984
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2009/2009_august/354513_116.jpg
+p985
+sg20
+VCorn on the Cob with Mint-Feta Butter
+p986
+sg22
+V 1/2 stick unsalted butter, softened 7 ounces feta, finely crumbled (1 1/2 cups) 1/4 cup finely chopped mint 8 large ears of corn, shucked, each cob cut crosswise into 4 pieces 
+p987
+sa(dp988
+g16
+Vhttp://www.epicurious.com/recipes/food/views/grilled-halloumi-with-watermelon-and-basil-mint-oil-366430
+p989
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2011/2011_july/366430_116.jpg
+p990
+sg20
+VGrilled Halloumi with Watermelon and Basil-Mint Oil
+p991
+sg22
+V 1/2 cup coarsely chopped fresh basil 3 tablespoons coarsely chopped fresh mint plus thinly sliced mint for garnish  1 garlic clove, coarsely chopped 1/2 cup extra-virgin olive oil plus more for brushing Kosher salt and freshly ground black pepper 3/4 pound cherry tomatoes on the vine 1  8-9-ounce package Halloumi cheese, cut crosswise into 8 slices 6 small triangles thinly sliced watermelon, rind removed 
+p992
+sa(dp993
+g16
+Vhttp://www.epicurious.com/recipes/food/views/radicchio-and-arugula-salad-with-roasted-pepper-dressing-and-burrata-crostini-363717
+p994
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2011/2011_february/363717_116.jpg
+p995
+sg20
+VRadicchio and Arugula Salad with Roasted Pepper Dressing and Burrata Crostini
+p996
+sg22
+V 1/2 small yellow or red bell pepper  2 1/2 tablespoons extra-virgin olive oil, divided 1 tablespoon red wine vinegar  1 tablespoon drained capers  2 teaspoons minced shallot 1/4 teaspoon sugar  2 1/4-inch-thick baguette slices  3 ounces fresh burrata cheese  2 cups baby arugula 1 1/2 cups coarsely torn radicchio  2 tablespoons fresh Italian parsley leaves 
+p997
+sasg4
+(g8
+S'4\x00\x00\x00\x00\x00\x00\x00'
+p998
+tp999
+Rp1000
+(lp1001
+(dp1002
+g16
+Vhttp://allrecipes.com/recipe/213748/franks-favorite-slow-cooker-thai-chicken/
+p1003
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/787343.jpg
+p1004
+sg20
+VFrank\u005cu0027s Favorite Slow-Cooker Thai Chicken
+p1005
+sg22
+V3/4 cup hot salsa 1/4 cup chunky peanut butter 3/4 cup light coconut milk 2 tablespoons lime juice 1 tablespoon soy sauce 1 teaspoon white sugar 2 tablespoons grated fresh ginger 2 pounds skinless chicken thighs 1/2 cup chopped peanuts, for topping 2 tablespoons chopped cilantro, for topping
+p1006
+sa(dp1007
+g16
+Vhttp://allrecipes.com/recipe/83369/sweet-and-sour-seitan/
+p1008
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/29321.jpg
+p1009
+sg20
+VSweet and Sour Seitan
+p1010
+sg22
+V2 teaspoons canola oil 1 pound chicken style seitan 2 cloves garlic, minced 1 large bell pepper, cut in strips 1 large onion, chopped 1 (20 ounce) can pineapple chunks with juice 1 cup pineapple juice 1/3 cup brown sugar 1/4 cup cider vinegar 2 1/2 tablespoons soy sauce 2 tablespoons cornstarch
+p1011
+sasg4
+(g8
+S'5\x00\x00\x00\x00\x00\x00\x00'
+p1012
+tp1013
+Rp1014
+(lp1015
+(dp1016
+g16
+Vhttp://www.epicurious.com/recipes/food/views/poached-lobster-tails-and-fried-oyster-with-mango-and-avocado-puree-51191010
+p1017
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2013/2013_september/51191010_116.jpg
+p1018
+sg20
+VPoached Lobster Tails, and Fried Oyster with Mango and Avocado Purée
+p1019
+sg22
+V 1 mango, peeled and diced 3 tablespoons sugar 2 tablespoons freshly squeezed lemon juice 1 tablespoon freshly squeezed lime juice Fine sea salt 
+p1020
+sa(dp1021
+g16
+Vhttp://www.epicurious.com/recipes/food/views/pg-13-singapore-sling-51179140
+p1022
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2013/2013_august/51179140_116.jpg
+p1023
+sg20
+VPG-13 Singapore Sling
+p1024
+sg22
+V 3/4 cup pomegranate juice 1/2 cup mango juice 1/2 cup pineapple juice 2 tablespoons fresh lime juice 2-3 ounces tonic water 
+p1025
+sa(dp1026
+g16
+Vhttp://allrecipes.com/recipe/21352/grilled-salmon-with-habanero-lime-butter/
+p1027
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1043539.jpg
+p1028
+sg20
+VGrilled Salmon with Habanero-Lime Butter
+p1029
+sg22
+V1/4 cup vegetable oil 1/2 cup orange juice 3 tablespoons lime juice 1 tablespoon tequila 1 tablespoon grated lime zest 1 tablespoon minced habanero pepper 1 clove garlic, minced 4 (5 ounce) salmon steaks 1/4 cup butter, softened 1/4 teaspoon garlic salt 1 tablespoon lime juice 2 teaspoons minced habanero pepper 2 teaspoons grated lime zest
+p1030
+sasg4
+(g8
+S'6\x00\x00\x00\x00\x00\x00\x00'
+p1031
+tp1032
+Rp1033
+(lp1034
+(dp1035
+g16
+Vhttp://allrecipes.com/recipe/214373/baked-hot-dog-sandwiches/
+p1036
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/855233.jpg
+p1037
+sg20
+VBaked Hot Dog Sandwiches
+p1038
+sg22
+V8 hot dogs, chopped 2/3 cup shredded Cheddar cheese 3 tablespoons pickle relish 3 tablespoons ketchup 2 teaspoons prepared mustard 3 tablespoons chopped onion 8 hot dog buns
+p1039
+sa(dp1040
+g16
+Vhttp://allrecipes.com/recipe/234437/fried-bacon-wrapped-hot-dog/
+p1041
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1058958.jpg
+p1042
+sg20
+VFried Bacon Wrapped Hot Dog
+p1043
+sg22
+V8 hot dogs 8 slices bacon oil for frying 8 hot dog buns, split and toasted
+p1044
+sa(dp1045
+g16
+Vhttp://allrecipes.com/recipe/53577/eggplant-burgers/
+p1046
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/678638.jpg
+p1047
+sg20
+VEggplant Burgers
+p1048
+sg22
+V1 eggplant, peeled and sliced into 3/4 inch rounds 1 tablespoon margarine 6 slices Monterey Jack cheese 6 hamburger buns, split 6 leaves lettuce 6 slices tomato 1/2 onion, sliced 1/2 cup dill pickle slices 1 (20 ounce) bottle ketchup 3 tablespoons mayonnaise 2 tablespoons prepared yellow mustard
+p1049
+sasg4
+(g8
+S'7\x00\x00\x00\x00\x00\x00\x00'
+p1050
+tp1051
+Rp1052
+(lp1053
+(dp1054
+g16
+Vhttp://allrecipes.com/recipe/25452/tarragon-tuna-steaks/
+p1055
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/3707.jpg
+p1056
+sg20
+VTarragon Tuna Steaks
+p1057
+sg22
+V3 tablespoons olive oil 2 cloves garlic, peeled and minced 2 tablespoons tarragon vinegar 1/2 teaspoon dried tarragon freshly ground black pepper to taste 1 1/2 pounds fresh tuna steaks
+p1058
+sa(dp1059
+g16
+Vhttp://allrecipes.com/recipe/150246/flat-iron-steak-with-mushrooms/
+p1060
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/791972.jpg
+p1061
+sg20
+VFlat Iron Steak with Mushrooms
+p1062
+sg22
+V3 tablespoons vegetable oil salt and pepper to taste 3 (6 ounce) flat iron steaks 3 shallots, thinly sliced 6 cloves garlic, peeled 4 cups sliced white mushrooms 1/4 cup balsamic vinegar 3/4 cup full-bodied red wine
+p1063
+sa(dp1064
+g16
+Vhttp://www.epicurious.com/recipes/food/views/frisee-and-radish-salad-with-hazelnut-dressing-357449
+p1065
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2011/2011_january/357449_116.jpg
+p1066
+sg20
+VFrisée and Radish Salad with Hazelnut Dressing
+p1067
+sg22
+V 1/4 cup vegetable oil, divided 1/2 cup hazelnuts (2 ounces), coarsely chopped 4 bacon slices 1 tablespoon Sherry vinegar or red-wine vinegar 1 tablespoon fresh lemon juice 2 small heads frisée (about 10 ounces total) 4 medium radishes, thinly sliced 
+p1068
+sasg4
+(g8
+S'8\x00\x00\x00\x00\x00\x00\x00'
+p1069
+tp1070
+Rp1071
+(lp1072
+(dp1073
+g16
+Vhttp://allrecipes.com/recipe/216542/cilantro-and-parsley-shrimp/
+p1074
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1772109.jpg
+p1075
+sg20
+VCilantro and Parsley Shrimp
+p1076
+sg22
+V4 ounces uncooked angel hair pasta (optional) olive oil 1 pound uncooked medium shrimp, peeled and deveined 1 onion, chopped 10 sun-dried tomatoes, cut into strips 4 cloves garlic, minced 1/2 bunch chopped fresh parsley 1/2 bunch chopped fresh cilantro
+p1077
+sa(dp1078
+g16
+Vhttp://allrecipes.com/recipe/19508/shrimp-scampi/
+p1079
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/630443.jpg
+p1080
+sg20
+VShrimp Scampi
+p1081
+sg22
+V1 (8 ounce) package angel hair pasta 1/2 cup butter 4 cloves minced garlic 1 pound shrimp, peeled and deveined 1 cup dry white wine 1/4 teaspoon ground black pepper 3/4 cup grated Parmesan cheese 1 tablespoon chopped fresh parsley
+p1082
+sa(dp1083
+g16
+Vhttp://allrecipes.com/recipe/23194/absolutely-the-best-shrimp-scampi/
+p1084
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1000721.jpg
+p1085
+sg20
+VAbsolutely The Best Shrimp Scampi
+p1086
+sg22
+V1/2 cup all-purpose flour 1/4 teaspoon salt 1/2 teaspoon freshly ground black pepper 1/4 teaspoon cayenne pepper 1 1/2 pounds fresh shrimp, shelled and deveined without tails 1/2 cup olive oil 4 cloves garlic, minced 1 shallot, chopped 1/2 cup fresh parsley, minced 1/2 teaspoon dried oregano, crushed 2 tablespoons white wine 2 tablespoons brandy
+p1087
+sasg4
+(g8
+S'9\x00\x00\x00\x00\x00\x00\x00'
+p1088
+tp1089
+Rp1090
+(lp1091
+(dp1092
+g16
+Vhttp://allrecipes.com/recipe/213426/irish-lassies-liver-and-onions/
+p1093
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/808324.jpg
+p1094
+sg20
+VIrish Lassie\u005cu0027s Liver and Onions
+p1095
+sg22
+V1 teaspoon olive oil, or more if needed 1 clove garlic, minced 4 large sweet onions (such as Vidalia®), thinly sliced 1 1/2 tablespoons finely chopped green bell pepper (optional) 1 1/2 tablespoons finely chopped red bell pepper (optional) 1/2 cup sliced fresh mushrooms (optional) salt and black pepper to taste 1/4 cup butter 1 pound calfs liver, skinned, deveined, and sliced 1/4 cup all-purpose flour 2 cups cold water 2 teaspoons beef bouillon granules 1 tablespoon red wine
+p1096
+sa(dp1097
+g16
+Vhttp://allrecipes.com/recipe/40374/english-roast-beef/
+p1098
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/710616.jpg
+p1099
+sg20
+VEnglish Roast Beef
+p1100
+sg22
+V5 pounds beef round roast salt and pepper to taste 2 tablespoons butter 1/2 cup water 1/2 teaspoon dried sage 1/2 teaspoon dried mint 1 medium onion, sliced (optional) 1 clove garlic, minced (optional) 1/8 teaspoon seasoning salt (optional) 1/8 teaspoon red pepper flakes (optional) 1 tablespoon butter 1 tablespoon all-purpose flour 1/2 cup cold water 1/4 teaspoon dried sage 1/4 teaspoon dried mint
+p1101
+sa(dp1102
+g16
+Vhttp://allrecipes.com/recipe/213440/traditional-indiana-breaded-tenderloin-sandwich/
+p1103
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/355061.jpg
+p1104
+sg20
+VTraditional Indiana Breaded Tenderloin Sandwich 
+p1105
+sg22
+V4 (4 ounce) slices of pork tenderloin, cut across the grain 1 egg, beaten 2 tablespoons milk 1/4 teaspoon garlic powder 1/4 teaspoon onion powder 1/4 teaspoon seasoned salt 1/4 teaspoon dried marjoram 1/4 teaspoon dried oregano 1 teaspoon salt 1/4 teaspoon ground black pepper 1 1/2 cups bread crumbs 1/2 cup peanut oil for frying 4 Kaiser rolls, split 4 teaspoons mayonnaise, or as needed (optional) 4 teaspoons ketchup, or as needed (optional) 4 teaspoons prepared yellow mustard, or as needed (optional) 4 leaves lettuce (optional) 4 slices tomato (optional) 4 slices onion (optional) 4 slices pickle, for garnish (optional)
+p1106
+sasg4
+(g8
+S':\x00\x00\x00\x00\x00\x00\x00'
+p1107
+tp1108
+Rp1109
+(lp1110
+(dp1111
+g16
+Vhttp://allrecipes.com/recipe/215459/turkey-pot-pie-bubble-bake/
+p1112
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/927506.jpg
+p1113
+sg20
+VTurkey Pot Pie Bubble Bake
+p1114
+sg22
+Vcooking spray 1 (10.75 ounce) can  condensed cream of chicken soup 1 1/3 cups milk 1 teaspoon dried Italian herb seasoning 2 cups new potatoes, cut into chunks 3 cups cubed cooked turkey 1 (16 ounce) package frozen mixed vegetables, thawed 1 cup shredded Cheddar cheese, divided 1 (12 ounce) can refrigerated buttermilk biscuits, separated and cut into quarters
+p1115
+sa(dp1116
+g16
+Vhttp://allrecipes.com/recipe/71484/i-dont-know/
+p1117
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/499998.jpg
+p1118
+sg20
+VI Don\u005cu0027t Know
+p1119
+sg22
+V7 small baking potatoes, peeled and sliced 1 pound ground beef 1 (16 ounce) package frozen mixed vegetables, thawed 1 (10.75 ounce) can  condensed cream of mushroom soup 1 cup shredded Cheddar cheese salt and pepper to taste
+p1120
+sa(dp1121
+g16
+Vhttp://allrecipes.com/recipe/34424/hotdish-no-one-likes/
+p1122
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1102363.jpg
+p1123
+sg20
+VHotdish No One Likes
+p1124
+sg22
+V8 potatoes - peeled and sliced thin 4 carrots, sliced thin 1 pound ground beef 2 (10.75 ounce) cans  condensed tomato soup
+p1125
+sasg4
+(g8
+S';\x00\x00\x00\x00\x00\x00\x00'
+p1126
+tp1127
+Rp1128
+(lp1129
+(dp1130
+g16
+Vhttp://allrecipes.com/recipe/216904/venison-with-blackberry-wine-sauce/
+p1131
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/2206107.jpg
+p1132
+sg20
+VVenison with Blackberry Wine Sauce
+p1133
+sg22
+V2 tablespoons shallot, minced 1 teaspoon minced garlic 3 tablespoons blackberry jam 1 cup red wine 1 cup beef stock 1 tablespoon butter salt and ground black pepper to taste 4 (1/2 pound) venison steaks 12 fresh blackberries
+p1134
+sa(dp1135
+g16
+Vhttp://allrecipes.com/recipe/16285/adobo-sirloin/
+p1136
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/254967.jpg
+p1137
+sg20
+VAdobo Sirloin
+p1138
+sg22
+V1 lime, juiced 1 tablespoon minced garlic 1 teaspoon dried oregano 1 teaspoon ground cumin 2 tablespoons finely chopped canned chipotle peppers in adobo sauce adobo sauce from canned chipotle peppers to taste 4 (8 ounce) beef sirloin steaks salt and pepper to taste
+p1139
+sa(dp1140
+g16
+Vhttp://allrecipes.com/recipe/237167/braised-cabernet-beef-short-ribs/
+p1141
+sg18
+Vhttp://images.media-allrecipes.com/global/recipes/nophoto/nopicture-250x250.png
+p1142
+sg20
+VBraised Cabernet Beef Short Ribs
+p1143
+sg22
+V2 pounds beef short ribs, or more to taste 2 tablespoons salt 2 teaspoons garlic powder 2 teaspoons ground black pepper 1/2 cup all-purpose flour 2 tablespoons vegetable oil 4 cloves garlic cloves, minced and divided 3 cups beef broth 1 cup Cabernet Sauvignon wine 1 onion, sliced
+p1144
+sasg4
+(g8
+S'<\x00\x00\x00\x00\x00\x00\x00'
+p1145
+tp1146
+Rp1147
+(lp1148
+(dp1149
+g16
+Vhttp://allrecipes.com/recipe/213947/panang-curry-with-chicken/
+p1150
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/815395.jpg
+p1151
+sg20
+VPanang Curry with Chicken
+p1152
+sg22
+V5 tablespoons Panang curry paste cooking oil 4 cups coconut milk 2/3 pound skinless, boneless chicken breast, cubed 2 tablespoons palm sugar 2 tablespoons fish sauce, or to taste 6 kaffir lime leaves, torn 2 fresh red chile peppers, sliced 1/4 cup fresh Thai basil leaves
+p1153
+sa(dp1154
+g16
+Vhttp://allrecipes.com/recipe/87719/duck-legs-in-green-curry/
+p1155
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/510004.jpg
+p1156
+sg20
+VDuck Legs in Green Curry
+p1157
+sg22
+V1 tablespoon vegetable oil 4 duck legs 1 small onion, minced 3 cloves garlic, minced 2 serrano peppers, seeded and minced 1 (1 inch) piece fresh ginger root, minced 3 (10 ounce) cans coconut milk 3 tablespoons yellow curry paste 2 kaffir lime leaves 2 green onions, minced 2 tablespoons Asian fish sauce 1 (12 ounce) package thin rice noodles 1/2 bunch cilantro leaves, coarsely chopped
+p1158
+sa(dp1159
+g16
+Vhttp://allrecipes.com/recipe/98442/thai-steamed-mussels/
+p1160
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1082043.jpg
+p1161
+sg20
+VThai Steamed Mussels
+p1162
+sg22
+V5 pounds fresh mussels, scrubbed and debearded 1/3 cup fresh lime juice 1 (13.5 ounce) can unsweetened coconut milk 1/3 cup dry white wine 1 1/2 tablespoons Thai red curry paste 1 1/2 tablespoons minced garlic 1 tablespoon Asian fish sauce 1 tablespoon white sugar 2 cups chopped fresh cilantro
+p1163
+sasg4
+(g8
+S'=\x00\x00\x00\x00\x00\x00\x00'
+p1164
+tp1165
+Rp1166
+(lp1167
+(dp1168
+g16
+Vhttp://allrecipes.com/recipe/16081/beef-and-noodle-bake/
+p1169
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/866005.jpg
+p1170
+sg20
+VBeef and Noodle Bake
+p1171
+sg22
+V1 pound ground beef 2 cups elbow macaroni 4 cups spaghetti sauce 12 ounces processed cheese food (eg. Velveeta), sliced
+p1172
+sa(dp1173
+g16
+Vhttp://allrecipes.com/recipe/11805/mouses-macaroni-and-cheese/
+p1174
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/80978.jpg
+p1175
+sg20
+VMouse\u005cu0027s Macaroni and Cheese
+p1176
+sg22
+V1 1/2 cups uncooked elbow macaroni 1/4 cup butter 2 tablespoons all-purpose flour 1 teaspoon mustard powder 1 teaspoon ground black pepper 2 cups milk 8 ounces American cheese, cubed 8 ounces processed cheese food (eg. Velveeta), cubed 1/4 cup seasoned dry bread crumbs
+p1177
+sa(dp1178
+g16
+Vhttp://allrecipes.com/recipe/149239/easiest-mac-n-cheese-ever/
+p1179
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/2008161.jpg
+p1180
+sg20
+VEasiest Mac-N-Cheese Ever!
+p1181
+sg22
+V4 ounces elbow macaroni 4 ounces cubed processed cheese food 2 fluid ounces milk 1/4 teaspoon ground black pepper
+p1182
+sasg4
+(g8
+S'>\x00\x00\x00\x00\x00\x00\x00'
+p1183
+tp1184
+Rp1185
+(lp1186
+(dp1187
+g16
+Vhttp://www.epicurious.com/recipes/food/views/salted-crack-caramel-51235460
+p1188
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/other/51235460_116.jpg
+p1189
+sg20
+VSalted Crack Caramel
+p1190
+sg22
+V 1 1/2 cups organic cane sugar 1/4 cup unsalted butter 1 teaspoon salt 1 cup heavy cream 2 cups whole milk 6 egg yolks 
+p1191
+sa(dp1192
+g16
+Vhttp://www.epicurious.com/recipes/food/views/marbled-mint-chocolate-pudding-51263850
+p1193
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2015/2015_february/51263850_116.jpg
+p1194
+sg20
+VMarbled Mint-Chocolate Pudding
+p1195
+sg22
+V 4 ounces white chocolate, chopped 1/4 teaspoons mint extract 1 cup heavy cream 1/4 teaspoons kosher salt 2 large egg yolks 
+p1196
+sa(dp1197
+g16
+Vhttp://www.epicurious.com/recipes/food/views/salted-licorice-395689
+p1198
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2012/2012_april/395689_116.jpg
+p1199
+sg20
+VSalted Licorice
+p1200
+sg22
+V 2 cups heavy cream 1 cup whole milk 6 black Red Vines licorice, cut into 1/2-inch pieces 1 tbsp salt  3 egg yolks 1 cup sugar 
+p1201
+sasg4
+(g8
+S'?\x00\x00\x00\x00\x00\x00\x00'
+p1202
+tp1203
+Rp1204
+(lp1205
+(dp1206
+g16
+Vhttp://allrecipes.com/recipe/85275/mozzarella-mushroom-chicken/
+p1207
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/402464.jpg
+p1208
+sg20
+VMozzarella Mushroom Chicken
+p1209
+sg22
+V3 tablespoons olive oil 2 skinless, boneless chicken breast halves 1 tablespoon garlic powder 1 clove garlic, minced 6 fresh mushrooms, sliced 2 cups shredded mozzarella cheese
+p1210
+sa(dp1211
+g16
+Vhttp://allrecipes.com/recipe/16181/margarita-grilled-chicken/
+p1212
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/86120.jpg
+p1213
+sg20
+VMargarita Grilled Chicken
+p1214
+sg22
+V3 pounds boneless, skinless chicken breast halves 2 cups bottled margarita mix
+p1215
+sa(dp1216
+g16
+Vhttp://allrecipes.com/recipe/231041/garlic-chicken-breasts/
+p1217
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/963457.jpg
+p1218
+sg20
+VGarlic Chicken Breasts
+p1219
+sg22
+V1/4 cup olive oil 1/4 cup lime juice 1 tablespoon minced garlic salt and ground black pepper to taste 2 skinless, boneless chicken breast halves
+p1220
+sasg4
+(g8
+S'@\x00\x00\x00\x00\x00\x00\x00'
+p1221
+tp1222
+Rp1223
+(lp1224
+(dp1225
+g16
+Vhttp://allrecipes.com/recipe/85480/sauerkraut-stuffed-slow-cooked-pork-roast/
+p1226
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/24481.jpg
+p1227
+sg20
+VSauerkraut-Stuffed Slow-Cooked Pork Roast
+p1228
+sg22
+V1 (3 pound) boneless pork roast 1 (14.5 ounce) can sauerkraut, drained
+p1229
+sa(dp1230
+g16
+Vhttp://www.epicurious.com/recipes/food/views/porchetta-367138
+p1231
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2011/2011_september/367138_116.jpg
+p1232
+sg20
+VPorchetta
+p1233
+sg22
+V 1 5-6-pound piece fresh pork belly, skin on 1 (trimmed) 2-3-pound boneless, center-cut pork loin 3 tablespoons fennel seeds 2 tablespoons crushed red pepper flakes 2 tablespoons minced fresh sage 1 tablespoon minced fresh rosemary 3 garlic cloves, minced Kosher salt 1/2 orange, seeded, thinly sliced 
+p1234
+sa(dp1235
+g16
+Vhttp://allrecipes.com/recipe/200620/milk-braised-pork-loin/
+p1236
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/632127.jpg
+p1237
+sg20
+VMilk Braised Pork Loin
+p1238
+sg22
+V1 (2 1/2 pound) boneless pork loin roast, rolled and tied 1 teaspoon salt 1/2 teaspoon black pepper 2 tablespoons vegetable oil 2 tablespoons butter 3 cups whole milk 1 teaspoon chopped fresh rosemary 1 clove garlic, minced 3 tablespoons water
+p1239
+sasg4
+(g8
+S'A\x00\x00\x00\x00\x00\x00\x00'
+p1240
+tp1241
+Rp1242
+(lp1243
+(dp1244
+g16
+Vhttp://www.epicurious.com/recipes/food/views/egg-potato-and-prosciutto-pie-358134
+p1245
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2010/2010_december/358134_116.jpg
+p1246
+sg20
+VEgg, Potato, and Prosciutto Pie
+p1247
+sg22
+V 1 (1-pound) package frozen puff pastry, thawed 2 medium onions, finely chopped (2 cups) 1 1/2 tablespoons olive oil 4 to 5 ounces thinly sliced prosciutto 1 large boiling potato (10 to 12 ounces) 12 large eggs 
+p1248
+sa(dp1249
+g16
+Vhttp://allrecipes.com/recipe/82469/asparagus-and-mushroom-puff-pastry-pie/
+p1250
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/167116.jpg
+p1251
+sg20
+VAsparagus and Mushroom Puff Pastry Pie
+p1252
+sg22
+V1/2 cup butter 2 bunches fresh asparagus, trimmed and cut into 1 inch pieces 6 cloves garlic, diced 1 pound sliced fresh mushrooms 1 cup prepared hollandaise sauce 1 (17.25 ounce) package frozen puff pastry, thawed
+p1253
+sa(dp1254
+g16
+Vhttp://www.epicurious.com/recipes/food/views/green-garlic-and-pea-soup-with-whipped-cream-51231720
+p1255
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2014/2014_april/51231720_116.jpg
+p1256
+sg20
+VGreen Garlic and Pea Soup with Whipped Cream
+p1257
+sg22
+V 2 bunches green garlic (about 1 pound) 4 tablespoons olive oil, divided Kosher salt, freshly ground pepper 2 cups shelled fresh peas (from about 2 pounds pods) or frozen peas, thawed 1/3 cup heavy cream 
+p1258
+sasg4
+(g8
+S'B\x00\x00\x00\x00\x00\x00\x00'
+p1259
+tp1260
+Rp1261
+(lp1262
+(dp1263
+g16
+Vhttp://www.epicurious.com/recipes/food/views/saffron-pear-lollipops-51259420
+p1264
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2014/2014_december/51259420_116.jpg
+p1265
+sg20
+VSaffron-Pear Lollipops
+p1266
+sg22
+V Nonstick vegetable oil spray (optional) 2 tablespoons finely chopped candied ginger 1/8 teaspoons saffron threads, plus more 1 1/3 cups sugar 1/2 vanilla bean, split lengthwise 1/3 cup light corn syrup 1/8 teaspoons kosher salt 1/3 cup plus 1 tablespoon pear liqueur 
+p1267
+sa(dp1268
+g16
+Vhttp://www.epicurious.com/recipes/food/views/hot-cocoa-affogato-with-peppermint-ice-cream-51134450
+p1269
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2012/2012_december/51134450_116.jpg
+p1270
+sg20
+VHot-Cocoa Affogato with Peppermint Ice Cream
+p1271
+sg22
+V 3 cups whole milk 1 cup chilled heavy cream, divided 1/3 cup sugar 1 large pinch of kosher salt 1 vanilla bean, split lengthwise 5 ounces semisweet or bittersweet chocolate (do not exceed 72% cacao), chopped 1/3 cup (loosely packed) natural unsweetened cocoa powder 1 tablespoon finely ground espresso or dark-roast coffee beans 2 pints peppermint or mint chip ice cream 8 small candy canes (optional) 
+p1272
+sa(dp1273
+g16
+Vhttp://www.epicurious.com/recipes/food/views/summer-berry-pudding-367176
+p1274
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2011/2011_september/367176_116.jpg
+p1275
+sg20
+VSummer Berry Pudding
+p1276
+sg22
+V 2 pints strawberries, hulled, quartered 2 pints blueberries 2 pints blackberries 2 pints raspberries 1 cup plus 2 tablespoons sugar 1 vanilla bean, split lengthwise 1 1-pound loaf brioche or challah bread, cut crosswise into 1 slices 6 tablespoons unsalted butter, room temperature 1/2 teaspoon ground cinnamon 
+p1277
+sasg4
+(g8
+S'C\x00\x00\x00\x00\x00\x00\x00'
+p1278
+tp1279
+Rp1280
+(lp1281
+(dp1282
+g16
+Vhttp://www.epicurious.com/recipes/food/views/sunrise-smoothie-51252330
+p1283
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2014/2014_october/51252330_116.jpg
+p1284
+sg20
+VSunrise Smoothie
+p1285
+sg22
+V 1/4 cup half & half 1 packet No Sugar Added Classic French Vanilla Flavor CARNATION BREAKFAST ESSENTIALS® Complete Nutritional Drink 1/4 teaspoon any flavor sugar-free low-calorie soft drink mix (such as Crystal Light) 
+p1286
+sa(dp1287
+g16
+Vhttp://www.epicurious.com/recipes/food/views/banana-cream-freeze-56389559
+p1288
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2015/2015_may/56389559_116.jpg
+p1289
+sg20
+VBanana Cream Freeze
+p1290
+sg22
+V 2 large bananas, cut into pieces and frozen 2 packets No Sugar Added Classic French Vanilla or Classic French Vanilla Flavor CARNATION BREAKFAST ESSENTIALS Complete Nutritional Drink  1/2 cup fat free milk 
+p1291
+sa(dp1292
+g16
+Vhttp://www.epicurious.com/recipes/food/views/raspberry-lemon-splash-shake-51252430
+p1293
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2014/2014_october/51252430_116.jpg
+p1294
+sg20
+VRaspberry Lemon Splash Shake
+p1295
+sg22
+V 1 packet Classic French Vanilla Flavor CARNATION BREAKFAST ESSENTIALS® Complete Nutritional Drink 1 cup raspberries 8 oz. container lemon yogurt 
+p1296
+sasg4
+(g8
+S'D\x00\x00\x00\x00\x00\x00\x00'
+p1297
+tp1298
+Rp1299
+(lp1300
+(dp1301
+g16
+Vhttp://allrecipes.com/recipe/69780/best-stovetop-bbq-ribs/
+p1302
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/333988.jpg
+p1303
+sg20
+VBest Stovetop BBQ Ribs
+p1304
+sg22
+V1/4 cup steak sauce (such as A1®) 1/4 cup ketchup 1 tablespoon Worcestershire sauce 1 tablespoon soy sauce 1 tablespoon minced garlic 1/4 cup water 4 (6 ounce) country style pork ribs 1 onion, cut into rings (optional)
+p1305
+sa(dp1306
+g16
+Vhttp://allrecipes.com/recipe/15824/garlic-cajun-ribs/
+p1307
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/856359.jpg
+p1308
+sg20
+VGarlic Cajun Ribs
+p1309
+sg22
+V1 1/2 gallons water 2 tablespoons minced garlic 4 tablespoons Cajun seasoning 4 tablespoons seasoned salt 4 pounds pork baby back ribs 1 (18 ounce) bottle barbeque sauce 2 tablespoons minced garlic 2 tablespoons Cajun seasoning 2 tablespoons seasoned salt 6 tablespoons Worcestershire sauce
+p1310
+sa(dp1311
+g16
+Vhttp://allrecipes.com/recipe/151893/grannylins-barbeque-ribs-made-easy/
+p1312
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/672940.jpg
+p1313
+sg20
+VGrannyLin\u005cu0027s Barbeque Ribs Made Easy
+p1314
+sg22
+V1 large onion, sliced 1 (4 pound) package country style pork ribs Salt and ground black pepper 1 (18 ounce) bottle barbeque sauce 1/2 cup water
+p1315
+sasg4
+(g8
+S'E\x00\x00\x00\x00\x00\x00\x00'
+p1316
+tp1317
+Rp1318
+(lp1319
+(dp1320
+g16
+Vhttp://allrecipes.com/recipe/219446/healthier-easy-baked-tilapia/
+p1321
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1009294.jpg
+p1322
+sg20
+VHealthier Easy Baked Tilapia
+p1323
+sg22
+V4 (4 ounce) fillets tilapia 1/4 teaspoon seafood seasoning (such as Old Bay®) 2 teaspoons butter 1 clove garlic, minced 1 lemon, sliced 1 (16 ounce) package frozen cauliflower with broccoli and red pepper salt and ground black pepper to taste
+p1324
+sa(dp1325
+g16
+Vhttp://allrecipes.com/recipe/178366/steamed-blue-crabs/
+p1326
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/487942.jpg
+p1327
+sg20
+VSteamed Blue Crabs
+p1328
+sg22
+V36 live blue crabs 1/2 cup seafood seasoning (such as Old Bay®) 1/2 cup salt 3 cups beer 3 cups distilled white vinegar 1/4 cup seafood seasoning (such as Old Bay®)
+p1329
+sa(dp1330
+g16
+Vhttp://allrecipes.com/recipe/237389/citrus-herbed-baked-salmon/
+p1331
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1128068.jpg
+p1332
+sg20
+VCitrus-Herbed Baked Salmon
+p1333
+sg22
+V4 lemons, sliced 1/4-inch thick 1 large red onion, sliced 2 (8 ounce) salmon fillets 2 tablespoons chopped fresh basil 2 tablespoons chopped fresh dill 1/2 teaspoon sea salt
+p1334
+sasg4
+(g8
+S'F\x00\x00\x00\x00\x00\x00\x00'
+p1335
+tp1336
+Rp1337
+(lp1338
+(dp1339
+g16
+Vhttp://allrecipes.com/recipe/216763/bangin-smokey-beef-brisket/
+p1340
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1109200.jpg
+p1341
+sg20
+VBangin\u005cu0027 Smokey Beef Brisket
+p1342
+sg22
+V1 (14 ounce) can beef broth 2 tablespoons liquid smoke flavoring (not concentrated), or to taste 1/4 cup Worcestershire sauce 2 tablespoons garlic salt 2 tablespoons onion powder 1 (5 pound) beef brisket 3 tablespoons bottled minced garlic 1 tablespoon liquid smoke flavoring (not concentrated), or to taste 1 tablespoon Worcestershire sauce 1 (12 ounce) can beer 1 onion, cut into rings
+p1343
+sa(dp1344
+g16
+Vhttp://allrecipes.com/recipe/44071/homemade-summer-sausage/
+p1345
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1086956.jpg
+p1346
+sg20
+VHomemade Summer Sausage
+p1347
+sg22
+V2 pounds ground beef 3/4 cup water 1/2 teaspoon garlic powder 2 tablespoons sugar-based curing mixture (such as Morton® Tender Quick®) 1 tablespoon liquid smoke flavoring 1 tablespoon mustard seed
+p1348
+sa(dp1349
+g16
+Vhttp://allrecipes.com/recipe/165716/gramps-venison-summer-sausage/
+p1350
+sg18
+Vhttp://images.media-allrecipes.com/global/recipes/nophoto/nopicture-250x250.png
+p1351
+sg20
+VGramps\u005cu0027 Venison Summer Sausage
+p1352
+sg22
+V5 pounds ground venison 2 tablespoons sugar-based curing mixture (such as Morton® Tender Quick®) 2 teaspoons mustard seed 2 1/2 teaspoons garlic salt 2 1/2 teaspoons ground black pepper 1 teaspoon liquid smoke flavoring
+p1353
+sasg4
+(g8
+S'G\x00\x00\x00\x00\x00\x00\x00'
+p1354
+tp1355
+Rp1356
+(lp1357
+(dp1358
+g16
+Vhttp://allrecipes.com/recipe/20454/deviled-chicken-i/
+p1359
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/323193.jpg
+p1360
+sg20
+VDeviled Chicken I
+p1361
+sg22
+V1 (2 to 3 pound) whole chicken, cut into pieces 1/2 cup melted butter, divided 1 tablespoon paprika 1 teaspoon salt 1 1/2 teaspoons dry mustard 1/2 teaspoon chili powder 1 pinch cayenne pepper 1/4 cup water
+p1362
+sa(dp1363
+g16
+Vhttp://allrecipes.com/recipe/235513/leftover-turkey-tamales/
+p1364
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1080116.jpg
+p1365
+sg20
+VLeftover Turkey Tamales
+p1366
+sg22
+V1 5-ounce package cornhusks Tamale Dough: 3 cups masa harina 1 tablespoon paprika 1 tablespoon chili powder 1 tablespoon garlic powder 1 teaspoon ground cumin 1 teaspoon salt 1 cup corn oil 1 quart turkey broth, divided Turkey Filling: 1 tablespoon olive oil 1 onion, finely chopped 2 cloves garlic, minced 3 1/2 cups finely chopped cooked turkey 1 teaspoon paprika 1 teaspoon dried oregano 1 teaspoon ground cumin 1 teaspoon chili powder 1 teaspoon salt 1/4 teaspoon ground black pepper 1/4 teaspoon cayenne pepper, or to taste
+p1367
+sa(dp1368
+g16
+Vhttp://allrecipes.com/recipe/242222/pesto-zoodles/
+p1369
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/2223785.jpg
+p1370
+sg20
+VPesto Zoodles
+p1371
+sg22
+V1 tablespoon olive oil 4 small zucchini, cut into noodle-shape strands 1/2 cup drained and rinsed canned garbanzo beans (chickpeas) 3 tablespoons pesto, or to taste salt and ground black pepper to taste 2 tablespoons shredded white Cheddar cheese, or to taste
+p1372
+sasg4
+(g8
+S'H\x00\x00\x00\x00\x00\x00\x00'
+p1373
+tp1374
+Rp1375
+(lp1376
+(dp1377
+g16
+Vhttp://www.epicurious.com/recipes/food/views/sonoran-hot-dogs-with-bacon-pico-de-gallo-and-avocado-56389617
+p1378
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2015/2015_june/56389617_116.jpg
+p1379
+sg20
+VSonoran Hot Dogs with Bacon, Pico de Gallo, and Avocado
+p1380
+sg22
+V 1 medium tomato, seeded, diced (about 1/4 cup) 1/2 medium red onion, diced 1/2 garlic clove, minced  3 tablespoons fresh lime juice 1 tablespoon chopped fresh cilantro 1 teaspoon cayenne pepper 1 teaspoon kosher salt 
+p1381
+sa(dp1382
+g16
+Vhttp://allrecipes.com/recipe/159581/across-the-border-tequila-shrimp/
+p1383
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/341791.jpg
+p1384
+sg20
+VAcross the Border Tequila Shrimp
+p1385
+sg22
+V1/4 cup butter 3 cloves garlic, chopped 1 1/2 pounds medium shrimp - peeled and deveined 4 tablespoons tequila 3 tablespoons fresh lime juice 1/2 teaspoon salt 1/4 teaspoon chili powder 1/4 cup chopped fresh cilantro 1 lime, cut into wedges
+p1386
+sa(dp1387
+g16
+Vhttp://allrecipes.com/recipe/73570/central-american-tacos/
+p1388
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/530449.jpg
+p1389
+sg20
+VCentral American Tacos
+p1390
+sg22
+V5 large potatoes, cubed 1 pound lean ground beef 1/2 onion, chopped salt and pepper to taste 4 tomatillos, husked and quartered 1 clove garlic, peeled 1 jalapeno chile pepper, diced 1/2 cup chopped fresh cilantro, or to taste 3 avocados, halved with pits removed 10 (6 inch) corn tortillas
+p1391
+sasg4
+(g8
+S'I\x00\x00\x00\x00\x00\x00\x00'
+p1392
+tp1393
+Rp1394
+(lp1395
+(dp1396
+g16
+Vhttp://allrecipes.com/recipe/16593/pot-roast-in-foil/
+p1397
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/58031.jpg
+p1398
+sg20
+VPot Roast in Foil
+p1399
+sg22
+V3 pounds bottom round 1 (10.75 ounce) can condensed cream of mushroom soup 1 packet dry onion soup mix 2 tablespoons water
+p1400
+sa(dp1401
+g16
+Vhttp://allrecipes.com/recipe/231232/chicken-spaghetti-bake/
+p1402
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/1098770.jpg
+p1403
+sg20
+VChicken Spaghetti Bake
+p1404
+sg22
+V1 (16 ounce) package spaghetti 3 (12.5 fl oz) cans chicken chunks, drained 1 (10.75 ounce) can  condensed cream of mushroom soup 1 (10.75 ounce) can  condensed cream of chicken soup 4 cups shredded Cheddar cheese
+p1405
+sa(dp1406
+g16
+Vhttp://allrecipes.com/recipe/241726/slow-cooker-creamy-pot-roast/
+p1407
+sg18
+Vhttp://images.media-allrecipes.com/userphotos/250x250/2189496.jpg
+p1408
+sg20
+VSlow Cooker Creamy Pot Roast
+p1409
+sg22
+V1 (5 pound) boneless beef chuck roast salt and ground black pepper to taste 2 (10.75 ounce) cans condensed golden mushroom soup 2 (8 ounce) cans sliced mushrooms, drained 1 (10.75 ounce) can condensed cream of mushroom soup 1 (1 ounce) package dry onion soup mix 1 1/2 teaspoons minced garlic
+p1410
+sasg4
+(g8
+S'J\x00\x00\x00\x00\x00\x00\x00'
+p1411
+tp1412
+Rp1413
+(lp1414
+(dp1415
+g16
+Vhttp://www.epicurious.com/recipes/food/views/brined-roast-turkey-breast-with-confit-legs-51123110
+p1416
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2012/2012_november/51123110_116.jpg
+p1417
+sg20
+VBrined Roast Turkey Breast with Confit Legs
+p1418
+sg22
+V 1 14-pound turkey, legs and thighs cut from carcass, keeping drumsticks and thighs attached, wings cut from breast 
+p1419
+sa(dp1420
+g16
+Vhttp://www.epicurious.com/recipes/food/views/garlic-and-herb-spatchcock-grilled-chicken-56389623
+p1421
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2015/2015_june/56389623_116.jpg
+p1422
+sg20
+VGarlic and Herb Spatchcock Grilled Chicken
+p1423
+sg22
+V 1 bunch rosemary 3 garlic cloves, smashed 1/4 cup olive oil 1 (3 1/2-pound) whole chicken 1 (1 1/2-pound) skin-on, bone-in whole chicken breast  2 teaspoons kosher salt 1 teaspoon freshly ground black pepper Chimichurri Sauce  (for serving) 
+p1424
+sa(dp1425
+g16
+Vhttp://www.epicurious.com/recipes/food/views/perfect-pan-roasted-chicken-thighs-365489
+p1426
+sg18
+Vhttp://www.epicurious.com/images/recipesmenus/2011/2011_june/365489_116.jpg
+p1427
+sg20
+VPerfect Pan-Roasted Chicken Thighs
+p1428
+sg22
+V 6 skin-on, bone-in chicken thighs (about 2 1/4 pounds) Kosher salt and freshly ground black pepper 1 tablespoon vegetable oil 
+p1429
+sas.

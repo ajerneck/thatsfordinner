@@ -3,52 +3,6 @@ import numpy as np
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction import text
-from sqlalchemy import create_engine
-
-
-import psycopg2
-
-
-def make_engine():
-    "Return a sqlalchemy engine connection to explore database."
-    return create_engine("postgresql+psycopg2://explore:Ln2bOYAVCG6utNUSaSZaIVMH@localhost/explore")
-
-
-def load_epicurious():
-    con = make_engine()
-
-    df_ep = pd.read_sql_table('recipes_recipe', con)
-    df_ep = df_ep[['title','ingredient_txt','url','image']]
-    df_ep['source'] = 'epicurious.com'
-
-    print('Loaded %s records from epicurious.com' % df_ep.shape[0])
-    return df_ep
-
-def load_allrecipes():
-    con = make_engine()
-
-    df_ar = pd.read_sql_table('allrecipes', con)
-    df_ar = df_ar[['data-name','ingredients','url','data-imageurl']]
-    df_ar.columns = ['title','ingredient_txt','url','image']
-    df_ar['source'] = 'allrecipes.com'
-    df_ar = df_ar.drop_duplicates('url')
-    df_ar.reset_index()
-
-    print('Loaded %s records from allrecipes.com' % df_ar.shape[0])
-    return df_ar
-
-def load_data():
-
-    df_ep = load_epicurious()
-    df_ar = load_allrecipes()
-
-
-    df = pd.concat([df_ep, df_ar], ignore_index=True)
-
-    print('Loaded %s records in total' % df.shape[0])
-
-    return df
-
 
 ##TODO: make some simple plots: word counts etc.
 def feature_counts(vectorizer, dtm):
@@ -92,34 +46,6 @@ def all_word_probs(model, vocabulary):
 
 
 
-def most_probable_words(model, vocabulary, num_words):
-    """
-    Return a DataFrame of the most probable words for each topic,
-    given a model, vocabulary, and number of words.
-    """
-    ## create array of vocabulary, sorted by topic
-    ## probabilities, one row for each topic.
-    vocab = np.asarray(vocabulary)[np.argsort(model.topic_word_)]
-    wp = np.sort(model.topic_word_)
-
-    ## select n most probable words, which are the right-most
-    ## columns in the vocab array.
-    words = vocab[:, -num_words:-1]
-
-    words = pd.DataFrame(words.T)
-    words['rank'] = words.index
-    words = pd.melt(words, id_vars='rank')
-
-    word_probs = wp[:, -num_words:-1]
-    word_probs = pd.DataFrame(word_probs.T)
-    word_probs['rank'] = word_probs.index
-    word_probs = pd.melt(word_probs, id_vars='rank')
-
-    ww = words.merge(word_probs, on=['rank', 'variable'])
-
-    ww.columns = ['rank', 'label', 'word', 'prob']
-    return ww
-
 
 
 
@@ -160,28 +86,6 @@ def make_week1_plot(df):
     plt.tight_layout()
     plt.savefig('fig-word-count-histograms.png')
 
-
-def get_stop_words():
-    "Combine custom stopwords with standard english ones."
-    ingredient_stop_words = [
-        'cup', 'tablespoons', 'teaspoons', 'cups', 'tablespoon', 'large',
-        'teaspoon', 'inch', 'pound', 'pounds', 'ounces', 'ounce', 'plus',
-        'chopped', 'minced', 'cut', 'sliced', 'diced', 'ground', 'grated',
-        'peeled', 'fresh', 'lb', 'oz', 'g', 'tbsp', 'tsp', 'f', 'slices',
-        'finely', 'thinly', 'medium', 'divided', 'pieces', 'coarse', 'stick',
-        'cubes', 'assorted', 'wedges', 'small', 'water', 'white', 'crushed',
-        'coarsely', 'temperature', 'room', 'dry', 'packed', 'halved',
-        'lengthwise', 'drained', 'powder', 'pale', 'parts', 'lightly',
-        'beaten', 'fine', 'plain', 'serving', 'taste', 'removed', 'crumbled',
-        'small', 'water', 'white', 'crushed', 'coarsely', 'temperature',
-        'room', 'dry', 'packed', 'halved', 'lengthwise', 'drained', 'powder',
-        'pale', 'parts', 'lightly', 'beaten', 'fine', 'plain', 'serving',
-        'taste', 'removed', 'crumbled', 'trimmed', 'freshly', 'seeded', 'size',
-        'reserved', 'garnish', 'quartered', 'discarded', 'mixed', 'torn',
-        'bunch', 'stemmed', 'oil', 'salt', 'pepper', 'olive oil', 'garlic',
-        'garlic cloves', 'black pepper', 'leaves', 'red', 'olive', 'black',
-        'cloves', 'preferably', 'ml', 'shredded','dried', 'g', 'pieces', 'inch', 'cut', 'size','bite', 'pinch','clove','taste', 'large', 'grated', 'half' , 'minced' , 'peeled' , 'seeded' , 'shredded', 'dried','piece','for','inch', 'cubed', 'kosher']
-    return text.ENGLISH_STOP_WORDS.union(ingredient_stop_words)
 
 def show_topics(m, df, doc_probs, doc_ids, w):
     print('='*70)
