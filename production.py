@@ -99,7 +99,7 @@ def remove_stopwords(df):
     df['ingredient_txt_no_stopwords'] = map(lambda x: rm_stopwords(get_stop_words(), x), df['ingredient_txt_no_stopwords'])
     return df
 
-def extract_features(df):
+def extract_features(df, title):
     "Extract features from ingredients using CountVectorizer."
 
     vectorizer = CountVectorizer(
@@ -109,7 +109,12 @@ def extract_features(df):
         , min_df = 10
         , max_df = 0.25
     )
-    features = vectorizer.fit_transform(df['ingredient_txt_no_stopwords'].str.cat(df['title'].values, sep=' '))
+    if title:
+
+        features = vectorizer.fit_transform(df['ingredient_txt_no_stopwords'].str.cat(df['title'].values, sep=' '))
+    else:
+        features = vectorizer.fit_transform(df['ingredient_txt_no_stopwords'])
+
     return (vectorizer, features)
 
 def run_model(features, **model_parameters):
