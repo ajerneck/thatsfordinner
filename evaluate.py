@@ -38,7 +38,6 @@ def get_topic_assignments(ix, m):
         s[k].add(v)
     return s
 
-
 def select_common_one(s, both):
     for k,v in s.iteritems():
         s[k] = v.intersection(both)
@@ -83,7 +82,11 @@ def sim2(s0, s1):
     # print 'Overlap score: %.2f' % (np.mean((all_diffs)) * dim)
     return all_diffs
 
+## word assignments.
 
+
+
+## topic assignments.
 
 s40_50_a = get_topic_assignments(run_on_sample(features, 0.50, n_topics=40, n_iter=10))
 s40_50_b = get_topic_assignments(run_on_sample(features, 0.50, n_topics=40, n_iter=10))
@@ -143,35 +146,48 @@ def get_word_assignments(vectorizer, m, n):
         x[k] = set(v)
     return x
 
-
-m40_80_a = get_word_assignments(vectorizer, run_on_sample(features, 0.8, n_topics=40, n_iter=100), 10)
-m40_80_b = get_word_assignments(vectorizer, run_on_sample(features, 0.8, n_topics=40, n_iter=100), 10)
-
-m75_80_a = get_word_assignments(vectorizer, run_on_sample(features, 0.8, n_topics=75, n_iter=100), 10)
-m75_80_b = get_word_assignments(vectorizer, run_on_sample(features, 0.8, n_topics=75, n_iter=100), 10)
-
-ix_a = create_sample(features, 0.8)
-ix_b = create_sample(features, 0.8)
-m20_80_a = get_word_assignments(vectorizer, run_on_sample(features, ix_a, n_topics=20, n_iter=100), 200)
-m20_80_b = get_word_assignments(vectorizer, run_on_sample(features, ix_b, n_topics=20, n_iter=100), 200)
-
-def plot_overlaps(m0, m1, filename):
-
-    ## make a plot.
+def plot_overlaps(m0, m1, title, filename):
     a = sim(m0, m1)
     ax = pd.DataFrame(a)
     ax.index = np.argmax(a, axis=1)
     ax = ax.sort()
 
-    sns.heatmap(ax, cbar=False, xticklabels=ax.columns, yticklabels=ax.index, annot=False)
+    plt.figure()
+    sns.heatmap(ax, cbar=True, xticklabels=ax.columns, yticklabels=ax.index, annot=False)
+    plt.title(title)
     plt.savefig(filename)
 
-I AM HERE: clean up this code, run for these different ones.
+# working.
+
+words = 20
+for topics in [20, 40, 75]:
+
+    ix_a = create_sample(features, 0.8)
+    ix_b = create_sample(features, 0.8)
+
+    ma = get_word_assignments(vectorizer, run_on_sample(features, ix_a, n_topics=topics, n_iter=200), words)
+
+    mb = get_word_assignments(vectorizer, run_on_sample(features, ix_b, n_topics=topics, n_iter=200), words)
+
+    title = 'Overlap between %s most probable words with %s topics' % (words, topics)
+    plot_overlaps(ma, mb, title, 'overlaps-%s-%s.png' % (topics, words))
+
+
+## using 100 words, because, realistically, you would only use maybe 20 words to distinguish topics.
+## TODO: try with 20 words too.
+
+
+m20_80_a = get_word_assignments(vectorizer, run_on_sample(features, ix_a, n_topics=20, n_iter=100), 200)
+m20_80_b = get_word_assignments(vectorizer, run_on_sample(features, ix_b, n_topics=20, n_iter=100), 200)
+
+
+
+## I AM HERE: clean up this code, run for these different ones.
 
 plot_overlaps(m75_80_a, m75_80_b, 'overlaps-75.png')
 plot_overlaps(m40_80_a, m40_80_b, 'overlaps-40.png')
-plot_overlaps(m20_80_a, m20_80_b, 'overlaps-20.png')
 
+## NEXT: do random assignments of words: for each topic, draw 200 words from the vocab randomly, check overlap.
 
 
 ##NEXT: explore and make plots.
