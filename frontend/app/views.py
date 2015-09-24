@@ -7,18 +7,6 @@ import numpy as np
 import pandas as pd
 from sqlalchemy import create_engine
 
-def collapse_topic_words(df):
-    "Remove unigrams that appear in bigrams, and collapse bigrams to common words."
-    all_topics = collections.defaultdict(list)
-    for n, group in df.groupby('label'):
-        ks = collections.defaultdict(float)
-        for _, row in group.iterrows():
-            words = row['word'].split()
-            for w in words:
-                ks[w] += row['prob']
-        all_topics[n] = ', '.join([w.capitalize() for w,i in sorted(ks.items(), key=lambda x: x[1], reverse=True)])
-    return all_topics
-
 @app.route('/')
 @app.route('/index')
 def index():
