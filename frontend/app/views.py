@@ -34,7 +34,7 @@ def index():
 
     topics = sorted(doc_data.keys(), reverse=True)
 
-    return render_template('compact.html', word_data=word_data, doc_data=doc_data, topics=topics)
+    return render_template('index.html', word_data=word_data, doc_data=doc_data, topics=topics)
 
 @app.route('/all')
 def all():

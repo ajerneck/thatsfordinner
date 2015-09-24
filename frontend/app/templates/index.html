@@ -9,17 +9,13 @@
     <meta name="author" content="">
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>That's for dinner</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="index_files/ie-emulation-modes-warning.js"></script>
+    <link href="static/css/starter-template.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -30,101 +26,226 @@
 
   <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Recipe Explorer</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-
+    {% include "navbar.html" %}
     <br><br>
+
+
     <div class="container">
-
-      <div class="starter-template">
-        <h1>Exploring the World of Food</h1>
-      </div>
-
-
-    <div class="container-fluid">
-  <div class="row-no-padding" >
-  {% for topic, rows in topics.iteritems() %}
-  <div class="col-md-8 col-md-offset-2">
-    <div class="panel panel-default">
-        <ul class="media-list">
-      {% for recipe in rows %}
-      <li class="media">
-        <div class="media-left">
-          <img class="media-object" src="{{recipe['image']}}">
-        </div>
-        <div class="media-body">
-          <h4 class="media-heading">{{recipe['title']}}</h4>
-          <p>
-            {{recipe.ingredient_txt}}
-          </p>
-          <a href="{{recipe.url}}" class="btn btn-default">Visit recipe</a>
-        </div>
-      </li>
-      {% endfor %}
-      </ul>
-        <!-- <div class="panel-footer"> -->
-        <!--   <p> -->
-        <!--   {{rows.words}} -->
-        <!--   </p> -->
-        <!--   <a href="/recipes/all_recipes/{{labeler_id}}/{{topic}}" class="btn btn-default" -->
-        <!--   type="button">Show all <span class="badge">{{rows.nr}}</span> -->
-        <!--   </a> -->
-        <!-- </div> -->
+      {% for g in range(0, topics|count, 7) %}
+      <div class="row">
         
+      {% for topic in topics[g:g+6] %}
       
-    </div>
-  </div>
-      {% endfor %}
-  </div>
-  </div>
-
-      
-                   
- <div class="panel panel-default">
-   {% for topic_nr, rows in topics.iteritems() %}
-  <div class="panel-heading">{{topic_nr}}</div>
-  <div class="panel-body">
-    
-  </div>
-  {% endfor %}
-</div>
-
-      <div class="container-fluid">
-        {% for topic_nr, rows in topics.iteritems() %}
-        <div class="row">
-          <div class="col-md-1">{{topic_nr}}</div>
-        </div>
-        {% endfor %}
+      <div class="col-md-2 center-block">
+             <div class="thumbnail">
+               <a href="#modal{{topic}}" data-toggle="modal" data-target="#modal{{topic}}"><img src="{{doc_data[topic][0]['image']}}"
+               alt="..."> </a>
+               <div class="caption">
+                 <h5 class="text-center"> {{topic}} {{word_data[topic]}}</h5>
+               </div>
+               
+               <!-- Modal -->
+               <div id="modal{{topic}}" class="modal fade" role="dialog">
+                 <div class="modal-dialog modal-lg">
+                   <!-- Modal content-->
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal">&times;</button>
+                       <h4 class="modal-title">{{word_data[topic]}}</h4>
+                     </div>
+                     <div class="modal-body">
+                       <div class="panel panel-default">
+                         <div class="panel-body">
+                           <div class="row">
+                       <ul class="media-list">
+                         <li class="media">
+                           {% for doc in doc_data[topic] %}
+                           <div class="media-left">
+                             <a href="#"> <img class="media-object"
+                             src="{{doc['image']}}" alt="..."> </a>
+                           </div>
+                           <div class="media-body">
+                             <h4 class="media-heading">{{doc['title']}}</h4>
+                        <p> {{doc['ingredient']}} </p> 
+                           </div>
+                         </li>
+                         {% endfor %}
+                       </ul>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="modal-footer">
+                       <a href="/all?topic={{topic}}" class="btn btn-info btn-sm" role="button">See all</a>
+                       <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Close</button>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               
+           </div>
+         </div>
+         {% endfor %}
       </div>
+      {% endfor %}
 
-    </div><!-- /.container -->
+               </div>
 
+
+<!-- this is the dropdown version. -->
+<!--     <div class="container"> -->
+
+<!--          <div class="row"> -->
+<!--            {% for topic in topics %} -->
+<!--            <div class="col-sm-6 col-md-4"> -->
+<!--              <div class="thumbnail"> -->
+
+<!--          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true"> -->
+<!--            <div class="panel panel-success"> -->
+<!--              <div class="panel-heading" role="tab" id="heading{{topic}}"> -->
+<!--                <h4 class="panel-title"> -->
+<!--                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{topic}}" aria-expanded="false" aria-controls="collapse{{topic}}"> -->
+<!--                    {{word_data[topic]}} -->
+<!--                  </a> -->
+<!--                </h4> -->
+<!--              </div> -->
+<!--              <div id="collapse{{topic}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{topic}}"> -->
+<!--                <div class="panel-body"> -->
+<!--                  <ul class="media-list"> -->
+<!--                    <li class="media"> -->
+<!--                      {% for doc in doc_data[topic] %} -->
+<!--                      <div class="media-left"> -->
+<!--                        <a href="#"> -->
+<!--                          <img class="media-object" src="{{doc['image']}}" alt="..."> -->
+<!--                        </a> -->
+<!--                      </div> -->
+<!--                      <div class="media-body"> -->
+<!--                        <h4 class="media-heading">{{doc['title']}}</h4> -->
+<!--                        <p> -->
+<!--                          {{doc['ingredient']}} -->
+<!--                        </p> -->
+
+<!--           <a href="{{doc.url}}" class="btn btn-default">Visit recipe</a> -->
+
+<!--                      </div> -->
+<!--                    </li> -->
+<!--                    {% endfor %} -->
+<!--                  </ul>  -->
+<!--              </div> -->
+<!--            </div> -->
+<!--          </div> -->
+ 
+
+
+
+
+
+<!--              </div> -->
+<!--            </div> -->
+<!--          </div> -->
+<!--          {% endfor %} -->
+<!-- </div> -->
+
+
+<!-- This is the old version. -->
+<!--     <div class="container"> -->
+<!--               {% for topic in topics %} -->
+<!--          <div class="row" -->
+<!--          <div class="col-md-4"> -->
+<!--          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true"> -->
+<!--            <div class="panel panel-success"> -->
+<!--              <div class="panel-heading" role="tab" id="heading{{topic}}"> -->
+<!--                <h4 class="panel-title"> -->
+<!--                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{topic}}" aria-expanded="false" aria-controls="collapse{{topic}}"> -->
+<!--                    {{word_data[topic]}} -->
+<!--                  </a> -->
+<!--                </h4> -->
+<!--              </div> -->
+<!--              <div id="collapse{{topic}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{topic}}"> -->
+<!--                <div class="panel-body"> -->
+<!--                  <ul class="media-list"> -->
+<!--                    <li class="media"> -->
+<!--                      {% for doc in doc_data[topic] %} -->
+<!--                      <div class="media-left"> -->
+<!--                        <a href="#"> -->
+<!--                          <img class="media-object" src="{{doc['image']}}" alt="..."> -->
+<!--                        </a> -->
+<!--                      </div> -->
+<!--                      <div class="media-body"> -->
+<!--                        <h4 class="media-heading">{{doc['title']}}</h4> -->
+<!--                        <p> -->
+<!--                          {{doc['ingredient']}} -->
+<!--                        </p> -->
+
+<!--           <a href="{{doc.url}}" class="btn btn-default">Visit recipe</a> -->
+
+<!--                      </div> -->
+<!--                    </li> -->
+<!--                    {% endfor %} -->
+<!--                  </ul>  -->
+<!--              </div> -->
+<!--            </div> -->
+<!--          </div> -->
+<!--          {% endfor %} -->
+<!--          </div> -->
+<!--          </div> -->
+<!--          </div> -->
+<!-- </div> -->
+
+
+
+  <!--   <div class="container"> -->
+  <!--   <div class="container-fluid"> -->
+  <!-- <div class="row" > -->
+  <!-- {% for topic in topics %} -->
+  <!-- <div class="col-md-8 col-md-offset-2"> -->
+
+  <!--   <div class="panel-group" id="accordion{{topic}}" role="tablist" aria-multiselectable="true"> -->
+  <!--     <div class="panel panel-success"> -->
+  <!--       <div class="panel-heading" role="tab" id="heading{{topic}}"> -->
+  <!--         <h3 class="panel-title"> -->
+  <!--           <a role="button" data-toggle="collapse" -->
+  <!--                                     data-parent="#accordion{{topic}}" href="#collapse{{topic}}" -->
+  <!--                                     aria-expanded="false" aria-controls="collapse{{topic}}"> -->
+  <!--             {{word_data[topic]}} -->
+  <!--           </a> -->
+  <!--         </h3> -->
+  <!--         </div> -->
+  <!--       <ul class="media-list"> -->
+  <!--         <li class="media"> -->
+  <!--           {% for doc in doc_data[topic] %} -->
+  <!--           <div class="media-left"> -->
+  <!--             <a href="#"> -->
+  <!--               <img class="media-object" src="{{doc['image']}}" alt="..."> -->
+  <!--             </a> -->
+  <!--           </div> -->
+  <!--           <div class="media-body"> -->
+  <!--             <h4 class="media-heading">{{doc['title']}}</h4> -->
+  <!--           </div> -->
+  <!--         </li> -->
+  <!--         {% endfor %} -->
+  <!--       </ul>  -->
+  <!--   </div> -->
+  <!--   </div> -->
+  <!-- </div> -->
+  <!-- </div> -->
+  <!--     {% endfor %} -->
+  <!-- </div> -->
+  <!-- </div> -->
+  <!--   </div> -->
+
+      
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="index_files/jquery.js"></script>
-    <script src="index_files/bootstrap.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- <script src="static/js/jquery.js"></script> -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+    <script src="static/js/bootstrap.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="index_files/ie10-viewport-bug-workaround.js"></script>
+    <!-- <script src="static/js/ie10-viewport-bug-workaround.js"></script> -->
   
 
 </body></html>
