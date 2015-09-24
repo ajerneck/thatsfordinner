@@ -24,13 +24,15 @@ vectorizer, features = p.extract_features(df, title=True)
 ## VERSION 1:
 ## run model 2 times on different 80% of the data.
 
-def run_on_sample(features, prop, **kwargs):
-
+def create_sample(features, prop):
     n = features.shape[0]
     ix = np.random.choice(n, size=int(n*prop), replace=False)
+    return ix
 
-    m = p.run_model(features[ix,:], random_state=0, **kwargs)
+def run_on_sample(features, ix, **kwargs):
+    return p.run_model(features[ix,:], random_state=0, **kwargs)
 
+def get_topic_assignments(ix, m):
     s = collections.defaultdict(set)
     for k,v in zip(np.argmax(m.doc_topic_, axis=1), ix):
         s[k].add(v)
@@ -58,15 +60,33 @@ def sim(s0, s1):
         for jk, jv in s1.iteritems():
             x =  len(iv.intersection(jv)) / float(len(iv.union(jv)))
             all_diffs[ik, jk] = x
+            print (ik, jk, x)
 
     print 'Overlap score: %.2f' % (np.mean(np.max(all_diffs, axis=1)))
     print 'Overlap score: %.2f' % (np.mean((all_diffs)) * dim)
     return all_diffs
 
+def sim2(s0, s1):
+
+    dim = len(s0.keys())
+
+    all_diffs = np.zeros(dim)
+    for ik, iv in s0.iteritems():
+        all_diffs[ik] = np.max([len(iv.intersection(jv))/float(len(iv.union(jv))) for jk, jv in s1.iteritems()])
+
+        # for jk, jv in s1.iteritems():
+        #     x =  len(iv.intersection(jv)) / float(len(iv.union(jv)))
+        #     all_diffs[ik, jk] = x
+        #     print (ik, jk, x)
+
+    # print 'Overlap score: %.2f' % (np.mean(np.max(all_diffs, axis=1)))
+    # print 'Overlap score: %.2f' % (np.mean((all_diffs)) * dim)
+    return all_diffs
 
 
-s40_50_a = run_on_sample(features, 0.50, n_topics=40, n_iter=10)
-s40_50_b = run_on_sample(features, 0.50, n_topics=40, n_iter=10)
+
+s40_50_a = get_topic_assignments(run_on_sample(features, 0.50, n_topics=40, n_iter=10))
+s40_50_b = get_topic_assignments(run_on_sample(features, 0.50, n_topics=40, n_iter=10))
 
 s40_50_a, s40_50_b = select_common(s40_50_a, s40_50_b)
 
@@ -74,16 +94,16 @@ a = sim(s40_50_a, s40_50_b)
 sns.heatmap(a[:, np.argmax(a, axis=1)])
 plt.savefig('overlaps-sorted-40-50.png')
 
-s75_50_a = run_on_sample(features, 0.50, n_topics=75, n_iter=100)
-s75_50_b = run_on_sample(features, 0.50, n_topics=75, n_iter=100)
+s75_50_a = get_topic_assignments(run_on_sample(features, 0.50, n_topics=75, n_iter=100))
+s75_50_b = get_topic_assignments(run_on_sample(features, 0.50, n_topics=75, n_iter=100))
 
 s75_50_a, s75_50_b = select_common(s75_50_a, s75_50_b)
 
 a = sim(s75_50_a, s75_50_b)
 sns.heatmap(a[:, np.argmax(a, axis=1)])
 plt.savefig('overlaps-sorted-75-50.png')
-
-
+## TODO: random assignments to get baseline.
+## get the topic sizes, then assign the ids to these topics randomly.
 
 
 ## complete overlap
@@ -91,66 +111,111 @@ plt.savefig('overlaps-sorted-75-50.png')
 t0 = {0: set(range(0, 10)), 1: set(range(20,30)), 2: set((40,50))}
 t1 = {0: set(range(0, 9) + [20]), 2: set(range(21,29) + [10]), 1: set((40,50))}
 a = sim(t0, t1)
+a2 = sim2(t0, t1)
+
 sns.heatmap(a[:, np.argmax(a, axis=1)])
 plt.savefig('overlaps-test-sorted.png')
+t0 = {0: set([0, 1]), 2: set([2,3]), 1: set([4,5])}
+t1 = {0: set([0, 1]), 2: set([4,5]), 1: set([2,3])}
+a = sim(t0, t1)
+a2 = sim2(t0, t1)
+
+
+ix_a = create_sample(features, 0.8)
+ix_b = create_sample(features, 0.8)
+m_a = get_topic_assignments(ix_a, run_on_sample(features, ix_a, n_topics=20, n_iter=100))
+m_b = get_topic_assignments(ix_b, run_on_sample(features, ix_a, n_topics=20, n_iter=100))
+
+m_a, m_b = select_common(m_a, m_b)
+a = sim(m_a, m_b)
+ax = pd.DataFrame(a)
+ax.index = np.argmax(a, axis=0)
+ax = ax.sort()
 
 
 
 
-## random assignment:
-x = range(0, len(both))
-np.random.shuffle(x)
+##I AM HERE: compare the topic words instead -- should be better?
 
-set_sizes = 
-
-
-
-
+def get_word_assignments(vectorizer, m, n):
+    x = dict(enumerate(np.asarray(vectorizer.get_feature_names())[np.argsort(m.topic_word_, axis=1)[:,-n:-1]]))
+    for k,v in x.iteritems():
+        x[k] = set(v)
+    return x
 
 
+m40_80_a = get_word_assignments(vectorizer, run_on_sample(features, 0.8, n_topics=40, n_iter=100), 10)
+m40_80_b = get_word_assignments(vectorizer, run_on_sample(features, 0.8, n_topics=40, n_iter=100), 10)
 
-##
-ss0 = {}
-for k in np.argmax(all_diffs)
+m75_80_a = get_word_assignments(vectorizer, run_on_sample(features, 0.8, n_topics=75, n_iter=100), 10)
+m75_80_b = get_word_assignments(vectorizer, run_on_sample(features, 0.8, n_topics=75, n_iter=100), 10)
 
+ix_a = create_sample(features, 0.8)
+ix_b = create_sample(features, 0.8)
+m20_80_a = get_word_assignments(vectorizer, run_on_sample(features, ix_a, n_topics=20, n_iter=100), 200)
+m20_80_b = get_word_assignments(vectorizer, run_on_sample(features, ix_b, n_topics=20, n_iter=100), 200)
 
-sns.heatmap(all_diffs)
-plt.savefig('overlaps.png')
+def plot_overlaps(m0, m1, filename):
 
+    ## make a plot.
+    a = sim(m0, m1)
+    ax = pd.DataFrame(a)
+    ax.index = np.argmax(a, axis=1)
+    ax = ax.sort()
 
+    sns.heatmap(ax, cbar=False, xticklabels=ax.columns, yticklabels=ax.index, annot=False)
+    plt.savefig(filename)
 
-## get the smallest set difference between 2:
+I AM HERE: clean up this code, run for these different ones.
 
-
-
-results = []
-for i in range(0, 1):
-    ix = np.random.choice(n, size=int(n*0.8), replace=False)
-    x = features[ix,:]
-    m = p.run_model(x, n_topics=75, random_state=0, n_iter=4)
-    results.append({'model': m, 'topics': np.argax(m.doc_topic_, axis=1)})
-
-
-## extract set memberships (only need to reorder by minimum distance)
-
-s0 = np.argmax(models[0].doc_topic_, axis=1)
-s1 = np.argmax(models[1].doc_topic_, axis=1)
-
-ss0 = collections.defaultdict(set)
-for v, k in enumerate(s0):
-    ss0[k].add(v)
-
-ss1 = collections.defaultdict(set)
-for v, k in enumerate(s1):
-    ss0[k].add(v)
-
-
-for ik,iv in s0.iteritems():
-    for jk, jv in s1.iteritems():
-        print min([iv ^ jv])
+plot_overlaps(m75_80_a, m75_80_b, 'overlaps-75.png')
+plot_overlaps(m40_80_a, m40_80_b, 'overlaps-40.png')
+plot_overlaps(m20_80_a, m20_80_b, 'overlaps-20.png')
 
 
 
+##NEXT: explore and make plots.
+
+a = sim(m40_80_a, m40_80_b)
+
+ax = pd.DataFrame(a)
+ax.index = np.argmax(a, axis=1)
+ax = ax.sort(axis='index')
+sns.heatmap(ax, cbar=False, xticklabels=ax.columns, yticklabels=ax.index, annot=False)
+plt.savefig('overlaps-sort-1.png')
+
+
+a = sim(m40_80_a, m40_80_b)
+ax = pd.DataFrame(a)
+ax.index = np.argmax(a, axis=0)
+ax = ax.sort(axis='index')
+sns.heatmap(ax, cbar=False, xticklabels=ax.columns, yticklabels=ax.index, annot=False)
+plt.savefig('overlaps-sort-0.png')
+
+
+
+
+
+I AM HERE: I think this with the data frame might work.
+
+
+sns.heatmap(a[np.argmax(a, axis=0),:], cbar=False)
+plt.savefig('overlaps-words-40-80-sorted-nocbar.png')
+
+sns.heatmap(np.argsort()a, cbar=False)
+plt.savefig('overlaps-words-40-80-nocbar.png')
+
+
+evaluate these heatmaps in some way.
+
+## sort one dim by the argmax of the other.
+
+
+
+
+
+
+## TODO: use this for words maybe?
 def k_f ld_run(**kwargs):
     "Run 5 lda models on 20% of the data each."
     results = []
