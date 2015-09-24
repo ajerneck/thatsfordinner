@@ -36,6 +36,27 @@ def index():
 
     return render_template('compact.html', word_data=word_data, doc_data=doc_data, topics=topics)
 
+@app.route('/all')
+def all():
+    topic = request.args.get('topic')
+    con = psycopg2.connect(host='localhost', dbname='explore', user='explore', password='Ln2bOYAVCG6utNUSaSZaIVMH')
+    cursor = con.cursor()
+#    I AM HERE: fix the decoding here, or in run.py
+    with cursor:
+        cursor.execute('SELECT * FROM clean_recipes where topic=%s order by topic_prob desc;' % topic)
+
+        results =  cursor.fetchall()
+    decode_string = 
+    for i, row in results:
+        row = []
+        decoded.append()
+
+
+
+    print results[0]
+    return render_template('all.html', results=results)
+
+
 @app.route('/lucky')
 def lucky():
 

@@ -17,7 +17,7 @@ df = p.remove_stopwords(df)
 assert(type(df)) is pd.core.frame.DataFrame, "%r is not a DataFrame." % df
 assert(df.shape) == (16526, 7), "Has the wrong shape."
 
-vectorizer, features = p.extract_features(df)
+vectorizer, features = p.extract_features(df, title=True)
 
 ## run model.
 m = p.run_model(features, n_topics=75, random_state=0, n_iter=100)
@@ -62,7 +62,9 @@ def save_data_for_frontend(model, vectorizer, df):
 
     ## merge in document data for the most probable documents.
     df['topic'] = np.argmax(model.doc_topic_, axis=1).T
+    df['topic_prob'] = np.max(model.doc_topic_, axis=1).T
     df['key'] = df.index
+    df['title'] = df['title'].str.decode('utf8', errors='ignore')
     most_probable_docs = pd.merge(df, dd)
     ## TODO: do the decoding here.
 
@@ -73,4 +75,5 @@ def save_data_for_frontend(model, vectorizer, df):
     with open('frontend/app/doc_data.pkl', 'w') as f:
         pickle.dump(doc_data, f)
 
-
+    engine = p.make_engine()
+    df.to_sql('clean_recipes', engine, if_exists='replace')

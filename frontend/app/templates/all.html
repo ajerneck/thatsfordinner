@@ -15,11 +15,7 @@
     <link href="static/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="index_files/ie-emulation-modes-warning.js"></script>
+    <link href="static/css/starter-template.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -51,206 +47,31 @@
       </div>
    </nav>
 
-
-    <br>
-
-    <h1> testing testing </h1>
-
-    <br>
+    <br><br>
 
 
     <div class="container">
+      {% for g in range(0, results|count, 7) %}
       <div class="row">
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-        </ol>
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-
-
-                   <div class="panel panel-default"> -->
-                         <div class="panel-body">
-                           <div class="row">
-                       <ul class="media-list">
-                         <li class="media">
-                           {% for doc in doc_data[0] %}
-                           <div class="media-left">
-                             <a href="#">
-                               <img class="media-object" src="{{doc['image']}}" alt="...">
-                             </a>
-                           </div>
-                           <div class="media-body">
-                             <h4 class="media-heading">{{doc['title']}}</h4>
-                        <p>
-                         {{doc['ingredient']}}
-                       </p>
-
-                            
-                           </div>
-                         </li>
-                         {% endfor %}
-                       </ul>
- 
-            <div class="carousel-caption">
-              <h4 class="modal-title">{{word_data[0]['title']}}</h4>
-            </div>
-
-                           </div>
-                           <div class="item">
-
-                   <div class="panel panel-default">
-                         <div class="panel-body">
-                           <div class="row">
-                       <ul class="media-list">
-                         <li class="media">
-                           {% for doc in doc_data[1] %}
-                           <div class="media-left">
-                             <a href="#">
-                               <img class="media-object" src="{{doc['image']}}" alt="...">
-                             </a>
-                           </div>
-                           <div class="media-body">
-                             <h4 class="media-heading">{{doc['title']}}</h4>
-                        <p>
-                         {{doc['ingredient']}}
-                       </p>
-
-                            
-                           </div>
-                         </li>
-                         {% endfor %}
-                       </ul>
- 
-            <div class="carousel-caption">
-              <h4 class="modal-title">{{word_data[1]['title']}}</h4>
-            </div>
-
-                           </div>
-
-
-         </div>
-        </div>
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-      </div>
-    </div>
-
-
-
-<!-- <\!--     This is the basic structure. -\-> -->
-<!-- <\!--     <div class="container"> -\-> -->
-
-<!-- <\!--          <div class="row"> -\-> -->
-<!-- <\!--            {% for topic in topics %} -\-> -->
-<!-- <\!--            <div class="col-sm-6 col-md-4"> -\-> -->
-<!-- <\!--              <div class="thumbnail"> -\-> -->
-<!-- <\!--                <\\!-- <img src="..." alt="..."> -\\-> -\-> -->
-<!-- <\!--                <div class="caption"> -\-> -->
-<!-- <\!--                  <h4>{{word_data[topic]}}</h4> -\-> -->
-<!-- <\!--                  <p>...</p> -\-> -->
-<!-- <\!--                  <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> -\-> -->
-<!-- <\!--                </div> -\-> -->
-<!-- <\!--              </div> -\-> -->
-<!-- <\!--            </div> -\-> -->
-<!-- <\!--          </div> -\-> -->
-<!-- <\!--          {% endfor %} -\-> -->
-<!-- <\!-- </div> -\-> -->
-
-<!--     <div class="container"> -->
-
-<!--          <div class="row"> -->
-<!--            {% for topic in topics %} -->
-<!--            <div class="col-sm-6 col-md-2"> -->
-<!--              <div class="thumbnail"> -->
-
-<!--                <\!-- <a href="#" class="btn btn-lg btn-link btn-sm"  -\-> -->
-<!--                <\!-- data-toggle="modal"  -\-> -->
-<!--                <\!-- data-target="#myModal"> <h5 class="text-center">  -\-> -->
-<!--                <\!-- {{word_data[topic]}} </h5> </a> -\-> -->
-
-
-<!--                <div class="caption"> -->
-<!--                  <h5 class="text-center"> {{word_data[topic]}}</h5> -->
-<!--                  <\!-- <div class="btn-group" role="group" aria-label="..."> -\-> -->
-<!--                  <\!-- <button type="button" class="btn btn-default btn-sm" -\-> -->
-<!--                  <\!--         data-toggle="modal" data-target="#myModal">See all -\-> -->
-<!--                  <\!-- </button> -\-> -->
-<!--                  <button type="button" class="btn btn-default btn-sm" -->
-<!--                          data-toggle="modal" -->
-<!--                          data-target="#modal{{topic}}">See more -->
-<!--                  </button> -->
-<!--                  <\!-- </div> -\-> -->
-
-<!--                </div> -->
+        
+      {% for doc in results[g:g+6] %}
+      
+      <div class="col-md-2 center-block">
+             <div class="thumbnail">
+               <a href="{{doc[4]}}"><img src="{{doc[5]}}"
+               alt="..."> </a>
+               <div class="caption">
+                 <h5 class="text-center"> {{doc[2]}}</h5>
+               </div>
                
-<!--                <\!-- Modal -\-> -->
-<!--                <div id="modal{{topic}}" class="modal fade" role="dialog"> -->
-<!--                  <div class="modal-dialog modal-lg"> -->
-                   
-<!--                    <\!-- Modal content-\-> -->
-<!--                    <div class="modal-content"> -->
-<!--                      <div class="modal-header"> -->
-<!--                        <button type="button" class="close" data-dismiss="modal">&times;</button> -->
-<!--                        <h4 class="modal-title">{{word_data[topic]}}</h4> -->
-<!--                      </div> -->
-<!--                      <div class="modal-body"> -->
-<!--                        <div class="panel panel-default"> -->
-<!--                          <div class="panel-body"> -->
-<!--                            <div class="row"> -->
-<!--                        <ul class="media-list"> -->
-<!--                          <li class="media"> -->
-<!--                            {% for doc in doc_data[topic] %} -->
-<!--                            <div class="media-left"> -->
-<!--                              <a href="#"> -->
-<!--                                <img class="media-object" src="{{doc['image']}}" alt="..."> -->
-<!--                              </a> -->
-<!--                            </div> -->
-<!--                            <div class="media-body"> -->
-<!--                              <h4 class="media-heading">{{doc['title']}}</h4> -->
-<!--                         <p>  -->
-<!--                          {{doc['ingredient']}}  -->
-<!--                        </p>  -->
+              
+           </div>
+         </div>
+         {% endfor %}
+      </div>
+      {% endfor %}
 
-                            
-<!--                            </div> -->
-<!--                          </li> -->
-<!--                          {% endfor %} -->
-<!--                        </ul> -->
- 
-<!--                          </div> -->
-<!--                          </div> -->
-<!--                        </div> -->
-
-<!--                      </div> -->
-<!--                      <div class="modal-footer"> -->
-<!--                        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Close</button> -->
-<!--                      </div> -->
-<!--                    </div> -->
-
-<!--                  </div> -->
-<!--                </div> -->
-
-<!--              </div> -->
-<!--            </div> -->
-<!--          </div> -->
-<!--          {% endfor %} -->
-<!--     </div> -->
-
-
-
+               </div>
 
 
 <!-- this is the dropdown version. -->
@@ -400,8 +221,10 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <!-- <script src="/static/js/jquery.js"></script> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- <script src="static/js/jquery.js"></script> -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
     <script src="static/js/bootstrap.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <!-- <script src="static/js/ie10-viewport-bug-workaround.js"></script> -->
