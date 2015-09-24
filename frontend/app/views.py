@@ -24,24 +24,25 @@ def index():
 
     return render_template('index.html', word_data=word_data, doc_data=doc_data, topics=topics)
 
+def decode_string(s):
+    if type(s) is str:
+        return s.decode('ascii', errors='ignore')
+    else:
+        return s
+
+
 @app.route('/all')
 def all():
     topic = request.args.get('topic')
     con = psycopg2.connect(host='localhost', dbname='explore', user='explore', password='Ln2bOYAVCG6utNUSaSZaIVMH')
     cursor = con.cursor()
-#    I AM HERE: fix the decoding here, or in run.py
     with cursor:
         cursor.execute('SELECT * FROM clean_recipes where topic=%s order by topic_prob desc;' % topic)
-
         results =  cursor.fetchall()
-    decode_string = 
-    for i, row in results:
-        row = []
-        decoded.append()
+        ## decode strings
+        for i,row in enumerate(results):
+            results[i] = map(decode_string, row)
 
-
-
-    print results[0]
     return render_template('all.html', results=results)
 
 
