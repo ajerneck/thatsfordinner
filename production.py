@@ -59,8 +59,6 @@ def clean_formatting(df):
 
     return df
 
-
-
 def get_stop_words():
     "Combine custom stopwords with standard english ones."
     ingredient_stop_words = [
@@ -80,7 +78,8 @@ def get_stop_words():
         'reserved', 'garnish', 'quartered', 'discarded', 'mixed', 'torn',
         'bunch', 'stemmed', 'oil', 'salt', 'pepper', 'olive oil', 'garlic',
         'garlic cloves', 'black pepper', 'leaves', 'red', 'olive', 'black',
-        'cloves', 'preferably', 'ml', 'shredded','dried', 'g', 'pieces', 'inch', 'cut', 'size','bite', 'pinch','clove','taste', 'large', 'grated', 'half' , 'minced' , 'peeled' , 'seeded' , 'shredded', 'dried','piece','for','inch', 'cubed', 'kosher']
+        'cloves', 'preferably', 'ml', 'shredded','dried', 'g', 'pieces', 'inch', 'cut', 'size','bite', 'pinch','clove','taste', 'large', 'grated', 'half' , 'minced' , 'peeled' , 'seeded' , 'shredded', 'dried','piece','for','inch', 'cubed', 'kosher', 'seed', 'juice']
+
     return text.ENGLISH_STOP_WORDS.union(ingredient_stop_words)
 
 def remove_stopwords(df):
@@ -102,12 +101,12 @@ def extract_features(df):
 
     vectorizer = CountVectorizer(
         stop_words='english'
-        , ngram_range=(1, 2)
+        , ngram_range=(1, 1)
         , token_pattern='[A-Za-z]+'
         , min_df = 10
         , max_df = 0.25
     )
-    features = vectorizer.fit_transform(df.ingredient_txt_no_stopwords)
+    features = vectorizer.fit_transform(df['ingredient_txt_no_stopwords'].str.cat(df['title'].values, sep=' '))
     return (vectorizer, features)
 
 def run_model(features, **model_parameters):

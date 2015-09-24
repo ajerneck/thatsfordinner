@@ -2,6 +2,20 @@
 
 import matplotlib
 import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+
+def feature_counts(vectorizer, dtm):
+    "Examine word counts by putting them in an DataFrame."
+    wordcounts = pd.DataFrame(np.asarray(dtm.sum(axis=0).T))
+    wordcounts.columns = ['count']
+    wordcounts['word'] = vectorizer.get_feature_names()
+
+    xx = np.apply_along_axis(lambda x: x > 0, 1, dtm.todense())
+    nr_docs = np.sum(xx, 0)
+    wordcounts['nr_docs'] = nr_docs
+    return wordcounts
+
 
 def explore_ingredient_lengths(df):
     print df['ingredient_txt'].str.len().describe()
@@ -10,7 +24,7 @@ def explore_ingredient_lengths(df):
     plt.savefig('character-counts.png')
 
 def ingredient_word_count(vectorizer, features):
-    wc = f.feature_counts(vectorizer, features)
+    wc = feature_counts(vectorizer, features)
     wc.sort('count').tail(25).plot('word','count', kind='bar')
     plt.savefig('word-counts.png')
 

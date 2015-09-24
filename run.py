@@ -22,6 +22,8 @@ vectorizer, features = p.extract_features(df)
 ## run model.
 m = p.run_model(features, n_topics=75, random_state=0, n_iter=100)
 
+
+
 ## extract and prepare most probable documents.
 
 def save_data_for_frontend(model, vectorizer, df):
@@ -35,12 +37,12 @@ def save_data_for_frontend(model, vectorizer, df):
     w = p.most_probable_words(model, vectorizer.get_feature_names(), 10)
     word_data = collections.defaultdict(list)
     for topic, g in w.groupby('topic'):
-#        word_data[topic] = g.sort('prob', ascending=False)['word'].str.capitalize().values ms
-        word_data[topic] = ', '.join([str(g['prob'].sum())] + [w.capitalize() for w in p.unique(itertools.chain(*g.sort('prob', ascending=False)['word'].str.split(' ').values))])
-    for k,v in word_data.iteritems():
-        print k
-        print topic_total_probs[k]
-        word_data[k] = v + str(topic_total_probs[k])
+        word_data[topic] = ', '.join([w.capitalize() for w in p.unique(itertools.chain(*g.sort('prob', ascending=False)['word'].str.split(' ').values))])
+        # word_data[topic] = ', '.join([str(g['prob'].sum())] + [w.capitalize() for w in p.unique(itertools.chain(*g.sort('prob', ascending=False)['word'].str.split(' ').values))])
+    # for k,v in word_data.iteritems():
+    #     print k
+    #     print topic_total_probs[k]
+    #     word_data[k] = v + str(topic_total_probs[k])
 
 
     with open('frontend/app/word_data.pkl', 'w') as f:
