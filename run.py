@@ -28,8 +28,8 @@ m = p.run_model(features, n_topics=75, random_state=0, n_iter=100)
 
 def save_data_for_frontend(model, vectorizer, df):
 
-    doc_ids = np.argsort(model.doc_topic_, axis=0)[-4:-1,:].T
-    doc_probs = np.sort(model.doc_topic_, axis=0)[-4:-1,:].T
+    doc_ids = np.argsort(model.doc_topic_, axis=0)[-5:-1,:].T
+    doc_probs = np.sort(model.doc_topic_, axis=0)[-5:-1,:].T
     topic_total_probs = np.sum(doc_probs, axis=1)
  
     ## extract and prepare most probable words.
@@ -64,7 +64,6 @@ def save_data_for_frontend(model, vectorizer, df):
     df['topic'] = np.argmax(model.doc_topic_, axis=1).T
     df['topic_prob'] = np.max(model.doc_topic_, axis=1).T
     df['key'] = df.index
-    df['title'] = df['title'].str.decode('utf8', errors='ignore')
     most_probable_docs = pd.merge(df, dd)
     ## TODO: do the decoding here.
 
@@ -77,3 +76,5 @@ def save_data_for_frontend(model, vectorizer, df):
 
     engine = p.make_engine()
     df.to_sql('clean_recipes', engine, if_exists='replace')
+
+save_data_for_frontend(m, vectorizer, df)
