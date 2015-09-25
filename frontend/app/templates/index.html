@@ -55,21 +55,23 @@
                      </div>
                      <div class="modal-body">
 
-                       <div class="panel">
-                         {% for d in doc_data[topic] %}
+                       <div class="container">
+                         {% for i in range(0, doc_data[topic]|count, 2) %}
                          <div class="row">
-                           <div class="col-md-2 center-block">
+                           {% for j in doc_data[topic][i:i+2] %}
+                           <div class="col-md-5 center-block">
                              <div class="thumbnail">
-                               <a href="{{d['url']}}"><img src="{{d['image']}}" alt="..."> </a>
-                               <div class="caption">
-                                 <h5 class="text-center">{{d['title']}}</h5>
-                               </div>
-                               <p>{{d['ingredient']}}</p>
+                             <a href="{{j['url']}}"><img src="{{j['image']}}"
+                                                       alt="..."> </a>
+                             <div class="caption">
+                               <h5 class="word-center">{{j['title']}}</h5
+                               <p>{{j['ingredient']}}</p>
                              </div>
                              </div>
                            </div>
-
                            {% endfor %}
+                         </div>
+                         {% endfor %}
                        </div>
                      </div>
                      <div class="modal-footer">
