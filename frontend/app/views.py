@@ -6,10 +6,13 @@ import psycopg2
 import numpy as np
 import pandas as pd
 from sqlalchemy import create_engine
+from sklearn.metrics.pairwise import cosine_similarity
 
 @app.route('/')
 @app.route('/index')
 def index():
+
+    print '-'*10, 'starting', '-'*10
 
     with open('app/word_data.pkl') as f:
         print 'reading %s' % f
@@ -19,6 +22,37 @@ def index():
     with open('app/doc_data.pkl') as f:
         print 'reading %s' % f
         doc_data = pickle.load(f)
+
+    with open('app/search_vectorizer.pkl') as f:
+        vectorizer = pickle.load(f)
+    with open('app/search_all_features.pkl') as f:
+        all_features = pickle.load(f)
+
+    sq = request.args.get('sq')
+    if sq is not None:
+        ## filter on search query by taking the 500 recipes with the closest non-zero cosine similarity to the query string.
+        print 'query string: ', sq
+        query_features = vectorizer.transform([sq])
+        sims = cosine_similarity(all_features, query_features).ravel()
+        results = np.argsort(sims)
+        results = results[np.nonzero(np.sort(results))]
+        results = results[-500:-1]
+        scores = np.sort(sims)[-500:-1]
+        print results
+        print scores
+        print doc_data.keys()
+        ## filter out recipes that are not in the search result kesy.
+        to_rm = []
+        for k,v in doc_data.iteritems():
+            x = [r for r in v if r['key'] in results]
+            if x != []:
+                doc_data[k] = x
+            else:
+                to_rm.append(k)
+
+        for k in to_rm:
+            del(doc_data[k])
+
 
     topics = sorted(doc_data.keys(), reverse=True)
 
