@@ -6,6 +6,7 @@ import numpy as np
 import pandas as pd
 import pickle
 import psycopg2
+from sklearn.feature_extraction.text import CountVectorizer
 
 import explore as e
 import production as p
@@ -69,8 +70,8 @@ def save_data_for_frontend(model, vectorizer, df):
 
     doc_data = collections.defaultdict(list)
     for topic, g in most_probable_docs.groupby('topic'):
-        row = g.sort('prob')[['ingredient_txt','image','url','title']].values
-        doc_data[topic] = map(lambda x: dict(zip(['ingredient','image','url','title'], x)), row)
+        row = g.sort('prob')[['ingredient_txt','image','url','title', 'key']].values
+        doc_data[topic] = map(lambda x: dict(zip(['ingredient','image','url','title','key'], x)), row)
     with open('frontend/app/doc_data.pkl', 'w') as f:
         pickle.dump(doc_data, f)
 
@@ -78,3 +79,20 @@ def save_data_for_frontend(model, vectorizer, df):
     df.to_sql('clean_recipes', engine, if_exists='replace')
 
 save_data_for_frontend(m, vectorizer, df)
+
+## calculate and save cosine similarities for standard searching.
+## prepare beforehand.
+vv = CountVectorizer(
+    stop_words=p.get_stop_words()
+    , ngram_range=(1, 1)
+    , token_pattern = '[A-Za-z]+'
+)
+
+search_cols = df['ingredient_txt_no_stopwords'].str.cat(df['title'].values, sep=' ')
+vv = vv.fit(search_cols)
+all_features = vv.transform(search_cols)
+
+with open('frontend/app/search_vectorizer.pkl', 'w') as f:
+    pickle.dump(vv, f)
+with open('frontend/app/search_all_features.pkl', 'w') as f:
+    pickle.dump(all_features, f)
