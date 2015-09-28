@@ -23,14 +23,9 @@ def index():
         print 'reading %s' % f
         doc_data = pickle.load(f)
 
-    with open('app/search_vectorizer.pkl') as f:
-        vectorizer = pickle.load(f)
-    with open('app/search_all_features.pkl') as f:
-        all_features = pickle.load(f)
-
     sq = request.args.get('sq')
     if sq is not None:
-        results = cosine_search(sq, vectorizer, all_features, 500)
+        results = cosine_search(sq, 500)
         ## filter on search query by taking the 500 recipes with the closest non-zero cosine similarity to the query string.
         print doc_data.keys()
         ## filter out recipes that are not in the search result kesy.
@@ -50,7 +45,11 @@ def index():
 
     return render_template('index.html', word_data=word_data, doc_data=doc_data, topics=topics)
 
-def cosine_search(query, vectorizer, features, n):
+def cosine_search(query, n):
+    with open('app/search_vectorizer.pkl') as f:
+        vectorizer = pickle.load(f)
+    with open('app/search_all_features.pkl') as f:
+        features = pickle.load(f)
     print 'query string: ', query
     query_features = vectorizer.transform([query])
     sims = cosine_similarity(features, query_features).ravel()
@@ -72,18 +71,17 @@ def decode_string(s):
 
 @app.route('/all/<topic>/')
 def all(topic):
-    print '-'*30, 'starting', '-'*30
     sq = request.args.get('sq')
-    print sq
     con = psycopg2.connect(host='localhost', dbname='explore', user='explore', password='Ln2bOYAVCG6utNUSaSZaIVMH')
     cursor = con.cursor()
-    print topic
-
-    ## I AM HERE: do the cosine search agains sq, then only return those elements.
-
 
     with cursor:
-        cursor.execute('SELECT * FROM clean_recipes where topic=%s order by topic_prob desc;' % topic)
+        if sq is not None:
+            results = cosine_search(sq, n=500)
+            cursor.execute('SELECT * FROM clean_recipes where key in %s and topic=%s order by topic_prob desc;' % (tuple(results.tolist()),topic))
+        else:
+            cursor.execute('SELECT * FROM clean_recipes where topic=%s order by topic_prob desc;' % topic)
+
         results =  cursor.fetchall()
         ## decode strings
         for i,row in enumerate(results):
