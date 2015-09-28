@@ -103,7 +103,7 @@ def extract_features(df, title):
     "Extract features from ingredients using CountVectorizer."
 
     vectorizer = CountVectorizer(
-        stop_words='english'
+        stop_words=get_stop_words()
         , ngram_range=(1, 1)
         , token_pattern='[A-Za-z]+'
         , min_df = 10

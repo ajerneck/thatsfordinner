@@ -30,16 +30,8 @@ def index():
 
     sq = request.args.get('sq')
     if sq is not None:
+        results = cosine_search(sq, vectorizer, all_features, 500)
         ## filter on search query by taking the 500 recipes with the closest non-zero cosine similarity to the query string.
-        print 'query string: ', sq
-        query_features = vectorizer.transform([sq])
-        sims = cosine_similarity(all_features, query_features).ravel()
-        results = np.argsort(sims)
-        results = results[np.nonzero(np.sort(results))]
-        results = results[-500:-1]
-        scores = np.sort(sims)[-500:-1]
-        print results
-        print scores
         print doc_data.keys()
         ## filter out recipes that are not in the search result kesy.
         to_rm = []
@@ -49,7 +41,7 @@ def index():
                 doc_data[k] = x
             else:
                 to_rm.append(k)
-
+        ## filter out topics with no results.
         for k in to_rm:
             del(doc_data[k])
 
@@ -58,6 +50,19 @@ def index():
 
     return render_template('index.html', word_data=word_data, doc_data=doc_data, topics=topics)
 
+def cosine_search(query, vectorizer, features, n):
+    print 'query string: ', query
+    query_features = vectorizer.transform([query])
+    sims = cosine_similarity(features, query_features).ravel()
+    results = np.argsort(sims)
+    results = results[np.nonzero(np.sort(results))]
+    results = results[-n:-1]
+    scores = np.sort(sims)[-n:-1]
+    print results
+    print scores
+    return results
+
+
 def decode_string(s):
     if type(s) is str:
         return s.decode('ascii', errors='ignore')
@@ -65,11 +70,18 @@ def decode_string(s):
         return s
 
 
-@app.route('/all')
-def all():
-    topic = request.args.get('topic')
+@app.route('/all/<topic>/')
+def all(topic):
+    print '-'*30, 'starting', '-'*30
+    sq = request.args.get('sq')
+    print sq
     con = psycopg2.connect(host='localhost', dbname='explore', user='explore', password='Ln2bOYAVCG6utNUSaSZaIVMH')
     cursor = con.cursor()
+    print topic
+
+    ## I AM HERE: do the cosine search agains sq, then only return those elements.
+
+
     with cursor:
         cursor.execute('SELECT * FROM clean_recipes where topic=%s order by topic_prob desc;' % topic)
         results =  cursor.fetchall()
