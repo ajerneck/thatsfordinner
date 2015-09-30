@@ -35,7 +35,7 @@
       <div class="row">
         
       {% for topic in topics[g:g+6] %}
-      
+
       <div class="col-md-2 center-block">
              <div class="thumbnail">
                <a href="#modal{{topic}}" data-toggle="modal" data-target="#modal{{topic}}"><img src="{{doc_data[topic][0]['image']}}"
@@ -55,11 +55,10 @@
                      </div>
                      <div class="modal-body">
 
-                       <div class="container">
-                         {% for i in range(0, doc_data[topic]|count, 2) %}
+                       <div class="container-fluid">
                          <div class="row">
-                           {% for j in doc_data[topic][i:i+2] %}
-                           <div class="col-md-5 center-block">
+                         {% for j in doc_data[topic] %}
+                           <div class="col-md-3 center-block">
                              <div class="thumbnail">
                              <a href="{{j['url']}}"><img src="{{j['image']}}"
                                                        alt="..."> </a>
@@ -69,9 +68,8 @@
                              </div>
                              </div>
                            </div>
-                           {% endfor %}
-                         </div>
                          {% endfor %}
+                         </div>
                        </div>
                      </div>
                      <div class="modal-footer">
