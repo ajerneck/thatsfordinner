@@ -59,7 +59,7 @@ def plot_overlaps(m0, m1, title, filename):
     ax = ax.sort()
 
     plt.figure()
-    sns.heatmap(ax, cbar=True, xticklabels=ax.columns, yticklabels=ax.index, annot=False)
+    sns.heatmap(ax, cbar=True, xticklabels=False, yticklabels=False, annot=False)
     plt.title(title)
     plt.savefig(filename)
 
