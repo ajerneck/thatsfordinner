@@ -1,3 +1,10 @@
+import itertools
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import seaborn as sns
+
+import production as p
 
 def create_sample(features, prop):
     n = features.shape[0]
