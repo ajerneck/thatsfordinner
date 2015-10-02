@@ -21,7 +21,7 @@ assert(df.shape) == (16526, 7), "Has the wrong shape."
 vectorizer, features = p.extract_features(df, title=True)
 
 ## run model.
-m = p.run_model(features, n_topics=75, random_state=0, n_iter=100)
+m = p.run_model(features, n_topics=45, random_state=0, n_iter=100)
 
 
 
