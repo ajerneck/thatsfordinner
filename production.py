@@ -51,11 +51,12 @@ def clean_formatting(df):
     df = df[df['ingredient_txt'].str.len() > 20]
     df = df.reset_index()
     ## clean up quoting.
+    df['title'] = df['title'].str.replace('\\\u0027', "'")
     pattern = "[\"\']"
     for k in ['title', 'ingredient_txt', 'url', 'image']:
         df[k] = df[k].str.replace(pattern, '')
         ## formatting ingredients.
-        df['ingredient_txt'] = df['ingredient_txt'].str.replace('\n',' ')
+        ## df['ingredient_txt'] = df['ingredient_txt'].str.replace('\n',' ')
 
     return df
 
