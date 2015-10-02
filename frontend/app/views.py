@@ -1,5 +1,7 @@
 from app import app
 import collections
+## module db just contains the user name and password for connecting to the postgres db. 
+import db
 from flask import render_template, request
 import pickle
 import psycopg2
@@ -72,7 +74,7 @@ def decode_string(s):
 @app.route('/all/<topic>/')
 def all(topic):
     sq = request.args.get('sq')
-    con = psycopg2.connect(host='localhost', dbname='explore', user='explore', password='Ln2bOYAVCG6utNUSaSZaIVMH')
+    con = psycopg2.connect(host='localhost', dbname='explore', user='explore', password=db.password)
     cursor = con.cursor()
 
     with cursor:
@@ -93,7 +95,7 @@ def all(topic):
 @app.route('/lucky')
 def lucky():
 
-    engine = create_engine("postgresql+psycopg2://explore:Ln2bOYAVCG6utNUSaSZaIVMH@localhost/explore")
+    engine = create_engine(db.connect_string)
 
     ww = pd.read_sql_table('all_word_probs', engine)
 
