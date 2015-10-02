@@ -68,6 +68,7 @@ def save_data_for_frontend(model, vectorizer, df):
     most_probable_docs = pd.merge(df, dd)
     ## TODO: do the decoding here.
 
+    most_probable_docs['ingredient_txt'] = [w for w in most_probable_docs['ingredient_txt'].str.split('\n') if w != []]
     doc_data = collections.defaultdict(list)
     for topic, g in most_probable_docs.groupby('topic'):
         row = g.sort('prob')[['ingredient_txt','image','url','title', 'key']].values
